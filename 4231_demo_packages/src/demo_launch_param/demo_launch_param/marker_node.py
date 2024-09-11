@@ -20,7 +20,7 @@ class MarkerNode(Node):
         self.x = self.get_parameter('x').value
         self.color = self.get_parameter('color').value
         marker_msg = Marker()
-        marker_msg.header.frame_id = 'map'
+        marker_msg.header.frame_id = 'dynamic_frame'
         marker_msg.header.stamp = self.get_clock().now().to_msg()
         marker_msg.type = Marker.SPHERE
         marker_msg.action = Marker.ADD
