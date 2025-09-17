@@ -1,0 +1,2 @@
+Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub
+Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub

@@ -1,0 +1,6 @@
+Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub
+Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub
+Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub
+Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub

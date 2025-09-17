@@ -1,0 +1,105 @@
+[0.025s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.136s] [ 50%] Built target listener
+[0.149s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.377s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.378s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Korientaton[m[K’; did you mean ‘[01m[Korientation[m[K’?
+[5.378s]    45 |     message.[01;31m[Korientaton[m[K.x = 0.0;
+[5.378s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.378s]       |             [32m[Korientation[m[K
+[5.387s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.389s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.395s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.399s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.411s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.412s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.412s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.413s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.413s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.413s]    49 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"X: '%ld', Y: '%ld', Z: '%ld' , W: '%ld'"[m[K, [32m[Kmessage.orientation.x[m[K, message.orientation.y, message.orientation.z, message.orientation.w);
+[5.413s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.413s]       |                                                                                                    [32m[K|[m[K
+[5.414s]       |                                                                                                    [32m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type {aka double}[m[K
+[5.414s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:44:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.414s]    49 |     RCLCPP_INFO(this->get_logger(), "X: '[01;36m[K%ld[m[K', Y: '%ld', Z: '%ld' , W: '%ld'", message.orientation.x, message.orientation.y, message.orientation.z, message.orientation.w);
+[5.414s]       |                                          [01;36m[K~~^[m[K
+[5.414s]       |                                            [01;36m[K|[m[K
+[5.414s]       |                                            [01;36m[Klong int[m[K
+[5.414s]       |                                          [32m[K%f[m[K
+[5.415s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.415s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.416s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.416s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.416s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.416s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.416s]    49 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"X: '%ld', Y: '%ld', Z: '%ld' , W: '%ld'"[m[K, message.orientation.x, [32m[Kmessage.orientation.y[m[K, message.orientation.z, message.orientation.w);
+[5.416s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.416s]       |                                                                                                                           [32m[K|[m[K
+[5.416s]       |                                                                                                                           [32m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type {aka double}[m[K
+[5.416s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.417s]    49 |     RCLCPP_INFO(this->get_logger(), "X: '%ld', Y: '[01;36m[K%ld[m[K', Z: '%ld' , W: '%ld'", message.orientation.x, message.orientation.y, message.orientation.z, message.orientation.w);
+[5.417s]       |                                                    [01;36m[K~~^[m[K
+[5.417s]       |                                                      [01;36m[K|[m[K
+[5.417s]       |                                                      [01;36m[Klong int[m[K
+[5.417s]       |                                                    [32m[K%f[m[K
+[5.417s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.418s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.418s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 7 has type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.419s]    49 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"X: '%ld', Y: '%ld', Z: '%ld' , W: '%ld'"[m[K, message.orientation.x, message.orientation.y, [32m[Kmessage.orientation.z[m[K, message.orientation.w);
+[5.419s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.419s]       |                                                                                                                                                  [32m[K|[m[K
+[5.419s]       |                                                                                                                                                  [32m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type {aka double}[m[K
+[5.419s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.419s]    49 |     RCLCPP_INFO(this->get_logger(), "X: '%ld', Y: '%ld', Z: '[01;36m[K%ld[m[K' , W: '%ld'", message.orientation.x, message.orientation.y, message.orientation.z, message.orientation.w);
+[5.419s]       |                                                              [01;36m[K~~^[m[K
+[5.419s]       |                                                                [01;36m[K|[m[K
+[5.419s]       |                                                                [01;36m[Klong int[m[K
+[5.419s]       |                                                              [32m[K%f[m[K
+[5.419s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.420s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.421s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 8 has type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.421s]    49 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"X: '%ld', Y: '%ld', Z: '%ld' , W: '%ld'"[m[K, message.orientation.x, message.orientation.y, message.orientation.z, [32m[Kmessage.orientation.w[m[K);
+[5.421s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.421s]       |                                                                                                                                                                         [32m[K|[m[K
+[5.421s]       |                                                                                                                                                                         [32m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type {aka double}[m[K
+[5.421s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:75:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.421s]    49 |     RCLCPP_INFO(this->get_logger(), "X: '%ld', Y: '%ld', Z: '%ld' , W: '[01;36m[K%ld[m[K'", message.orientation.x, message.orientation.y, message.orientation.z, message.orientation.w);
+[5.421s]       |                                                                         [01;36m[K~~^[m[K
+[5.421s]       |                                                                           [01;36m[K|[m[K
+[5.421s]       |                                                                           [01;36m[Klong int[m[K
+[5.421s]       |                                                                         [32m[K%f[m[K
+[6.717s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[6.718s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[6.718s] gmake: *** [Makefile:146: all] Error 2
+[6.726s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8

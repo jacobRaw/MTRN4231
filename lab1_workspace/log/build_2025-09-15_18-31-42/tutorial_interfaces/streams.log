@@ -1,0 +1,51 @@
+[0.057s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab1_workspace/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces
+[0.377s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.821s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.978s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.992s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.032s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.337s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.118s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[3.118s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.119s]   tutorial_interfaces --arguments-file
+[3.119s]   /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[3.119s]   --output-dir
+[3.119s]   /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[3.120s]   --output-file
+[3.120s]   /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[3.120s]   returned error code 1:
+[3.120s] 
+[3.120s]   Traceback (most recent call last):
+[3.121s] 
+[3.121s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[3.121s]       return _run_code(code, main_globals, None,
+[3.121s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[3.121s]       exec(code, run_globals)
+[3.121s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.121s]       sys.exit(main())
+[3.122s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[3.122s]       abs_idl_file = convert_to_idl(
+[3.122s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[3.122s]       return convert_msg_to_idl(
+[3.122s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[3.122s]       msg = parse_message_string(package_name, input_file.stem, content)
+[3.123s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[3.123s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[3.123s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[3.123s]       self.base_type = BaseType(
+[3.123s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[3.123s]       raise InvalidResourceName(
+[3.124s] 
+[3.124s]   rosidl_adapter.parser.InvalidResourceName: 'Pose_stamped' is an invalid
+[3.124s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[3.125s] 
+[3.125s] Call Stack (most recent call first):
+[3.125s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.125s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[3.125s] 
+[3.126s] [0m
+[3.126s] -- Configuring incomplete, errors occurred!
+[3.126s] See also "/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[3.148s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab1_workspace/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces

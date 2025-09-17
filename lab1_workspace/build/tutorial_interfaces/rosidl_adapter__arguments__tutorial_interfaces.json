@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/jacob/MTRN4231/lab1_workspace/src/tutorial_interfaces:msg/Posestamped.msg"
+  ]
+}

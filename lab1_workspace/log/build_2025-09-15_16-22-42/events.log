@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.004893] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.005297] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.032588] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.035249] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.038948] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/lab1_workspace/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-60c49cd4-b315-444c-ac4a-99a88db246c4.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/14341_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '747e3186-6397-43ca-ad58-8905b8579015'), ('PWD', '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.098824] (-) TimerEvent: {}
+[0.144932] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.178994] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.191025] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[0.198953] (-) TimerEvent: {}
+[0.299411] (-) TimerEvent: {}
+[0.400083] (-) TimerEvent: {}
+[0.500819] (-) TimerEvent: {}
+[0.601911] (-) TimerEvent: {}
+[0.703092] (-) TimerEvent: {}
+[0.804219] (-) TimerEvent: {}
+[0.904824] (-) TimerEvent: {}
+[1.005429] (-) TimerEvent: {}
+[1.106202] (-) TimerEvent: {}
+[1.206788] (-) TimerEvent: {}
+[1.307303] (-) TimerEvent: {}
+[1.407883] (-) TimerEvent: {}
+[1.508348] (-) TimerEvent: {}
+[1.608895] (-) TimerEvent: {}
+[1.709623] (-) TimerEvent: {}
+[1.810215] (-) TimerEvent: {}
+[1.910772] (-) TimerEvent: {}
+[2.011332] (-) TimerEvent: {}
+[2.111846] (-) TimerEvent: {}
+[2.212401] (-) TimerEvent: {}
+[2.312958] (-) TimerEvent: {}
+[2.413551] (-) TimerEvent: {}
+[2.514227] (-) TimerEvent: {}
+[2.614966] (-) TimerEvent: {}
+[2.715606] (-) TimerEvent: {}
+[2.816257] (-) TimerEvent: {}
+[2.917403] (-) TimerEvent: {}
+[3.018345] (-) TimerEvent: {}
+[3.119371] (-) TimerEvent: {}
+[3.219893] (-) TimerEvent: {}
+[3.320511] (-) TimerEvent: {}
+[3.421206] (-) TimerEvent: {}
+[3.521898] (-) TimerEvent: {}
+[3.622829] (-) TimerEvent: {}
+[3.723409] (-) TimerEvent: {}
+[3.824186] (-) TimerEvent: {}
+[3.924799] (-) TimerEvent: {}
+[4.025541] (-) TimerEvent: {}
+[4.126602] (-) TimerEvent: {}
+[4.227343] (-) TimerEvent: {}
+[4.328096] (-) TimerEvent: {}
+[4.428815] (-) TimerEvent: {}
+[4.529670] (-) TimerEvent: {}
+[4.630211] (-) TimerEvent: {}
+[4.730854] (-) TimerEvent: {}
+[4.831415] (-) TimerEvent: {}
+[4.932094] (-) TimerEvent: {}
+[5.032676] (-) TimerEvent: {}
+[5.133530] (-) TimerEvent: {}
+[5.234275] (-) TimerEvent: {}
+[5.334993] (-) TimerEvent: {}
+[5.435607] (-) TimerEvent: {}
+[5.536452] (-) TimerEvent: {}
+[5.637185] (-) TimerEvent: {}
+[5.738084] (-) TimerEvent: {}
+[5.838626] (-) TimerEvent: {}
+[5.939211] (-) TimerEvent: {}
+[6.039948] (-) TimerEvent: {}
+[6.140733] (-) TimerEvent: {}
+[6.241370] (-) TimerEvent: {}
+[6.341995] (-) TimerEvent: {}
+[6.442539] (-) TimerEvent: {}
+[6.543214] (-) TimerEvent: {}
+[6.643934] (-) TimerEvent: {}
+[6.744671] (-) TimerEvent: {}
+[6.845344] (-) TimerEvent: {}
+[6.945978] (-) TimerEvent: {}
+[7.046518] (-) TimerEvent: {}
+[7.147152] (-) TimerEvent: {}
+[7.247795] (-) TimerEvent: {}
+[7.348589] (-) TimerEvent: {}
+[7.449389] (-) TimerEvent: {}
+[7.550034] (-) TimerEvent: {}
+[7.650908] (-) TimerEvent: {}
+[7.751739] (-) TimerEvent: {}
+[7.852454] (-) TimerEvent: {}
+[7.953043] (-) TimerEvent: {}
+[8.053832] (-) TimerEvent: {}
+[8.154612] (-) TimerEvent: {}
+[8.255274] (-) TimerEvent: {}
+[8.355836] (-) TimerEvent: {}
+[8.456366] (-) TimerEvent: {}
+[8.556934] (-) TimerEvent: {}
+[8.657566] (-) TimerEvent: {}
+[8.758196] (-) TimerEvent: {}
+[8.858746] (-) TimerEvent: {}
+[8.959297] (-) TimerEvent: {}
+[9.059853] (-) TimerEvent: {}
+[9.160787] (-) TimerEvent: {}
+[9.262884] (-) TimerEvent: {}
+[9.363711] (-) TimerEvent: {}
+[9.464217] (-) TimerEvent: {}
+[9.564984] (-) TimerEvent: {}
+[9.665513] (-) TimerEvent: {}
+[9.766165] (-) TimerEvent: {}
+[9.866672] (-) TimerEvent: {}
+[9.967569] (-) TimerEvent: {}
+[10.068313] (-) TimerEvent: {}
+[10.169340] (-) TimerEvent: {}
+[10.269905] (-) TimerEvent: {}
+[10.370477] (-) TimerEvent: {}
+[10.471268] (-) TimerEvent: {}
+[10.571936] (-) TimerEvent: {}
+[10.672469] (-) TimerEvent: {}
+[10.772988] (-) TimerEvent: {}
+[10.873588] (-) TimerEvent: {}
+[10.974185] (-) TimerEvent: {}
+[11.074803] (-) TimerEvent: {}
+[11.175292] (-) TimerEvent: {}
+[11.276120] (-) TimerEvent: {}
+[11.376622] (-) TimerEvent: {}
+[11.477337] (-) TimerEvent: {}
+[11.577821] (-) TimerEvent: {}
+[11.678307] (-) TimerEvent: {}
+[11.778830] (-) TimerEvent: {}
+[11.879343] (-) TimerEvent: {}
+[11.979849] (-) TimerEvent: {}
+[12.080351] (-) TimerEvent: {}
+[12.181001] (-) TimerEvent: {}
+[12.281601] (-) TimerEvent: {}
+[12.382176] (-) TimerEvent: {}
+[12.482787] (-) TimerEvent: {}
+[12.583384] (-) TimerEvent: {}
+[12.683937] (-) TimerEvent: {}
+[12.784746] (-) TimerEvent: {}
+[12.885544] (-) TimerEvent: {}
+[12.986330] (-) TimerEvent: {}
+[13.087016] (-) TimerEvent: {}
+[13.187683] (-) TimerEvent: {}
+[13.288263] (-) TimerEvent: {}
+[13.388799] (-) TimerEvent: {}
+[13.489360] (-) TimerEvent: {}
+[13.589952] (-) TimerEvent: {}
+[13.690442] (-) TimerEvent: {}
+[13.791028] (-) TimerEvent: {}
+[13.891594] (-) TimerEvent: {}
+[13.992073] (-) TimerEvent: {}
+[14.092589] (-) TimerEvent: {}
+[14.193129] (-) TimerEvent: {}
+[14.293737] (-) TimerEvent: {}
+[14.394304] (-) TimerEvent: {}
+[14.494810] (-) TimerEvent: {}
+[14.595323] (-) TimerEvent: {}
+[14.695891] (-) TimerEvent: {}
+[14.796423] (-) TimerEvent: {}
+[14.896955] (-) TimerEvent: {}
+[14.997559] (-) TimerEvent: {}
+[15.097995] (-) TimerEvent: {}
+[15.198594] (-) TimerEvent: {}
+[15.299110] (-) TimerEvent: {}
+[15.399740] (-) TimerEvent: {}
+[15.500365] (-) TimerEvent: {}
+[15.601332] (-) TimerEvent: {}
+[15.701997] (-) TimerEvent: {}
+[15.802665] (-) TimerEvent: {}
+[15.903331] (-) TimerEvent: {}
+[16.004119] (-) TimerEvent: {}
+[16.104667] (-) TimerEvent: {}
+[16.180474] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[16.204794] (-) TimerEvent: {}
+[16.306071] (-) TimerEvent: {}
+[16.406768] (-) TimerEvent: {}
+[16.507428] (-) TimerEvent: {}
+[16.608142] (-) TimerEvent: {}
+[16.708945] (-) TimerEvent: {}
+[16.809744] (-) TimerEvent: {}
+[16.910456] (-) TimerEvent: {}
+[17.011041] (-) TimerEvent: {}
+[17.111622] (-) TimerEvent: {}
+[17.212193] (-) TimerEvent: {}
+[17.294562] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[17.312489] (-) TimerEvent: {}
+[17.317588] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.320071] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[17.343134] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub'], 'cwd': '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/lab1_workspace/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-60c49cd4-b315-444c-ac4a-99a88db246c4.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/14341_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '747e3186-6397-43ca-ad58-8905b8579015'), ('PWD', '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[17.358292] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.358913] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[17.359824] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[17.381056] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[17.381918] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[17.382662] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[17.383313] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[17.383802] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[17.384364] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[17.384803] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[17.385320] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[17.385687] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[17.386055] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[17.386408] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[17.386637] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[17.386842] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[17.387060] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[17.387311] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[17.387554] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[17.390037] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.413490] (-) TimerEvent: {}
+[17.430000] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[17.432257] (-) EventReactorShutdown: {}

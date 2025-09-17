@@ -1,0 +1,173 @@
+[0.057s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces -- -j8 -l8
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[0.225s] [  3%] Built target tutorial_interfaces__cpp
+[0.241s] [ 12%] Built target tutorial_interfaces__rosidl_generator_c
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.270s] [ 12%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.300s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[0.308s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[0.337s] [ 22%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.340s] [ 32%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.342s] [ 41%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.348s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.357s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.371s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.447s] [ 70%] Built target tutorial_interfaces
+[0.524s] [ 74%] Built target tutorial_interfaces__py
+[0.559s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py[0m
+[0.624s] [ 80%] Built target tutorial_interfaces__rosidl_generator_py
+[0.675s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.686s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.686s] [35m[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[0.732s] [ 87%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.737s] [ 93%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[0.744s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.415s] running egg_info
+[1.419s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.419s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.419s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.425s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.426s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.510s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[1.549s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces -- -j8 -l8
+[1.596s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces
+[1.625s] -- Install configuration: ""
+[1.626s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[1.627s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.628s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.628s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/posestamped.h
+[1.629s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/pose_stamped.h
+[1.630s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.631s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.633s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__functions.c
+[1.634s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__functions.h
+[1.635s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.h
+[1.635s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__functions.h
+[1.636s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__struct.h
+[1.637s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__type_support.h
+[1.637s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__functions.c
+[1.638s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__struct.h
+[1.639s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[1.639s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[1.639s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[1.639s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.640s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.640s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.641s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.642s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__rosidl_typesupport_fastrtps_c.h
+[1.642s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[1.642s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.643s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.643s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.643s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/posestamped.hpp
+[1.644s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/pose_stamped.hpp
+[1.644s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.647s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.647s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__builder.hpp
+[1.648s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp
+[1.649s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__type_support.hpp
+[1.649s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.hpp
+[1.650s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__struct.hpp
+[1.650s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__traits.hpp
+[1.651s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__builder.hpp
+[1.651s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__traits.hpp
+[1.653s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.653s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.654s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.654s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.655s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.655s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[1.656s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.656s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.657s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.657s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.658s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.658s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.658s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.c
+[1.658s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[1.658s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__rosidl_typesupport_introspection_c.h
+[1.659s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__type_support.c
+[1.659s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[1.659s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[1.659s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.660s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.660s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.660s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp
+[1.661s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.662s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__rosidl_typesupport_introspection_cpp.hpp
+[1.663s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/posestamped__type_support.cpp
+[1.663s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.663s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[1.663s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[1.664s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[1.664s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[1.664s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.664s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.664s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.665s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.665s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[1.665s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.665s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[1.665s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.666s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[1.666s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[1.666s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_posestamped_s.c
+[1.666s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_pose_stamped.py
+[1.666s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_pose_stamped_s.c
+[1.666s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_posestamped.py
+[1.667s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[1.667s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.667s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.667s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.668s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[1.769s] Listing '/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[1.769s] Listing '/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[1.783s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.784s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.786s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.787s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[1.788s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/Posestamped.idl
+[1.788s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/Posestamped.msg
+[1.789s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[1.790s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[1.790s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[1.791s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[1.791s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[1.792s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[1.792s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[1.793s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[1.793s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[1.794s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[1.795s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[1.796s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[1.796s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[1.797s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.798s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.799s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.800s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[1.801s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.801s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.801s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.801s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.802s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[1.802s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.802s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.802s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.802s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[1.802s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.802s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[1.803s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.803s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.803s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.803s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.803s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.804s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.804s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.804s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.804s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[1.804s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[1.805s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[1.812s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces

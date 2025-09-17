@@ -1,0 +1,39 @@
+[0.029s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.158s] [ 50%] Built target listener
+[0.172s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.968s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:47:31:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[4.968s]    47 |   rclcpp::Publisher<std_msgs::[01;31m[KInt64[m[K::SharedPtr> publisher_;
+[4.968s]       |                               [01;31m[K^~~~~[m[K
+[4.968s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:47:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.968s]    47 |   rclcpp::Publisher<std_msgs::Int64::SharedPtr[01;31m[K>[m[K publisher_;
+[4.969s]       |                                               [01;31m[K^[m[K
+[4.969s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[4.969s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:33:51:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[4.970s]    33 |     publisher_ = this->create_publisher<std_msgs::[01;31m[KInt64[m[K>("lab1_topic", 10);
+[4.971s]       |                                                   [01;31m[K^~~~~[m[K
+[4.971s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:33:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [11], int)[m[K’
+[4.971s]    33 |     publisher_ = [01;31m[Kthis->create_publisher<std_msgs::Int64>("lab1_topic", 10)[m[K;
+[4.971s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[4.971s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.972s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:19[m[K:
+[4.972s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[4.972s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[4.972s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.972s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.972s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:33:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.972s]    33 |     publisher_ = [01;31m[Kthis->create_publisher<std_msgs::Int64>("lab1_topic", 10)[m[K;
+[4.973s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[4.991s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[4.991s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:41:30:[m[K [01;31m[Kerror: [m[K‘[01m[KInt64[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[4.992s]    41 |     auto message = std_msgs::[01;31m[KInt64[m[K();
+[4.992s]       |                              [01;31m[K^~~~~[m[K
+[4.992s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:44:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[4.992s]    44 |     publisher_[01;31m[K->[m[Kpublish(message);
+[4.992s]       |               [01;31m[K^~[m[K
+[5.995s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[5.996s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[5.997s] gmake: *** [Makefile:146: all] Error 2
+[6.003s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8

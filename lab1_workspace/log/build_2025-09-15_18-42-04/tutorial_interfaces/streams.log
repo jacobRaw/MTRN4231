@@ -1,0 +1,72 @@
+[0.038s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces -- -j8 -l8
+[0.111s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.530s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.353s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.364s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.385s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.529s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.615s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.624s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[39.942s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[40.121s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[41.089s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[42.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[42.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[42.753s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[42.811s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[42.811s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[42.812s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[42.889s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[42.926s] -- Added test 'lint_cmake' to check CMake code style
+[42.932s] -- Added test 'xmllint' to check XML markup files
+[42.940s] -- Configuring done
+[43.050s] -- Generating done
+[43.090s] -- Build files have been written to: /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces
+[43.198s] [  6%] Built target tutorial_interfaces__cpp
+[43.198s] [  6%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.c.o[0m
+[43.216s] [  6%] Built target ament_cmake_python_copy_tutorial_interfaces
+[43.273s] In file included from [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.h:19[m[K,
+[43.274s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.c:4[m[K:
+[43.275s] [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/msg/detail/time__struct.h: No such file or directory
+[43.275s]    24 | #include [01;31m[K"rclcpp/msg/detail/time__struct.h"[m[K
+[43.276s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[43.276s] compilation terminated.
+[43.277s] [  9%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o[0m
+[43.277s] [ 12%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp.o[0m
+[43.278s] [ 16%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/pose_stamped__type_support.cpp.o[0m
+[43.278s] gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/build.make:167: CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.c.o] Error 1
+[43.278s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/all] Error 2
+[43.278s] gmake[1]: *** Waiting for unfinished jobs....
+[43.489s] In file included from [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_cpp/tutorial_interfaces/msg/pose_stamped__type_support.cpp:7[m[K:
+[43.489s] [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/msg/detail/time__struct.hpp: No such file or directory
+[43.489s]    22 | #include [01;31m[K"rclcpp/msg/detail/time__struct.hpp"[m[K
+[43.490s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[43.490s] compilation terminated.
+[43.495s] gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/build.make:148: CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/pose_stamped__type_support.cpp.o] Error 1
+[43.496s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[43.496s] In file included from [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[43.496s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp:4[m[K:
+[43.496s] [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/msg/detail/time__struct.hpp: No such file or directory
+[43.496s]    22 | #include [01;31m[K"rclcpp/msg/detail/time__struct.hpp"[m[K
+[43.496s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[43.496s] compilation terminated.
+[43.501s] gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:153: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o] Error 1
+[43.501s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[43.507s] In file included from [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp:12[m[K:
+[43.507s] [01m[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/msg/detail/time__struct.hpp: No such file or directory
+[43.507s]    22 | #include [01;31m[K"rclcpp/msg/detail/time__struct.hpp"[m[K
+[43.508s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[43.508s] compilation terminated.
+[43.513s] gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:153: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp.o] Error 1
+[43.513s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[43.932s] running egg_info
+[43.934s] writing tutorial_interfaces.egg-info/PKG-INFO
+[43.935s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[43.937s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[43.944s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[43.945s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[43.992s] [ 16%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[43.995s] gmake: *** [Makefile:146: all] Error 2
+[44.004s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces -- -j8 -l8

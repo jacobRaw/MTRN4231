@@ -1,0 +1,399 @@
+[0.000000] (-) TimerEvent: {}
+[0.001132] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002240] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002398] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.033551] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.035992] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.038059] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/lab1_workspace/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-60c49cd4-b315-444c-ac4a-99a88db246c4.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/14341_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '747e3186-6397-43ca-ad58-8905b8579015'), ('PWD', '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.098818] (-) TimerEvent: {}
+[0.120675] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199024] (-) TimerEvent: {}
+[0.299780] (-) TimerEvent: {}
+[0.400567] (-) TimerEvent: {}
+[0.501510] (-) TimerEvent: {}
+[0.602346] (-) TimerEvent: {}
+[0.674662] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.702733] (-) TimerEvent: {}
+[0.803822] (-) TimerEvent: {}
+[0.904942] (-) TimerEvent: {}
+[1.005664] (-) TimerEvent: {}
+[1.106410] (-) TimerEvent: {}
+[1.207302] (-) TimerEvent: {}
+[1.289146] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.296581] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.307586] (-) TimerEvent: {}
+[1.308472] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.341232] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.373327] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.407839] (-) TimerEvent: {}
+[1.470656] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.508062] (-) TimerEvent: {}
+[1.549254] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.552659] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.608308] (-) TimerEvent: {}
+[1.709153] (-) TimerEvent: {}
+[1.809949] (-) TimerEvent: {}
+[1.910858] (-) TimerEvent: {}
+[2.011707] (-) TimerEvent: {}
+[2.112490] (-) TimerEvent: {}
+[2.213221] (-) TimerEvent: {}
+[2.314044] (-) TimerEvent: {}
+[2.415128] (-) TimerEvent: {}
+[2.516029] (-) TimerEvent: {}
+[2.616910] (-) TimerEvent: {}
+[2.717706] (-) TimerEvent: {}
+[2.818386] (-) TimerEvent: {}
+[2.919075] (-) TimerEvent: {}
+[3.019887] (-) TimerEvent: {}
+[3.120633] (-) TimerEvent: {}
+[3.221378] (-) TimerEvent: {}
+[3.322164] (-) TimerEvent: {}
+[3.423038] (-) TimerEvent: {}
+[3.523886] (-) TimerEvent: {}
+[3.624574] (-) TimerEvent: {}
+[3.725381] (-) TimerEvent: {}
+[3.826334] (-) TimerEvent: {}
+[3.927295] (-) TimerEvent: {}
+[4.028233] (-) TimerEvent: {}
+[4.129237] (-) TimerEvent: {}
+[4.230069] (-) TimerEvent: {}
+[4.330900] (-) TimerEvent: {}
+[4.432066] (-) TimerEvent: {}
+[4.532959] (-) TimerEvent: {}
+[4.633695] (-) TimerEvent: {}
+[4.734415] (-) TimerEvent: {}
+[4.835294] (-) TimerEvent: {}
+[4.936048] (-) TimerEvent: {}
+[5.036974] (-) TimerEvent: {}
+[5.138074] (-) TimerEvent: {}
+[5.238988] (-) TimerEvent: {}
+[5.339774] (-) TimerEvent: {}
+[5.440798] (-) TimerEvent: {}
+[5.541713] (-) TimerEvent: {}
+[5.642667] (-) TimerEvent: {}
+[5.743606] (-) TimerEvent: {}
+[5.844473] (-) TimerEvent: {}
+[5.945506] (-) TimerEvent: {}
+[6.046562] (-) TimerEvent: {}
+[6.147588] (-) TimerEvent: {}
+[6.248460] (-) TimerEvent: {}
+[6.349390] (-) TimerEvent: {}
+[6.450320] (-) TimerEvent: {}
+[6.551140] (-) TimerEvent: {}
+[6.651888] (-) TimerEvent: {}
+[6.752661] (-) TimerEvent: {}
+[6.853545] (-) TimerEvent: {}
+[6.954336] (-) TimerEvent: {}
+[7.055160] (-) TimerEvent: {}
+[7.156009] (-) TimerEvent: {}
+[7.256918] (-) TimerEvent: {}
+[7.357725] (-) TimerEvent: {}
+[7.458507] (-) TimerEvent: {}
+[7.559277] (-) TimerEvent: {}
+[7.660141] (-) TimerEvent: {}
+[7.760960] (-) TimerEvent: {}
+[7.861989] (-) TimerEvent: {}
+[7.962959] (-) TimerEvent: {}
+[8.064073] (-) TimerEvent: {}
+[8.165078] (-) TimerEvent: {}
+[8.265874] (-) TimerEvent: {}
+[8.366610] (-) TimerEvent: {}
+[8.467493] (-) TimerEvent: {}
+[8.568425] (-) TimerEvent: {}
+[8.669250] (-) TimerEvent: {}
+[8.770275] (-) TimerEvent: {}
+[8.870920] (-) TimerEvent: {}
+[8.971650] (-) TimerEvent: {}
+[9.072313] (-) TimerEvent: {}
+[9.173083] (-) TimerEvent: {}
+[9.273717] (-) TimerEvent: {}
+[9.374544] (-) TimerEvent: {}
+[9.475418] (-) TimerEvent: {}
+[9.576245] (-) TimerEvent: {}
+[9.677108] (-) TimerEvent: {}
+[9.778089] (-) TimerEvent: {}
+[9.879155] (-) TimerEvent: {}
+[9.980310] (-) TimerEvent: {}
+[10.081209] (-) TimerEvent: {}
+[10.182074] (-) TimerEvent: {}
+[10.282847] (-) TimerEvent: {}
+[10.383688] (-) TimerEvent: {}
+[10.484682] (-) TimerEvent: {}
+[10.585689] (-) TimerEvent: {}
+[10.686604] (-) TimerEvent: {}
+[10.787521] (-) TimerEvent: {}
+[10.888433] (-) TimerEvent: {}
+[10.989245] (-) TimerEvent: {}
+[11.089977] (-) TimerEvent: {}
+[11.190732] (-) TimerEvent: {}
+[11.291502] (-) TimerEvent: {}
+[11.392468] (-) TimerEvent: {}
+[11.493469] (-) TimerEvent: {}
+[11.594358] (-) TimerEvent: {}
+[11.695298] (-) TimerEvent: {}
+[11.796200] (-) TimerEvent: {}
+[11.897240] (-) TimerEvent: {}
+[11.998257] (-) TimerEvent: {}
+[12.099104] (-) TimerEvent: {}
+[12.199962] (-) TimerEvent: {}
+[12.301187] (-) TimerEvent: {}
+[12.402092] (-) TimerEvent: {}
+[12.502763] (-) TimerEvent: {}
+[12.603421] (-) TimerEvent: {}
+[12.704176] (-) TimerEvent: {}
+[12.805090] (-) TimerEvent: {}
+[12.905903] (-) TimerEvent: {}
+[13.006645] (-) TimerEvent: {}
+[13.107426] (-) TimerEvent: {}
+[13.208306] (-) TimerEvent: {}
+[13.309183] (-) TimerEvent: {}
+[13.410138] (-) TimerEvent: {}
+[13.511071] (-) TimerEvent: {}
+[13.612136] (-) TimerEvent: {}
+[13.712958] (-) TimerEvent: {}
+[13.813953] (-) TimerEvent: {}
+[13.914835] (-) TimerEvent: {}
+[14.015490] (-) TimerEvent: {}
+[14.116240] (-) TimerEvent: {}
+[14.217195] (-) TimerEvent: {}
+[14.317996] (-) TimerEvent: {}
+[14.418801] (-) TimerEvent: {}
+[14.519523] (-) TimerEvent: {}
+[14.620295] (-) TimerEvent: {}
+[14.721023] (-) TimerEvent: {}
+[14.821863] (-) TimerEvent: {}
+[14.922530] (-) TimerEvent: {}
+[15.023219] (-) TimerEvent: {}
+[15.124086] (-) TimerEvent: {}
+[15.224796] (-) TimerEvent: {}
+[15.325587] (-) TimerEvent: {}
+[15.426575] (-) TimerEvent: {}
+[15.527332] (-) TimerEvent: {}
+[15.628356] (-) TimerEvent: {}
+[15.729294] (-) TimerEvent: {}
+[15.830131] (-) TimerEvent: {}
+[15.931046] (-) TimerEvent: {}
+[16.031943] (-) TimerEvent: {}
+[16.132687] (-) TimerEvent: {}
+[16.233371] (-) TimerEvent: {}
+[16.334173] (-) TimerEvent: {}
+[16.434988] (-) TimerEvent: {}
+[16.535981] (-) TimerEvent: {}
+[16.636697] (-) TimerEvent: {}
+[16.737569] (-) TimerEvent: {}
+[16.838503] (-) TimerEvent: {}
+[16.939500] (-) TimerEvent: {}
+[17.040299] (-) TimerEvent: {}
+[17.141144] (-) TimerEvent: {}
+[17.241977] (-) TimerEvent: {}
+[17.342766] (-) TimerEvent: {}
+[17.443609] (-) TimerEvent: {}
+[17.544509] (-) TimerEvent: {}
+[17.645518] (-) TimerEvent: {}
+[17.746457] (-) TimerEvent: {}
+[17.847583] (-) TimerEvent: {}
+[17.948415] (-) TimerEvent: {}
+[18.049284] (-) TimerEvent: {}
+[18.150009] (-) TimerEvent: {}
+[18.250781] (-) TimerEvent: {}
+[18.351633] (-) TimerEvent: {}
+[18.452403] (-) TimerEvent: {}
+[18.553307] (-) TimerEvent: {}
+[18.654336] (-) TimerEvent: {}
+[18.755846] (-) TimerEvent: {}
+[18.856897] (-) TimerEvent: {}
+[18.957682] (-) TimerEvent: {}
+[19.058431] (-) TimerEvent: {}
+[19.159393] (-) TimerEvent: {}
+[19.260549] (-) TimerEvent: {}
+[19.361751] (-) TimerEvent: {}
+[19.462538] (-) TimerEvent: {}
+[19.563203] (-) TimerEvent: {}
+[19.663843] (-) TimerEvent: {}
+[19.764576] (-) TimerEvent: {}
+[19.865447] (-) TimerEvent: {}
+[19.966340] (-) TimerEvent: {}
+[20.067365] (-) TimerEvent: {}
+[20.169290] (-) TimerEvent: {}
+[20.270454] (-) TimerEvent: {}
+[20.371298] (-) TimerEvent: {}
+[20.472488] (-) TimerEvent: {}
+[20.574151] (-) TimerEvent: {}
+[20.675803] (-) TimerEvent: {}
+[20.777230] (-) TimerEvent: {}
+[20.878736] (-) TimerEvent: {}
+[20.979635] (-) TimerEvent: {}
+[21.080549] (-) TimerEvent: {}
+[21.182329] (-) TimerEvent: {}
+[21.283555] (-) TimerEvent: {}
+[21.384470] (-) TimerEvent: {}
+[21.485313] (-) TimerEvent: {}
+[21.586512] (-) TimerEvent: {}
+[21.687789] (-) TimerEvent: {}
+[21.788555] (-) TimerEvent: {}
+[21.889230] (-) TimerEvent: {}
+[21.989869] (-) TimerEvent: {}
+[22.090811] (-) TimerEvent: {}
+[22.191605] (-) TimerEvent: {}
+[22.292547] (-) TimerEvent: {}
+[22.393443] (-) TimerEvent: {}
+[22.494373] (-) TimerEvent: {}
+[22.595067] (-) TimerEvent: {}
+[22.695857] (-) TimerEvent: {}
+[22.796985] (-) TimerEvent: {}
+[22.898579] (-) TimerEvent: {}
+[22.999704] (-) TimerEvent: {}
+[23.100540] (-) TimerEvent: {}
+[23.201434] (-) TimerEvent: {}
+[23.302367] (-) TimerEvent: {}
+[23.403646] (-) TimerEvent: {}
+[23.504899] (-) TimerEvent: {}
+[23.606076] (-) TimerEvent: {}
+[23.707264] (-) TimerEvent: {}
+[23.808627] (-) TimerEvent: {}
+[23.910150] (-) TimerEvent: {}
+[24.011732] (-) TimerEvent: {}
+[24.113395] (-) TimerEvent: {}
+[24.214145] (-) TimerEvent: {}
+[24.314949] (-) TimerEvent: {}
+[24.415704] (-) TimerEvent: {}
+[24.516676] (-) TimerEvent: {}
+[24.617635] (-) TimerEvent: {}
+[24.718445] (-) TimerEvent: {}
+[24.819635] (-) TimerEvent: {}
+[24.920335] (-) TimerEvent: {}
+[25.021370] (-) TimerEvent: {}
+[25.122199] (-) TimerEvent: {}
+[25.222883] (-) TimerEvent: {}
+[25.323609] (-) TimerEvent: {}
+[25.424351] (-) TimerEvent: {}
+[25.525084] (-) TimerEvent: {}
+[25.626045] (-) TimerEvent: {}
+[25.727008] (-) TimerEvent: {}
+[25.827836] (-) TimerEvent: {}
+[25.928450] (-) TimerEvent: {}
+[26.029199] (-) TimerEvent: {}
+[26.130085] (-) TimerEvent: {}
+[26.230735] (-) TimerEvent: {}
+[26.331372] (-) TimerEvent: {}
+[26.432125] (-) TimerEvent: {}
+[26.532989] (-) TimerEvent: {}
+[26.633716] (-) TimerEvent: {}
+[26.734432] (-) TimerEvent: {}
+[26.835184] (-) TimerEvent: {}
+[26.935876] (-) TimerEvent: {}
+[27.036590] (-) TimerEvent: {}
+[27.137581] (-) TimerEvent: {}
+[27.238340] (-) TimerEvent: {}
+[27.339095] (-) TimerEvent: {}
+[27.439871] (-) TimerEvent: {}
+[27.540678] (-) TimerEvent: {}
+[27.641436] (-) TimerEvent: {}
+[27.742162] (-) TimerEvent: {}
+[27.843001] (-) TimerEvent: {}
+[27.943873] (-) TimerEvent: {}
+[28.044624] (-) TimerEvent: {}
+[28.145503] (-) TimerEvent: {}
+[28.199100] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[28.245735] (-) TimerEvent: {}
+[28.304346] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[28.346101] (-) TimerEvent: {}
+[28.446867] (-) TimerEvent: {}
+[28.547673] (-) TimerEvent: {}
+[28.648866] (-) TimerEvent: {}
+[28.749612] (-) TimerEvent: {}
+[28.850441] (-) TimerEvent: {}
+[28.951235] (-) TimerEvent: {}
+[29.052439] (-) TimerEvent: {}
+[29.104089] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[29.152743] (-) TimerEvent: {}
+[29.253759] (-) TimerEvent: {}
+[29.354363] (-) TimerEvent: {}
+[29.455067] (-) TimerEvent: {}
+[29.556020] (-) TimerEvent: {}
+[29.656656] (-) TimerEvent: {}
+[29.757386] (-) TimerEvent: {}
+[29.858153] (-) TimerEvent: {}
+[29.958877] (-) TimerEvent: {}
+[30.059657] (-) TimerEvent: {}
+[30.160508] (-) TimerEvent: {}
+[30.165807] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[30.260706] (-) TimerEvent: {}
+[30.361688] (-) TimerEvent: {}
+[30.462613] (-) TimerEvent: {}
+[30.563382] (-) TimerEvent: {}
+[30.623333] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[30.663682] (-) TimerEvent: {}
+[30.678382] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[30.748540] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[30.749094] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[30.749420] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[30.763935] (-) TimerEvent: {}
+[30.862912] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[30.864183] (-) TimerEvent: {}
+[30.887356] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.889883] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[30.894438] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.964442] (-) TimerEvent: {}
+[31.034383] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[31.064746] (-) TimerEvent: {}
+[31.091410] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces\n'}
+[31.164987] (-) TimerEvent: {}
+[31.207362] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target tutorial_interfaces__cpp\n'}
+[31.212997] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.c.o\x1b[0m\n'}
+[31.236935] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[31.265205] (-) TimerEvent: {}
+[31.275383] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.h:19\x1b[m\x1b[K,\n'}
+[31.275964] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.c:4\x1b[m\x1b[K:\n'}
+[31.276266] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__struct.h:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/msg/detail/time__struct.h: No such file or directory\n'}
+[31.276570] (tutorial_interfaces) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"rclcpp/msg/detail/time__struct.h"\x1b[m\x1b[K\n'}
+[31.276984] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.277354] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[31.279879] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o\x1b[0m\n'}
+[31.280839] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/build.make:167: CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.c.o] Error 1\n'}
+[31.281604] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[31.282118] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[31.284674] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/pose_stamped__type_support.cpp.o\x1b[0m\n'}
+[31.286565] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp.o\x1b[0m\n'}
+[31.365467] (-) TimerEvent: {}
+[31.466161] (-) TimerEvent: {}
+[31.492610] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[31.493281] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[31.493628] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/msg/detail/time__struct.hpp: No such file or directory\n'}
+[31.493952] (tutorial_interfaces) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"rclcpp/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[31.494262] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.494925] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[31.495693] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_cpp/tutorial_interfaces/msg/pose_stamped__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[31.497555] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/msg/detail/time__struct.hpp: No such file or directory\n'}
+[31.498177] (tutorial_interfaces) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"rclcpp/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[31.498586] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.498914] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[31.503106] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:153: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o] Error 1\n'}
+[31.503917] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[31.505598] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/build.make:148: CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/pose_stamped__type_support.cpp.o] Error 1\n'}
+[31.507630] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[31.529406] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[31.530106] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/msg/detail/time__struct.hpp: No such file or directory\n'}
+[31.530497] (tutorial_interfaces) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"rclcpp/msg/detail/time__struct.hpp"\x1b[m\x1b[K\n'}
+[31.530874] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.531727] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[31.535644] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:153: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp.o] Error 1\n'}
+[31.536676] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[31.566297] (-) TimerEvent: {}
+[31.666946] (-) TimerEvent: {}
+[31.767692] (-) TimerEvent: {}
+[31.868446] (-) TimerEvent: {}
+[31.969450] (-) TimerEvent: {}
+[32.054919] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[32.056630] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[32.057519] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[32.058458] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[32.065677] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[32.066981] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[32.069712] (-) TimerEvent: {}
+[32.144849] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[32.148384] (tutorial_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[32.156345] (tutorial_interfaces) CommandEnded: {'returncode': 2}
+[32.170071] (-) TimerEvent: {}
+[32.193909] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 2}
+[32.206983] (-) EventReactorShutdown: {}

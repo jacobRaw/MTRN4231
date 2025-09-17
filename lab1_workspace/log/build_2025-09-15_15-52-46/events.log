@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.001005] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001178] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.015264] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.016447] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.017554] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/lab1_workspace/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-60c49cd4-b315-444c-ac4a-99a88db246c4.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/14341_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '747e3186-6397-43ca-ad58-8905b8579015'), ('PWD', '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.098427] (-) TimerEvent: {}
+[0.119242] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.119904] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.154755] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.155027] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.198637] (-) TimerEvent: {}
+[0.299102] (-) TimerEvent: {}
+[0.399626] (-) TimerEvent: {}
+[0.500092] (-) TimerEvent: {}
+[0.600572] (-) TimerEvent: {}
+[0.701160] (-) TimerEvent: {}
+[0.801765] (-) TimerEvent: {}
+[0.902298] (-) TimerEvent: {}
+[1.002927] (-) TimerEvent: {}
+[1.103530] (-) TimerEvent: {}
+[1.204124] (-) TimerEvent: {}
+[1.304674] (-) TimerEvent: {}
+[1.405369] (-) TimerEvent: {}
+[1.506068] (-) TimerEvent: {}
+[1.606652] (-) TimerEvent: {}
+[1.707149] (-) TimerEvent: {}
+[1.807685] (-) TimerEvent: {}
+[1.908189] (-) TimerEvent: {}
+[2.009415] (-) TimerEvent: {}
+[2.112206] (-) TimerEvent: {}
+[2.213206] (-) TimerEvent: {}
+[2.313892] (-) TimerEvent: {}
+[2.414705] (-) TimerEvent: {}
+[2.515378] (-) TimerEvent: {}
+[2.616084] (-) TimerEvent: {}
+[2.716792] (-) TimerEvent: {}
+[2.817379] (-) TimerEvent: {}
+[2.918070] (-) TimerEvent: {}
+[3.018692] (-) TimerEvent: {}
+[3.119900] (-) TimerEvent: {}
+[3.222988] (-) TimerEvent: {}
+[3.323641] (-) TimerEvent: {}
+[3.424211] (-) TimerEvent: {}
+[3.524922] (-) TimerEvent: {}
+[3.625561] (-) TimerEvent: {}
+[3.726174] (-) TimerEvent: {}
+[3.827092] (-) TimerEvent: {}
+[3.927911] (-) TimerEvent: {}
+[4.029023] (-) TimerEvent: {}
+[4.130543] (-) TimerEvent: {}
+[4.234311] (-) TimerEvent: {}
+[4.336191] (-) TimerEvent: {}
+[4.436748] (-) TimerEvent: {}
+[4.537374] (-) TimerEvent: {}
+[4.638109] (-) TimerEvent: {}
+[4.738704] (-) TimerEvent: {}
+[4.839517] (-) TimerEvent: {}
+[4.940061] (-) TimerEvent: {}
+[5.040734] (-) TimerEvent: {}
+[5.141313] (-) TimerEvent: {}
+[5.241995] (-) TimerEvent: {}
+[5.342634] (-) TimerEvent: {}
+[5.443366] (-) TimerEvent: {}
+[5.544296] (-) TimerEvent: {}
+[5.644983] (-) TimerEvent: {}
+[5.745719] (-) TimerEvent: {}
+[5.846510] (-) TimerEvent: {}
+[5.947193] (-) TimerEvent: {}
+[6.008645] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.009163] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:34:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.009395] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KInt64\x1b[m\x1b[K>("lab1_topic", 10);\n'}
+[6.009710] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.009980] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:34:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [11], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.010212] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Int64>("lab1_topic", 10)\x1b[m\x1b[K;\n'}
+[6.010423] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.010570] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.010655] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.010731] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.010805] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20\x1b[m\x1b[K:\n'}
+[6.010880] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.010958] (cpp_pubsub) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[6.011100] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.011174] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.011249] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:34:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.011320] (cpp_pubsub) StderrLine: {'line': b'   34 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Int64>("lab1_topic", 10)\x1b[m\x1b[K;\n'}
+[6.011391] (cpp_pubsub) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.023423] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.023784] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:42:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KInt64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.023894] (cpp_pubsub) StderrLine: {'line': b'   42 |     auto message = std_msgs::msg::\x1b[01;31m\x1b[KInt64\x1b[m\x1b[K();\n'}
+[6.023976] (cpp_pubsub) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.047978] (-) TimerEvent: {}
+[6.150379] (-) TimerEvent: {}
+[6.250876] (-) TimerEvent: {}
+[6.351512] (-) TimerEvent: {}
+[6.452585] (-) TimerEvent: {}
+[6.554796] (-) TimerEvent: {}
+[6.655313] (-) TimerEvent: {}
+[6.755846] (-) TimerEvent: {}
+[6.856373] (-) TimerEvent: {}
+[6.956884] (-) TimerEvent: {}
+[7.057477] (-) TimerEvent: {}
+[7.145262] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[7.145753] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[7.145904] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.158247] (-) TimerEvent: {}
+[7.260175] (-) TimerEvent: {}
+[7.360819] (-) TimerEvent: {}
+[7.461558] (-) TimerEvent: {}
+[7.562197] (-) TimerEvent: {}
+[7.662739] (-) TimerEvent: {}
+[7.763389] (-) TimerEvent: {}
+[7.864102] (-) TimerEvent: {}
+[7.964650] (-) TimerEvent: {}
+[8.065229] (-) TimerEvent: {}
+[8.165875] (-) TimerEvent: {}
+[8.266401] (-) TimerEvent: {}
+[8.366964] (-) TimerEvent: {}
+[8.467487] (-) TimerEvent: {}
+[8.568019] (-) TimerEvent: {}
+[8.669129] (-) TimerEvent: {}
+[8.771164] (-) TimerEvent: {}
+[8.872295] (-) TimerEvent: {}
+[8.974882] (-) TimerEvent: {}
+[9.075929] (-) TimerEvent: {}
+[9.177187] (-) TimerEvent: {}
+[9.277887] (-) TimerEvent: {}
+[9.378455] (-) TimerEvent: {}
+[9.479040] (-) TimerEvent: {}
+[9.579656] (-) TimerEvent: {}
+[9.680331] (-) TimerEvent: {}
+[9.780926] (-) TimerEvent: {}
+[9.882096] (-) TimerEvent: {}
+[9.984218] (-) TimerEvent: {}
+[10.084662] (-) TimerEvent: {}
+[10.185313] (-) TimerEvent: {}
+[10.285878] (-) TimerEvent: {}
+[10.386425] (-) TimerEvent: {}
+[10.486983] (-) TimerEvent: {}
+[10.587530] (-) TimerEvent: {}
+[10.688083] (-) TimerEvent: {}
+[10.788736] (-) TimerEvent: {}
+[10.889325] (-) TimerEvent: {}
+[10.990354] (-) TimerEvent: {}
+[11.091907] (-) TimerEvent: {}
+[11.194919] (-) TimerEvent: {}
+[11.296121] (-) TimerEvent: {}
+[11.398880] (-) TimerEvent: {}
+[11.499524] (-) TimerEvent: {}
+[11.600462] (-) TimerEvent: {}
+[11.702735] (-) TimerEvent: {}
+[11.803334] (-) TimerEvent: {}
+[11.903935] (-) TimerEvent: {}
+[12.004508] (-) TimerEvent: {}
+[12.105092] (-) TimerEvent: {}
+[12.205687] (-) TimerEvent: {}
+[12.306255] (-) TimerEvent: {}
+[12.406831] (-) TimerEvent: {}
+[12.507413] (-) TimerEvent: {}
+[12.608031] (-) TimerEvent: {}
+[12.708654] (-) TimerEvent: {}
+[12.809136] (-) TimerEvent: {}
+[12.909771] (-) TimerEvent: {}
+[13.010464] (-) TimerEvent: {}
+[13.111280] (-) TimerEvent: {}
+[13.211973] (-) TimerEvent: {}
+[13.312570] (-) TimerEvent: {}
+[13.413253] (-) TimerEvent: {}
+[13.514004] (-) TimerEvent: {}
+[13.615062] (-) TimerEvent: {}
+[13.716952] (-) TimerEvent: {}
+[13.818347] (-) TimerEvent: {}
+[13.920021] (-) TimerEvent: {}
+[14.020771] (-) TimerEvent: {}
+[14.121417] (-) TimerEvent: {}
+[14.222012] (-) TimerEvent: {}
+[14.322675] (-) TimerEvent: {}
+[14.423197] (-) TimerEvent: {}
+[14.523749] (-) TimerEvent: {}
+[14.624355] (-) TimerEvent: {}
+[14.724993] (-) TimerEvent: {}
+[14.825713] (-) TimerEvent: {}
+[14.926248] (-) TimerEvent: {}
+[15.026895] (-) TimerEvent: {}
+[15.127844] (-) TimerEvent: {}
+[15.228573] (-) TimerEvent: {}
+[15.329101] (-) TimerEvent: {}
+[15.429734] (-) TimerEvent: {}
+[15.530301] (-) TimerEvent: {}
+[15.631502] (-) TimerEvent: {}
+[15.733778] (-) TimerEvent: {}
+[15.834340] (-) TimerEvent: {}
+[15.934971] (-) TimerEvent: {}
+[16.035604] (-) TimerEvent: {}
+[16.136106] (-) TimerEvent: {}
+[16.236637] (-) TimerEvent: {}
+[16.337166] (-) TimerEvent: {}
+[16.437725] (-) TimerEvent: {}
+[16.538221] (-) TimerEvent: {}
+[16.638741] (-) TimerEvent: {}
+[16.739482] (-) TimerEvent: {}
+[16.840039] (-) TimerEvent: {}
+[16.940603] (-) TimerEvent: {}
+[17.041296] (-) TimerEvent: {}
+[17.069661] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[17.141579] (-) TimerEvent: {}
+[17.242332] (-) TimerEvent: {}
+[17.343776] (-) TimerEvent: {}
+[17.444624] (-) TimerEvent: {}
+[17.545536] (-) TimerEvent: {}
+[17.646471] (-) TimerEvent: {}
+[17.747358] (-) TimerEvent: {}
+[17.848048] (-) TimerEvent: {}
+[17.948799] (-) TimerEvent: {}
+[18.049368] (-) TimerEvent: {}
+[18.150694] (-) TimerEvent: {}
+[18.253741] (-) TimerEvent: {}
+[18.354334] (-) TimerEvent: {}
+[18.432700] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[18.434923] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.439743] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[18.456472] (-) TimerEvent: {}
+[18.504891] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[18.523690] (-) EventReactorShutdown: {}

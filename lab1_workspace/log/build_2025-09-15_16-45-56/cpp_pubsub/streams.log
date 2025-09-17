@@ -1,0 +1,54 @@
+[0.082s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[0.153s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.998s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.006s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.036s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.257s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.264s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.815s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.018s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[15.056s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.195s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.196s] -- Configured cppcheck include dirs: 
+[15.198s] -- Configured cppcheck exclude dirs and/or files: 
+[15.211s] -- Added test 'lint_cmake' to check CMake code style
+[15.216s] -- Added test 'uncrustify' to check C / C++ code style
+[15.216s] -- Configured uncrustify additional arguments: 
+[15.218s] -- Added test 'xmllint' to check XML markup files
+[15.224s] -- Configuring done
+[15.276s] -- Generating done
+[15.287s] -- Build files have been written to: /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub
+[15.334s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[15.334s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[15.367s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[15.367s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[21.031s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[21.031s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:48:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _position_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+[21.031s]    48 |     message.position.[01;31m[Kw[m[K = 4.4;
+[21.031s]       |                      [01;31m[K^[m[K
+[21.032s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.033s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[21.033s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:157:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _position_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+[21.034s]    49 | X: '%ld', Y: '%ld', Z: '%ld' , W: '%ld'", message.position.x, message.position.y, message.position.z, message.position.[01;31m[Kw[m[K);
+[21.034s]       |                                                                                                                        [01;31m[K^[m[K
+[21.034s] 
+[22.610s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[22.611s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[22.611s] gmake[1]: *** Waiting for unfinished jobs....
+[31.367s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[32.738s] [ 75%] Built target listener
+[32.740s] gmake: *** [Makefile:146: all] Error 2
+[32.745s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8

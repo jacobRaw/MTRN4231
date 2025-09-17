@@ -1,0 +1,720 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000402] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000512] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.044128] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.048567] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.051213] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/lab1_workspace/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-60c49cd4-b315-444c-ac4a-99a88db246c4.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/14341_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '747e3186-6397-43ca-ad58-8905b8579015'), ('PWD', '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.097608] (-) TimerEvent: {}
+[0.198396] (-) TimerEvent: {}
+[0.299775] (-) TimerEvent: {}
+[0.401274] (-) TimerEvent: {}
+[0.502162] (-) TimerEvent: {}
+[0.603268] (-) TimerEvent: {}
+[0.680926] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.703560] (-) TimerEvent: {}
+[0.804741] (-) TimerEvent: {}
+[0.905638] (-) TimerEvent: {}
+[1.006847] (-) TimerEvent: {}
+[1.108118] (-) TimerEvent: {}
+[1.208762] (-) TimerEvent: {}
+[1.274238] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.308952] (-) TimerEvent: {}
+[1.409712] (-) TimerEvent: {}
+[1.510637] (-) TimerEvent: {}
+[1.611464] (-) TimerEvent: {}
+[1.712090] (-) TimerEvent: {}
+[1.812794] (-) TimerEvent: {}
+[1.913614] (-) TimerEvent: {}
+[2.014288] (-) TimerEvent: {}
+[2.115065] (-) TimerEvent: {}
+[2.117505] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.132384] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.167446] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.213120] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.215315] (-) TimerEvent: {}
+[2.278792] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.315594] (-) TimerEvent: {}
+[2.416302] (-) TimerEvent: {}
+[2.425833] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.516822] (-) TimerEvent: {}
+[2.618205] (-) TimerEvent: {}
+[2.674887] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.689103] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.718494] (-) TimerEvent: {}
+[2.819508] (-) TimerEvent: {}
+[2.920367] (-) TimerEvent: {}
+[3.021296] (-) TimerEvent: {}
+[3.121992] (-) TimerEvent: {}
+[3.222740] (-) TimerEvent: {}
+[3.323462] (-) TimerEvent: {}
+[3.424179] (-) TimerEvent: {}
+[3.525075] (-) TimerEvent: {}
+[3.625995] (-) TimerEvent: {}
+[3.726834] (-) TimerEvent: {}
+[3.827624] (-) TimerEvent: {}
+[3.928319] (-) TimerEvent: {}
+[4.029234] (-) TimerEvent: {}
+[4.129880] (-) TimerEvent: {}
+[4.230640] (-) TimerEvent: {}
+[4.331367] (-) TimerEvent: {}
+[4.432055] (-) TimerEvent: {}
+[4.532840] (-) TimerEvent: {}
+[4.633680] (-) TimerEvent: {}
+[4.734627] (-) TimerEvent: {}
+[4.835400] (-) TimerEvent: {}
+[4.936293] (-) TimerEvent: {}
+[5.037673] (-) TimerEvent: {}
+[5.138821] (-) TimerEvent: {}
+[5.239740] (-) TimerEvent: {}
+[5.340513] (-) TimerEvent: {}
+[5.441547] (-) TimerEvent: {}
+[5.542550] (-) TimerEvent: {}
+[5.643420] (-) TimerEvent: {}
+[5.744425] (-) TimerEvent: {}
+[5.845283] (-) TimerEvent: {}
+[5.946171] (-) TimerEvent: {}
+[6.047082] (-) TimerEvent: {}
+[6.148018] (-) TimerEvent: {}
+[6.249235] (-) TimerEvent: {}
+[6.349994] (-) TimerEvent: {}
+[6.450621] (-) TimerEvent: {}
+[6.551427] (-) TimerEvent: {}
+[6.652124] (-) TimerEvent: {}
+[6.752927] (-) TimerEvent: {}
+[6.853741] (-) TimerEvent: {}
+[6.955035] (-) TimerEvent: {}
+[7.056152] (-) TimerEvent: {}
+[7.157532] (-) TimerEvent: {}
+[7.259022] (-) TimerEvent: {}
+[7.360362] (-) TimerEvent: {}
+[7.461101] (-) TimerEvent: {}
+[7.561960] (-) TimerEvent: {}
+[7.662693] (-) TimerEvent: {}
+[7.763526] (-) TimerEvent: {}
+[7.864269] (-) TimerEvent: {}
+[7.964998] (-) TimerEvent: {}
+[8.065658] (-) TimerEvent: {}
+[8.166565] (-) TimerEvent: {}
+[8.267349] (-) TimerEvent: {}
+[8.368085] (-) TimerEvent: {}
+[8.468810] (-) TimerEvent: {}
+[8.569645] (-) TimerEvent: {}
+[8.670455] (-) TimerEvent: {}
+[8.771485] (-) TimerEvent: {}
+[8.872454] (-) TimerEvent: {}
+[8.973603] (-) TimerEvent: {}
+[9.074473] (-) TimerEvent: {}
+[9.175433] (-) TimerEvent: {}
+[9.276191] (-) TimerEvent: {}
+[9.376979] (-) TimerEvent: {}
+[9.478290] (-) TimerEvent: {}
+[9.579546] (-) TimerEvent: {}
+[9.680967] (-) TimerEvent: {}
+[9.782508] (-) TimerEvent: {}
+[9.883655] (-) TimerEvent: {}
+[9.984946] (-) TimerEvent: {}
+[10.086234] (-) TimerEvent: {}
+[10.187416] (-) TimerEvent: {}
+[10.288484] (-) TimerEvent: {}
+[10.389370] (-) TimerEvent: {}
+[10.490077] (-) TimerEvent: {}
+[10.590768] (-) TimerEvent: {}
+[10.691531] (-) TimerEvent: {}
+[10.792238] (-) TimerEvent: {}
+[10.893200] (-) TimerEvent: {}
+[10.993996] (-) TimerEvent: {}
+[11.094752] (-) TimerEvent: {}
+[11.195536] (-) TimerEvent: {}
+[11.296232] (-) TimerEvent: {}
+[11.397134] (-) TimerEvent: {}
+[11.497909] (-) TimerEvent: {}
+[11.598676] (-) TimerEvent: {}
+[11.699463] (-) TimerEvent: {}
+[11.800156] (-) TimerEvent: {}
+[11.900850] (-) TimerEvent: {}
+[12.001446] (-) TimerEvent: {}
+[12.102097] (-) TimerEvent: {}
+[12.202796] (-) TimerEvent: {}
+[12.303873] (-) TimerEvent: {}
+[12.405517] (-) TimerEvent: {}
+[12.507245] (-) TimerEvent: {}
+[12.608970] (-) TimerEvent: {}
+[12.710278] (-) TimerEvent: {}
+[12.811709] (-) TimerEvent: {}
+[12.913107] (-) TimerEvent: {}
+[13.014656] (-) TimerEvent: {}
+[13.116327] (-) TimerEvent: {}
+[13.217959] (-) TimerEvent: {}
+[13.319425] (-) TimerEvent: {}
+[13.420883] (-) TimerEvent: {}
+[13.522704] (-) TimerEvent: {}
+[13.624036] (-) TimerEvent: {}
+[13.725727] (-) TimerEvent: {}
+[13.827494] (-) TimerEvent: {}
+[13.929142] (-) TimerEvent: {}
+[14.030533] (-) TimerEvent: {}
+[14.132094] (-) TimerEvent: {}
+[14.233482] (-) TimerEvent: {}
+[14.334830] (-) TimerEvent: {}
+[14.436089] (-) TimerEvent: {}
+[14.537701] (-) TimerEvent: {}
+[14.638885] (-) TimerEvent: {}
+[14.740387] (-) TimerEvent: {}
+[14.842130] (-) TimerEvent: {}
+[14.943496] (-) TimerEvent: {}
+[15.044947] (-) TimerEvent: {}
+[15.146209] (-) TimerEvent: {}
+[15.247191] (-) TimerEvent: {}
+[15.348333] (-) TimerEvent: {}
+[15.449528] (-) TimerEvent: {}
+[15.550560] (-) TimerEvent: {}
+[15.651668] (-) TimerEvent: {}
+[15.752902] (-) TimerEvent: {}
+[15.854063] (-) TimerEvent: {}
+[15.954884] (-) TimerEvent: {}
+[16.055579] (-) TimerEvent: {}
+[16.156273] (-) TimerEvent: {}
+[16.257034] (-) TimerEvent: {}
+[16.357692] (-) TimerEvent: {}
+[16.458398] (-) TimerEvent: {}
+[16.559120] (-) TimerEvent: {}
+[16.659814] (-) TimerEvent: {}
+[16.760523] (-) TimerEvent: {}
+[16.861344] (-) TimerEvent: {}
+[16.962069] (-) TimerEvent: {}
+[17.062809] (-) TimerEvent: {}
+[17.163581] (-) TimerEvent: {}
+[17.264417] (-) TimerEvent: {}
+[17.365414] (-) TimerEvent: {}
+[17.466211] (-) TimerEvent: {}
+[17.566976] (-) TimerEvent: {}
+[17.667845] (-) TimerEvent: {}
+[17.768784] (-) TimerEvent: {}
+[17.869491] (-) TimerEvent: {}
+[17.970367] (-) TimerEvent: {}
+[18.071225] (-) TimerEvent: {}
+[18.171998] (-) TimerEvent: {}
+[18.272854] (-) TimerEvent: {}
+[18.373634] (-) TimerEvent: {}
+[18.474446] (-) TimerEvent: {}
+[18.575314] (-) TimerEvent: {}
+[18.676212] (-) TimerEvent: {}
+[18.777053] (-) TimerEvent: {}
+[18.877848] (-) TimerEvent: {}
+[18.978633] (-) TimerEvent: {}
+[19.079440] (-) TimerEvent: {}
+[19.180292] (-) TimerEvent: {}
+[19.281277] (-) TimerEvent: {}
+[19.382039] (-) TimerEvent: {}
+[19.482777] (-) TimerEvent: {}
+[19.583606] (-) TimerEvent: {}
+[19.692100] (-) TimerEvent: {}
+[19.792844] (-) TimerEvent: {}
+[19.893480] (-) TimerEvent: {}
+[19.994087] (-) TimerEvent: {}
+[20.094682] (-) TimerEvent: {}
+[20.195388] (-) TimerEvent: {}
+[20.296138] (-) TimerEvent: {}
+[20.397106] (-) TimerEvent: {}
+[20.497989] (-) TimerEvent: {}
+[20.598867] (-) TimerEvent: {}
+[20.699577] (-) TimerEvent: {}
+[20.800265] (-) TimerEvent: {}
+[20.901147] (-) TimerEvent: {}
+[21.001832] (-) TimerEvent: {}
+[21.102668] (-) TimerEvent: {}
+[21.203518] (-) TimerEvent: {}
+[21.304431] (-) TimerEvent: {}
+[21.405711] (-) TimerEvent: {}
+[21.507253] (-) TimerEvent: {}
+[21.608123] (-) TimerEvent: {}
+[21.709145] (-) TimerEvent: {}
+[21.810523] (-) TimerEvent: {}
+[21.911628] (-) TimerEvent: {}
+[22.012420] (-) TimerEvent: {}
+[22.113326] (-) TimerEvent: {}
+[22.214426] (-) TimerEvent: {}
+[22.315665] (-) TimerEvent: {}
+[22.416467] (-) TimerEvent: {}
+[22.517257] (-) TimerEvent: {}
+[22.618197] (-) TimerEvent: {}
+[22.718887] (-) TimerEvent: {}
+[22.819637] (-) TimerEvent: {}
+[22.920653] (-) TimerEvent: {}
+[23.021619] (-) TimerEvent: {}
+[23.122409] (-) TimerEvent: {}
+[23.223237] (-) TimerEvent: {}
+[23.323929] (-) TimerEvent: {}
+[23.424812] (-) TimerEvent: {}
+[23.525510] (-) TimerEvent: {}
+[23.626354] (-) TimerEvent: {}
+[23.727103] (-) TimerEvent: {}
+[23.827875] (-) TimerEvent: {}
+[23.928775] (-) TimerEvent: {}
+[24.029635] (-) TimerEvent: {}
+[24.130353] (-) TimerEvent: {}
+[24.231088] (-) TimerEvent: {}
+[24.331836] (-) TimerEvent: {}
+[24.432527] (-) TimerEvent: {}
+[24.533305] (-) TimerEvent: {}
+[24.634174] (-) TimerEvent: {}
+[24.735006] (-) TimerEvent: {}
+[24.835675] (-) TimerEvent: {}
+[24.936409] (-) TimerEvent: {}
+[25.037274] (-) TimerEvent: {}
+[25.138323] (-) TimerEvent: {}
+[25.239103] (-) TimerEvent: {}
+[25.339841] (-) TimerEvent: {}
+[25.440892] (-) TimerEvent: {}
+[25.542059] (-) TimerEvent: {}
+[25.642895] (-) TimerEvent: {}
+[25.744176] (-) TimerEvent: {}
+[25.845232] (-) TimerEvent: {}
+[25.946122] (-) TimerEvent: {}
+[26.047026] (-) TimerEvent: {}
+[26.147829] (-) TimerEvent: {}
+[26.248818] (-) TimerEvent: {}
+[26.349847] (-) TimerEvent: {}
+[26.450989] (-) TimerEvent: {}
+[26.551820] (-) TimerEvent: {}
+[26.652970] (-) TimerEvent: {}
+[26.754263] (-) TimerEvent: {}
+[26.855344] (-) TimerEvent: {}
+[26.956918] (-) TimerEvent: {}
+[27.058299] (-) TimerEvent: {}
+[27.159770] (-) TimerEvent: {}
+[27.261695] (-) TimerEvent: {}
+[27.362929] (-) TimerEvent: {}
+[27.464337] (-) TimerEvent: {}
+[27.566328] (-) TimerEvent: {}
+[27.667739] (-) TimerEvent: {}
+[27.769592] (-) TimerEvent: {}
+[27.871187] (-) TimerEvent: {}
+[27.972941] (-) TimerEvent: {}
+[28.074684] (-) TimerEvent: {}
+[28.176013] (-) TimerEvent: {}
+[28.277237] (-) TimerEvent: {}
+[28.378848] (-) TimerEvent: {}
+[28.481034] (-) TimerEvent: {}
+[28.582560] (-) TimerEvent: {}
+[28.683926] (-) TimerEvent: {}
+[28.785405] (-) TimerEvent: {}
+[28.886829] (-) TimerEvent: {}
+[28.988300] (-) TimerEvent: {}
+[29.090167] (-) TimerEvent: {}
+[29.191292] (-) TimerEvent: {}
+[29.292335] (-) TimerEvent: {}
+[29.393172] (-) TimerEvent: {}
+[29.493904] (-) TimerEvent: {}
+[29.594705] (-) TimerEvent: {}
+[29.695545] (-) TimerEvent: {}
+[29.796376] (-) TimerEvent: {}
+[29.897236] (-) TimerEvent: {}
+[29.997979] (-) TimerEvent: {}
+[30.098741] (-) TimerEvent: {}
+[30.199495] (-) TimerEvent: {}
+[30.300211] (-) TimerEvent: {}
+[30.401082] (-) TimerEvent: {}
+[30.501800] (-) TimerEvent: {}
+[30.602598] (-) TimerEvent: {}
+[30.704185] (-) TimerEvent: {}
+[30.805889] (-) TimerEvent: {}
+[30.906756] (-) TimerEvent: {}
+[31.007693] (-) TimerEvent: {}
+[31.108544] (-) TimerEvent: {}
+[31.209556] (-) TimerEvent: {}
+[31.310446] (-) TimerEvent: {}
+[31.411297] (-) TimerEvent: {}
+[31.512073] (-) TimerEvent: {}
+[31.612876] (-) TimerEvent: {}
+[31.713601] (-) TimerEvent: {}
+[31.814413] (-) TimerEvent: {}
+[31.915182] (-) TimerEvent: {}
+[32.015882] (-) TimerEvent: {}
+[32.116695] (-) TimerEvent: {}
+[32.217458] (-) TimerEvent: {}
+[32.318237] (-) TimerEvent: {}
+[32.419037] (-) TimerEvent: {}
+[32.520030] (-) TimerEvent: {}
+[32.621886] (-) TimerEvent: {}
+[32.723363] (-) TimerEvent: {}
+[32.824817] (-) TimerEvent: {}
+[32.926095] (-) TimerEvent: {}
+[33.027561] (-) TimerEvent: {}
+[33.128899] (-) TimerEvent: {}
+[33.230340] (-) TimerEvent: {}
+[33.331672] (-) TimerEvent: {}
+[33.433156] (-) TimerEvent: {}
+[33.534502] (-) TimerEvent: {}
+[33.635614] (-) TimerEvent: {}
+[33.736799] (-) TimerEvent: {}
+[33.837747] (-) TimerEvent: {}
+[33.938723] (-) TimerEvent: {}
+[34.039678] (-) TimerEvent: {}
+[34.140534] (-) TimerEvent: {}
+[34.241462] (-) TimerEvent: {}
+[34.342437] (-) TimerEvent: {}
+[34.443437] (-) TimerEvent: {}
+[34.544245] (-) TimerEvent: {}
+[34.645211] (-) TimerEvent: {}
+[34.745999] (-) TimerEvent: {}
+[34.846820] (-) TimerEvent: {}
+[34.947948] (-) TimerEvent: {}
+[35.048826] (-) TimerEvent: {}
+[35.149711] (-) TimerEvent: {}
+[35.250502] (-) TimerEvent: {}
+[35.351318] (-) TimerEvent: {}
+[35.452225] (-) TimerEvent: {}
+[35.544891] (tutorial_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[35.552518] (-) TimerEvent: {}
+[35.653500] (-) TimerEvent: {}
+[35.754794] (-) TimerEvent: {}
+[35.798885] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[35.855312] (-) TimerEvent: {}
+[35.957085] (-) TimerEvent: {}
+[36.058157] (-) TimerEvent: {}
+[36.158803] (-) TimerEvent: {}
+[36.259418] (-) TimerEvent: {}
+[36.360096] (-) TimerEvent: {}
+[36.460764] (-) TimerEvent: {}
+[36.561351] (-) TimerEvent: {}
+[36.633174] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[36.661670] (-) TimerEvent: {}
+[36.762556] (-) TimerEvent: {}
+[36.864140] (-) TimerEvent: {}
+[36.965627] (-) TimerEvent: {}
+[37.066552] (-) TimerEvent: {}
+[37.167440] (-) TimerEvent: {}
+[37.268199] (-) TimerEvent: {}
+[37.369241] (-) TimerEvent: {}
+[37.470878] (-) TimerEvent: {}
+[37.572417] (-) TimerEvent: {}
+[37.674003] (-) TimerEvent: {}
+[37.774903] (-) TimerEvent: {}
+[37.875962] (-) TimerEvent: {}
+[37.976960] (-) TimerEvent: {}
+[38.078176] (-) TimerEvent: {}
+[38.178979] (-) TimerEvent: {}
+[38.279717] (-) TimerEvent: {}
+[38.360153] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[38.380100] (-) TimerEvent: {}
+[38.480997] (-) TimerEvent: {}
+[38.581837] (-) TimerEvent: {}
+[38.682707] (-) TimerEvent: {}
+[38.783774] (-) TimerEvent: {}
+[38.884684] (-) TimerEvent: {}
+[38.905522] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[38.985027] (-) TimerEvent: {}
+[39.013443] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[39.085353] (-) TimerEvent: {}
+[39.093265] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[39.093664] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[39.093835] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[39.185630] (-) TimerEvent: {}
+[39.192103] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[39.286145] (-) TimerEvent: {}
+[39.361207] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[39.372247] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[39.386556] (-) TimerEvent: {}
+[39.408299] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[39.487020] (-) TimerEvent: {}
+[39.588591] (-) TimerEvent: {}
+[39.690353] (-) TimerEvent: {}
+[39.791619] (-) TimerEvent: {}
+[39.879640] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[39.892033] (-) TimerEvent: {}
+[39.973007] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces\n'}
+[39.992548] (-) TimerEvent: {}
+[40.093885] (-) TimerEvent: {}
+[40.117931] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[40.159827] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[40.181104] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[40.194056] (-) TimerEvent: {}
+[40.294765] (-) TimerEvent: {}
+[40.395424] (-) TimerEvent: {}
+[40.496162] (-) TimerEvent: {}
+[40.596760] (-) TimerEvent: {}
+[40.697589] (-) TimerEvent: {}
+[40.798238] (-) TimerEvent: {}
+[40.898981] (-) TimerEvent: {}
+[41.000408] (-) TimerEvent: {}
+[41.027473] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] Built target tutorial_interfaces__cpp\n'}
+[41.063143] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[41.066147] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[41.069854] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[41.086674] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/pose_stamped__functions.c.o\x1b[0m\n'}
+[41.100810] (-) TimerEvent: {}
+[41.201885] (-) TimerEvent: {}
+[41.291825] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[41.294760] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[41.296682] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[41.297778] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[41.302095] (-) TimerEvent: {}
+[41.314291] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[41.319401] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[41.402301] (-) TimerEvent: {}
+[41.438509] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[41.502581] (-) TimerEvent: {}
+[41.603515] (-) TimerEvent: {}
+[41.675781] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[41.703762] (-) TimerEvent: {}
+[41.804820] (-) TimerEvent: {}
+[41.905721] (-) TimerEvent: {}
+[42.006810] (-) TimerEvent: {}
+[42.108197] (-) TimerEvent: {}
+[42.123962] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/pose_stamped__type_support.cpp.o\x1b[0m\n'}
+[42.208356] (-) TimerEvent: {}
+[42.225051] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o\x1b[0m\n'}
+[42.272280] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[42.287985] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp.o\x1b[0m\n'}
+[42.308530] (-) TimerEvent: {}
+[42.332865] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[42.335781] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[42.339431] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[42.408857] (-) TimerEvent: {}
+[42.509534] (-) TimerEvent: {}
+[42.610204] (-) TimerEvent: {}
+[42.711059] (-) TimerEvent: {}
+[42.811825] (-) TimerEvent: {}
+[42.912432] (-) TimerEvent: {}
+[43.013301] (-) TimerEvent: {}
+[43.113958] (-) TimerEvent: {}
+[43.214702] (-) TimerEvent: {}
+[43.315449] (-) TimerEvent: {}
+[43.422751] (-) TimerEvent: {}
+[43.490499] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/pose_stamped__type_support.cpp.o\x1b[0m\n'}
+[43.523001] (-) TimerEvent: {}
+[43.624776] (-) TimerEvent: {}
+[43.649451] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/pose_stamped__type_support.c.o\x1b[0m\n'}
+[43.660979] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[43.695686] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/pose_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[43.725003] (-) TimerEvent: {}
+[43.813611] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[43.825220] (-) TimerEvent: {}
+[43.887891] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[43.925454] (-) TimerEvent: {}
+[44.027636] (-) TimerEvent: {}
+[44.128855] (-) TimerEvent: {}
+[44.229743] (-) TimerEvent: {}
+[44.334340] (-) TimerEvent: {}
+[44.435148] (-) TimerEvent: {}
+[44.536002] (-) TimerEvent: {}
+[44.573491] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[44.636429] (-) TimerEvent: {}
+[44.658137] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[44.685093] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[44.696510] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[44.697135] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[44.737469] (-) TimerEvent: {}
+[44.839311] (-) TimerEvent: {}
+[44.940609] (-) TimerEvent: {}
+[45.041529] (-) TimerEvent: {}
+[45.142524] (-) TimerEvent: {}
+[45.243487] (-) TimerEvent: {}
+[45.345989] (-) TimerEvent: {}
+[45.448583] (-) TimerEvent: {}
+[45.519659] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[45.548866] (-) TimerEvent: {}
+[45.555134] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[45.649101] (-) TimerEvent: {}
+[45.750257] (-) TimerEvent: {}
+[45.751193] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[45.850360] (-) TimerEvent: {}
+[45.951230] (-) TimerEvent: {}
+[46.051870] (-) TimerEvent: {}
+[46.152745] (-) TimerEvent: {}
+[46.253612] (-) TimerEvent: {}
+[46.354636] (-) TimerEvent: {}
+[46.455873] (-) TimerEvent: {}
+[46.483056] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[46.548608] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces\n'}
+[46.556144] (-) TimerEvent: {}
+[46.616427] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[46.656845] (-) TimerEvent: {}
+[46.758289] (-) TimerEvent: {}
+[46.859368] (-) TimerEvent: {}
+[46.960054] (-) TimerEvent: {}
+[47.060848] (-) TimerEvent: {}
+[47.161425] (-) TimerEvent: {}
+[47.262487] (-) TimerEvent: {}
+[47.363350] (-) TimerEvent: {}
+[47.464272] (-) TimerEvent: {}
+[47.565214] (-) TimerEvent: {}
+[47.573782] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__py\n'}
+[47.647649] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_pose_stamped_s.c.o\x1b[0m\n'}
+[47.665474] (-) TimerEvent: {}
+[47.776108] (-) TimerEvent: {}
+[47.876943] (-) TimerEvent: {}
+[47.977570] (-) TimerEvent: {}
+[48.078296] (-) TimerEvent: {}
+[48.179047] (-) TimerEvent: {}
+[48.234196] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[48.279224] (-) TimerEvent: {}
+[48.380127] (-) TimerEvent: {}
+[48.480934] (-) TimerEvent: {}
+[48.581798] (-) TimerEvent: {}
+[48.682628] (-) TimerEvent: {}
+[48.784386] (-) TimerEvent: {}
+[48.841303] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[48.884662] (-) TimerEvent: {}
+[48.905632] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[48.906771] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[48.907522] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[48.984834] (-) TimerEvent: {}
+[49.085691] (-) TimerEvent: {}
+[49.186503] (-) TimerEvent: {}
+[49.267162] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[49.267588] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[49.280230] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[49.286776] (-) TimerEvent: {}
+[49.387691] (-) TimerEvent: {}
+[49.488890] (-) TimerEvent: {}
+[49.589728] (-) TimerEvent: {}
+[49.642459] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[49.643165] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[49.690077] (-) TimerEvent: {}
+[49.732504] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[49.773140] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[49.777968] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[49.790312] (-) TimerEvent: {}
+[49.804134] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces'], 'cwd': '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/lab1_workspace/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.103.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-60c49cd4-b315-444c-ac4a-99a88db246c4.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/14341_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '747e3186-6397-43ca-ad58-8905b8579015'), ('PWD', '/home/jacob/MTRN4231/lab1_workspace/build/tutorial_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[49.835840] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.840391] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[49.841913] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[49.847496] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[49.848723] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/pose_stamped.h\n'}
+[49.849793] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[49.850555] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[49.851799] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.h\n'}
+[49.852525] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__functions.h\n'}
+[49.852861] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__struct.h\n'}
+[49.858177] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__functions.c\n'}
+[49.863000] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[49.863673] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[49.865015] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[49.866264] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[49.866543] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[49.867326] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[49.867931] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[49.868130] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[49.868258] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[49.868724] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[49.869795] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[49.870643] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[49.874244] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[49.875253] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/pose_stamped.hpp\n'}
+[49.876295] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[49.876662] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[49.877280] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__struct.hpp\n'}
+[49.878078] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.hpp\n'}
+[49.878536] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__traits.hpp\n'}
+[49.879149] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__builder.hpp\n'}
+[49.880062] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[49.881224] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[49.882106] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[49.882379] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[49.883184] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.883718] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[49.885007] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[49.886651] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[49.889480] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[49.890957] (-) TimerEvent: {}
+[49.891922] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[49.892227] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[49.892447] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[49.892715] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.c\n'}
+[49.893095] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h\n'}
+[49.893902] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[49.894076] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[49.894206] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[49.895365] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[49.895588] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[49.896470] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[49.897253] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[49.897579] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__type_support.cpp\n'}
+[49.898051] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.898802] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[49.900256] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[49.901218] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[49.902442] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[49.904136] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[49.905406] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[49.906249] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[49.912912] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[49.913948] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[49.914779] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[49.915418] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[49.916305] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[49.917590] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.918136] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[49.918675] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[49.919219] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[49.921568] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[49.923474] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_pose_stamped.py\n'}
+[49.925611] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_pose_stamped_s.c\n'}
+[49.926746] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[49.927262] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.927808] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[49.928278] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.928822] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[49.991206] (-) TimerEvent: {}
+[50.032940] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[50.033360] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[50.033521] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[50.033665] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[50.033880] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_pose_stamped.py'...\n"}
+[50.047981] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[50.050060] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[50.051170] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[50.053026] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[50.058354] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[50.059837] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[50.061011] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[50.063513] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[50.065355] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/PoseStamped.idl\n'}
+[50.066192] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/PoseStamped.msg\n'}
+[50.068367] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[50.070336] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[50.071079] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[50.073675] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[50.075286] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[50.076869] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[50.077773] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[50.078833] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[50.080360] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[50.081951] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[50.082604] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[50.084567] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[50.087134] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[50.091586] (-) TimerEvent: {}
+[50.092520] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[50.094670] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[50.096237] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[50.097517] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[50.098439] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[50.099179] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[50.100004] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[50.101854] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[50.103099] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[50.106369] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[50.109146] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[50.111432] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[50.112093] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[50.112830] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[50.113574] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[50.114565] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[50.115905] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[50.116393] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[50.117003] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[50.117715] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[50.118233] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[50.119188] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[50.119802] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[50.120940] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[50.122103] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[50.124440] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/lab1_workspace/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[50.132929] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[50.191793] (-) TimerEvent: {}
+[50.234218] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[50.239949] (-) EventReactorShutdown: {}

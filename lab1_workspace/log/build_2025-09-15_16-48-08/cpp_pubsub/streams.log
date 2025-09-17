@@ -1,0 +1,30 @@
+[0.030s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.157s] [ 50%] Built target listener
+[0.158s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.039s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.039s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Korientaton[m[K’; did you mean ‘[01m[Korientation[m[K’?
+[5.040s]    45 |     message.[01;31m[Korientaton[m[K.x = 0.0;
+[5.040s]       |             [01;31m[K^~~~~~~~~~[m[K
+[5.040s]       |             [32m[Korientation[m[K
+[5.041s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.042s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.042s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:157:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _position_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+[5.042s]    49 | X: '%ld', Y: '%ld', Z: '%ld' , W: '%ld'", message.position.x, message.position.y, message.position.z, message.position.[01;31m[Kw[m[K);
+[5.042s]       |                                                                                                                        [01;31m[K^[m[K
+[5.042s] 
+[6.444s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[6.445s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[6.445s] gmake: *** [Makefile:146: all] Error 2
+[6.450s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
