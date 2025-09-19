@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tutorial_interfaces__py",
+		"source" : "/home/jacob/MTRN4231/lab1_workspace/src/build/tutorial_interfaces/tutorial_interfaces__py"
+	}
+}

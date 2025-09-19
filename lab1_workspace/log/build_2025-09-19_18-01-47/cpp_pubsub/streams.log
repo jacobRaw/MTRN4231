@@ -1,0 +1,53 @@
+[0.021s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.133s] [ 50%] Built target listener
+[0.154s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.896s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.897s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.898s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.898s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.898s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.898s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 8 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.898s]    49 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Orientation Sent - X: %f, Y: %f, Z: %f, time: %fs"[m[K, message.center.x, message.center.y, message.center.z, [32m[Kmessage.time.stamp.sec[m[K);
+[5.898s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                        [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.898s]       |                                                                                                                                                                   [32m[K|[m[K
+[5.899s]       |                                                                                                                                                                   [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}[m[K
+[5.899s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:85:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.899s]    49 |     RCLCPP_INFO(this->get_logger(), "Orientation Sent - X: %f, Y: %f, Z: %f, time: [01;36m[K%f[m[Ks", message.center.x, message.center.y, message.center.z, message.time.stamp.sec);
+[5.899s]       |                                                                                    [01;36m[K~^[m[K
+[5.899s]       |                                                                                     [01;36m[K|[m[K
+[5.899s]       |                                                                                     [01;36m[Kdouble[m[K
+[5.899s]       |                                                                                    [32m[K%d[m[K
+[10.390s] [100%] [32m[1mLinking CXX executable talker[0m
+[10.910s] [100%] Built target talker
+[10.938s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[10.939s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub
+[10.950s] -- Install configuration: ""
+[10.951s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/lib/cpp_pubsub/talker
+[10.953s] -- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[10.954s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/lib/cpp_pubsub/listener
+[10.958s] -- Set runtime path of "/home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[10.958s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[10.958s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[10.959s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[10.959s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[10.959s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[10.959s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[10.960s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[10.960s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[10.960s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[10.960s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[10.960s] -- Installing: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[10.961s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[10.961s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[10.961s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[10.961s] -- Up-to-date: /home/jacob/MTRN4231/lab1_workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[10.965s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub

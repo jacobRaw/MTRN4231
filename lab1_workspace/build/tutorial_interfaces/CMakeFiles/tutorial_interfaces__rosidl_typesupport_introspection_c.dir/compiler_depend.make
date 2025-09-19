@@ -64,16 +64,16 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_ty
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/tutorial_interfaces/msg/detail/posestamped__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/header.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h \
@@ -91,25 +91,23 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_ty
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h:
-
 /opt/ros/humble/include/std_msgs/std_msgs/msg/header.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__type_support.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 rosidl_generator_c/tutorial_interfaces/msg/detail/posestamped__struct.h:
 
@@ -136,6 +134,8 @@ rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_contro
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 

@@ -17,9 +17,9 @@
 #include "tutorial_interfaces/msg/detail/posestamped__functions.h"
 
 ROSIDL_GENERATOR_C_IMPORT
-bool geometry_msgs__msg__quaternion__convert_from_py(PyObject * _pymsg, void * _ros_message);
+bool geometry_msgs__msg__point__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * geometry_msgs__msg__quaternion__convert_to_py(void * raw_ros_message);
+PyObject * geometry_msgs__msg__point__convert_to_py(void * raw_ros_message);
 ROSIDL_GENERATOR_C_IMPORT
 bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
@@ -58,12 +58,12 @@ bool tutorial_interfaces__msg__posestamped__convert_from_py(PyObject * _pymsg, v
     assert(strncmp("tutorial_interfaces.msg._posestamped.Posestamped", full_classname_dest, 48) == 0);
   }
   tutorial_interfaces__msg__Posestamped * ros_message = _ros_message;
-  {  // pos3d
-    PyObject * field = PyObject_GetAttrString(_pymsg, "pos3d");
+  {  // center
+    PyObject * field = PyObject_GetAttrString(_pymsg, "center");
     if (!field) {
       return false;
     }
-    if (!geometry_msgs__msg__quaternion__convert_from_py(field, &ros_message->pos3d)) {
+    if (!geometry_msgs__msg__point__convert_from_py(field, &ros_message->center)) {
       Py_DECREF(field);
       return false;
     }
@@ -102,14 +102,14 @@ PyObject * tutorial_interfaces__msg__posestamped__convert_to_py(void * raw_ros_m
     }
   }
   tutorial_interfaces__msg__Posestamped * ros_message = (tutorial_interfaces__msg__Posestamped *)raw_ros_message;
-  {  // pos3d
+  {  // center
     PyObject * field = NULL;
-    field = geometry_msgs__msg__quaternion__convert_to_py(&ros_message->pos3d);
+    field = geometry_msgs__msg__point__convert_to_py(&ros_message->center);
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "pos3d", field);
+      int rc = PyObject_SetAttrString(_pymessage, "center", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

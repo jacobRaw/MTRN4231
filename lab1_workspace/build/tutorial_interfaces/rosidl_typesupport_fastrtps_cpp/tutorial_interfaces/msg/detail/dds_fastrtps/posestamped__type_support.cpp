@@ -23,16 +23,16 @@ namespace msg
 namespace typesupport_fastrtps_cpp
 {
 bool cdr_serialize(
-  const geometry_msgs::msg::Quaternion &,
+  const geometry_msgs::msg::Point &,
   eprosima::fastcdr::Cdr &);
 bool cdr_deserialize(
   eprosima::fastcdr::Cdr &,
-  geometry_msgs::msg::Quaternion &);
+  geometry_msgs::msg::Point &);
 size_t get_serialized_size(
-  const geometry_msgs::msg::Quaternion &,
+  const geometry_msgs::msg::Point &,
   size_t current_alignment);
 size_t
-max_serialized_size_Quaternion(
+max_serialized_size_Point(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
@@ -80,9 +80,9 @@ cdr_serialize(
   const tutorial_interfaces::msg::Posestamped & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: pos3d
+  // Member: center
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
-    ros_message.pos3d,
+    ros_message.center,
     cdr);
   // Member: time
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
@@ -97,9 +97,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   tutorial_interfaces::msg::Posestamped & ros_message)
 {
-  // Member: pos3d
+  // Member: center
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-    cdr, ros_message.pos3d);
+    cdr, ros_message.center);
 
   // Member: time
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
@@ -121,11 +121,11 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: pos3d
+  // Member: center
 
   current_alignment +=
     geometry_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
-    ros_message.pos3d, current_alignment);
+    ros_message.center, current_alignment);
   // Member: time
 
   current_alignment +=
@@ -155,7 +155,7 @@ max_serialized_size_Posestamped(
   is_plain = true;
 
 
-  // Member: pos3d
+  // Member: center
   {
     size_t array_size = 1;
 
@@ -165,7 +165,7 @@ max_serialized_size_Posestamped(
       bool inner_full_bounded;
       bool inner_is_plain;
       size_t inner_size =
-        geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Quaternion(
+        geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Point(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;

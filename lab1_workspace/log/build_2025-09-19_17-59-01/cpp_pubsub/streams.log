@@ -1,0 +1,53 @@
+[0.021s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.145s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.147s] [ 75%] Built target listener
+[5.255s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.256s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:46:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Posestamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcenter[m[K’
+[5.256s]    46 |     message.[01;31m[Kcenter[m[K.x = 0.0;
+[5.256s]       |             [01;31m[K^~~~~~[m[K
+[5.256s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Posestamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcenter[m[K’
+[5.256s]    47 |     message.[01;31m[Kcenter[m[K.y = 2.2;
+[5.256s]       |             [01;31m[K^~~~~~[m[K
+[5.256s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:48:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Posestamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcenter[m[K’
+[5.257s]    48 |     message.[01;31m[Kcenter[m[K.z = 1.1;
+[5.257s]       |             [01;31m[K^~~~~~[m[K
+[5.257s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::Posestamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcenter[m[K’
+[5.257s]    49 |     message.[01;31m[Kcenter[m[K.w = 4.4;
+[5.257s]       |             [01;31m[K^~~~~~[m[K
+[5.257s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.258s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.259s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:50:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pos3d_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[5.259s]    50 |     RCLCPP_INFO(this->get_logger(), "Orientation Sent - X: %f, Y: %f, Z: %f, W: %f, time: %fs", message.pos3d.[01;31m[Korientation[m[K.x, message.pos3d.orientation.y, message.pos3d.orientation.z, message.pos3d.orientation.w, message.time.sec);
+[5.259s]       |                                                                                                               [01;31m[K^~~~~~~~~~~[m[K
+[5.265s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:50:140:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pos3d_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[5.265s]    50 | P_INFO(this->get_logger(), "Orientation Sent - X: %f, Y: %f, Z: %f, W: %f, time: %fs", message.pos3d.orientation.x, message.pos3d.[01;31m[Korientation[m[K.y, message.pos3d.orientation.z, message.pos3d.orientation.w, message.time.sec);
+[5.265s]       |                                                                                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[5.265s] 
+[5.265s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:50:169:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pos3d_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[5.265s]    50 | rientation Sent - X: %f, Y: %f, Z: %f, W: %f, time: %fs", message.pos3d.orientation.x, message.pos3d.orientation.y, message.pos3d.[01;31m[Korientation[m[K.z, message.pos3d.orientation.w, message.time.sec);
+[5.265s]       |                                                                                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[5.266s] 
+[5.266s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:50:198:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pos3d_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[5.266s]    50 | f, Z: %f, W: %f, time: %fs", message.pos3d.orientation.x, message.pos3d.orientation.y, message.pos3d.orientation.z, message.pos3d.[01;31m[Korientation[m[K.w, message.time.sec);
+[5.266s]       |                                                                                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[5.266s] 
+[5.266s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:50:226:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_type = struct std_msgs::msg::Header_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksec[m[K’
+[5.266s]    50 |  %fs", message.pos3d.orientation.x, message.pos3d.orientation.y, message.pos3d.orientation.z, message.pos3d.orientation.w, message.time.[01;31m[Ksec[m[K);
+[5.266s]       |                                                                                                                                         [01;31m[K^~~[m[K
+[5.267s] 
+[6.938s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[6.938s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[6.939s] gmake: *** [Makefile:146: all] Error 2
+[6.941s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8

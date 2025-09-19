@@ -2,13 +2,13 @@
 // with input from tutorial_interfaces/msg/Posestamped.msg
 // generated code does not contain a copyright notice
 
-#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Point.idl"
 #include "std_msgs/msg/Header.idl"
 
 module tutorial_interfaces {
   module msg {
     struct Posestamped {
-      geometry_msgs::msg::Quaternion pos3d;
+      geometry_msgs::msg::Point center;
 
       std_msgs::msg::Header time;
     };

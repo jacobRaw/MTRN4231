@@ -1,0 +1,36 @@
+[0.030s] Invoking command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.184s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.188s] [ 75%] Built target talker
+[6.018s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.019s]                  from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/subscriber_member_function.cpp:18[m[K:
+[6.020s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Pose&) const[m[K’:
+[6.020s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/subscriber_member_function.cpp:38:93:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[6.021s]    38 |     RCLCPP_INFO(this->get_logger(), "Orientation recieved - X: %f, Y: %f, Z: %f, time: %ds" [01;31m[Kmsg[m[K.center.x, msg.center.y, msg.center.z, msg.time.stamp.sec);
+[6.021s]       |                                                                                             [01;31m[K^~~[m[K
+[6.021s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/subscriber_member_function.cpp:38:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[6.021s]    38 |     [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Orientation recieved - X: %f, Y: %f, Z: %f, time: %ds" msg.center.x, msg.center.y, msg.center.z, msg.time.stamp.sec);
+[6.021s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.021s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/subscriber_member_function.cpp:38:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Pose[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcenter[m[K’
+[6.021s]    38 |     RCLCPP_INFO(this->get_logger(), "Orientation recieved - X: %f, Y: %f, Z: %f, time: %ds" msg.center.x, msg.[01;31m[Kcenter[m[K.y, msg.center.z, msg.time.stamp.sec);
+[6.021s]       |                                                                                                               [01;31m[K^~~~~~[m[K
+[6.022s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/subscriber_member_function.cpp:38:125:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Pose[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcenter[m[K’
+[6.022s]    38 |     RCLCPP_INFO(this->get_logger(), "Orientation recieved - X: %f, Y: %f, Z: %f, time: %ds" msg.center.x, msg.center.y, msg.[01;31m[Kcenter[m[K.z, msg.time.stamp.sec);
+[6.022s]       |                                                                                                                             [01;31m[K^~~~~~[m[K
+[6.022s] [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/subscriber_member_function.cpp:38:139:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Pose[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktime[m[K’
+[6.022s]    38 |     RCLCPP_INFO(this->get_logger(), "Orientation recieved - X: %f, Y: %f, Z: %f, time: %ds" msg.center.x, msg.center.y, msg.center.z, msg.[01;31m[Ktime[m[K.stamp.sec);
+[6.022s]       |                                                                                                                                           [01;31m[K^~~~[m[K
+[12.185s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[12.185s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[12.188s] gmake: *** [Makefile:146: all] Error 2
+[12.191s] Invoked command in '/home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab1_workspace/build/cpp_pubsub -- -j8 -l8

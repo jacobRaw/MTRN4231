@@ -37,15 +37,15 @@ private:
   ::tutorial_interfaces::msg::Posestamped msg_;
 };
 
-class Init_Posestamped_pos3d
+class Init_Posestamped_center
 {
 public:
-  Init_Posestamped_pos3d()
+  Init_Posestamped_center()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_Posestamped_time pos3d(::tutorial_interfaces::msg::Posestamped::_pos3d_type arg)
+  Init_Posestamped_time center(::tutorial_interfaces::msg::Posestamped::_center_type arg)
   {
-    msg_.pos3d = std::move(arg);
+    msg_.center = std::move(arg);
     return Init_Posestamped_time(msg_);
   }
 
@@ -64,7 +64,7 @@ template<>
 inline
 auto build<::tutorial_interfaces::msg::Posestamped>()
 {
-  return tutorial_interfaces::msg::builder::Init_Posestamped_pos3d();
+  return tutorial_interfaces::msg::builder::Init_Posestamped_center();
 }
 
 }  // namespace tutorial_interfaces

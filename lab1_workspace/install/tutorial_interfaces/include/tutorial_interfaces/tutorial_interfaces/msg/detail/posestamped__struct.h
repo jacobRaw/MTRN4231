@@ -18,15 +18,15 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'pos3d'
-#include "geometry_msgs/msg/detail/quaternion__struct.h"
+// Member 'center'
+#include "geometry_msgs/msg/detail/point__struct.h"
 // Member 'time'
 #include "std_msgs/msg/detail/header__struct.h"
 
 /// Struct defined in msg/Posestamped in the package tutorial_interfaces.
 typedef struct tutorial_interfaces__msg__Posestamped
 {
-  geometry_msgs__msg__Quaternion pos3d;
+  geometry_msgs__msg__Point center;
   std_msgs__msg__Header time;
 } tutorial_interfaces__msg__Posestamped;
 

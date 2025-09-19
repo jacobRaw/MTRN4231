@@ -245,7 +245,7 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
   rosidl_generator_c/tutorial_interfaces/msg/detail/posestamped__type_support.h \
   rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/tutorial_interfaces/msg/detail/posestamped__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
@@ -254,6 +254,8 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
 
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 /usr/include/python3.10/fileutils.h:
 
@@ -608,8 +610,6 @@ rosidl_generator_c/tutorial_interfaces/msg/detail/posestamped__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h:
 
 /usr/include/python3.10/cpython/pythonrun.h:
 

@@ -12,8 +12,8 @@
 
 
 // Include directives for member types
-// Member `pos3d`
-#include "geometry_msgs/msg/detail/quaternion__functions.h"
+// Member `center`
+#include "geometry_msgs/msg/detail/point__functions.h"
 // Member `time`
 #include "std_msgs/msg/detail/header__functions.h"
 
@@ -23,8 +23,8 @@ tutorial_interfaces__msg__Posestamped__init(tutorial_interfaces__msg__Posestampe
   if (!msg) {
     return false;
   }
-  // pos3d
-  if (!geometry_msgs__msg__Quaternion__init(&msg->pos3d)) {
+  // center
+  if (!geometry_msgs__msg__Point__init(&msg->center)) {
     tutorial_interfaces__msg__Posestamped__fini(msg);
     return false;
   }
@@ -42,8 +42,8 @@ tutorial_interfaces__msg__Posestamped__fini(tutorial_interfaces__msg__Posestampe
   if (!msg) {
     return;
   }
-  // pos3d
-  geometry_msgs__msg__Quaternion__fini(&msg->pos3d);
+  // center
+  geometry_msgs__msg__Point__fini(&msg->center);
   // time
   std_msgs__msg__Header__fini(&msg->time);
 }
@@ -54,9 +54,9 @@ tutorial_interfaces__msg__Posestamped__are_equal(const tutorial_interfaces__msg_
   if (!lhs || !rhs) {
     return false;
   }
-  // pos3d
-  if (!geometry_msgs__msg__Quaternion__are_equal(
-      &(lhs->pos3d), &(rhs->pos3d)))
+  // center
+  if (!geometry_msgs__msg__Point__are_equal(
+      &(lhs->center), &(rhs->center)))
   {
     return false;
   }
@@ -77,9 +77,9 @@ tutorial_interfaces__msg__Posestamped__copy(
   if (!input || !output) {
     return false;
   }
-  // pos3d
-  if (!geometry_msgs__msg__Quaternion__copy(
-      &(input->pos3d), &(output->pos3d)))
+  // center
+  if (!geometry_msgs__msg__Point__copy(
+      &(input->center), &(output->center)))
   {
     return false;
   }

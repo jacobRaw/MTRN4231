@@ -16,8 +16,8 @@
 
 
 // Include directives for member types
-// Member 'pos3d'
-#include "geometry_msgs/msg/detail/quaternion__struct.hpp"
+// Member 'center'
+#include "geometry_msgs/msg/detail/point__struct.hpp"
 // Member 'time'
 #include "std_msgs/msg/detail/header__struct.hpp"
 
@@ -40,32 +40,32 @@ struct Posestamped_
   using Type = Posestamped_<ContainerAllocator>;
 
   explicit Posestamped_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : pos3d(_init),
+  : center(_init),
     time(_init)
   {
     (void)_init;
   }
 
   explicit Posestamped_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : pos3d(_alloc, _init),
+  : center(_alloc, _init),
     time(_alloc, _init)
   {
     (void)_init;
   }
 
   // field types and members
-  using _pos3d_type =
-    geometry_msgs::msg::Quaternion_<ContainerAllocator>;
-  _pos3d_type pos3d;
+  using _center_type =
+    geometry_msgs::msg::Point_<ContainerAllocator>;
+  _center_type center;
   using _time_type =
     std_msgs::msg::Header_<ContainerAllocator>;
   _time_type time;
 
   // setters for named parameter idiom
-  Type & set__pos3d(
-    const geometry_msgs::msg::Quaternion_<ContainerAllocator> & _arg)
+  Type & set__center(
+    const geometry_msgs::msg::Point_<ContainerAllocator> & _arg)
   {
-    this->pos3d = _arg;
+    this->center = _arg;
     return *this;
   }
   Type & set__time(
@@ -117,7 +117,7 @@ struct Posestamped_
   // comparison operators
   bool operator==(const Posestamped_ & other) const
   {
-    if (this->pos3d != other.pos3d) {
+    if (this->center != other.center) {
       return false;
     }
     if (this->time != other.time) {

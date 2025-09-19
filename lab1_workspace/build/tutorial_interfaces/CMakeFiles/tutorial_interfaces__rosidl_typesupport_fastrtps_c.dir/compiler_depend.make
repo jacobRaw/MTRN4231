@@ -223,26 +223,26 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/malloc.h \
   rosidl_generator_c/tutorial_interfaces/msg/detail/posestamped__struct.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   rosidl_generator_c/tutorial_interfaces/msg/detail/posestamped__functions.h \
   /usr/include/c++/11/stdlib.h \
   rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__functions.h \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
 
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h:
 
 /usr/include/c++/11/stdlib.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -628,7 +628,7 @@ rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_contro
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 

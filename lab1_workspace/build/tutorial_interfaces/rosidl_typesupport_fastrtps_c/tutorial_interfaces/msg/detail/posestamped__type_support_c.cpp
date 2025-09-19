@@ -34,24 +34,24 @@ extern "C"
 {
 #endif
 
-#include "geometry_msgs/msg/detail/quaternion__functions.h"  // pos3d
+#include "geometry_msgs/msg/detail/point__functions.h"  // center
 #include "std_msgs/msg/detail/header__functions.h"  // time
 
 // forward declare type support functions
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_tutorial_interfaces
-size_t get_serialized_size_geometry_msgs__msg__Quaternion(
+size_t get_serialized_size_geometry_msgs__msg__Point(
   const void * untyped_ros_message,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_tutorial_interfaces
-size_t max_serialized_size_geometry_msgs__msg__Quaternion(
+size_t max_serialized_size_geometry_msgs__msg__Point(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_tutorial_interfaces
 const rosidl_message_type_support_t *
-  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Quaternion)();
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point)();
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_tutorial_interfaces
 size_t get_serialized_size_std_msgs__msg__Header(
   const void * untyped_ros_message,
@@ -79,15 +79,15 @@ static bool _Posestamped__cdr_serialize(
     return false;
   }
   const _Posestamped__ros_msg_type * ros_message = static_cast<const _Posestamped__ros_msg_type *>(untyped_ros_message);
-  // Field name: pos3d
+  // Field name: center
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Quaternion
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
       )()->data);
     if (!callbacks->cdr_serialize(
-        &ros_message->pos3d, cdr))
+        &ros_message->center, cdr))
     {
       return false;
     }
@@ -119,15 +119,15 @@ static bool _Posestamped__cdr_deserialize(
     return false;
   }
   _Posestamped__ros_msg_type * ros_message = static_cast<_Posestamped__ros_msg_type *>(untyped_ros_message);
-  // Field name: pos3d
+  // Field name: center
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Quaternion
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
       )()->data);
     if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->pos3d))
+        cdr, &ros_message->center))
     {
       return false;
     }
@@ -164,10 +164,10 @@ size_t get_serialized_size_tutorial_interfaces__msg__Posestamped(
   (void)padding;
   (void)wchar_size;
 
-  // field.name pos3d
+  // field.name center
 
-  current_alignment += get_serialized_size_geometry_msgs__msg__Quaternion(
-    &(ros_message->pos3d), current_alignment);
+  current_alignment += get_serialized_size_geometry_msgs__msg__Point(
+    &(ros_message->center), current_alignment);
   // field.name time
 
   current_alignment += get_serialized_size_std_msgs__msg__Header(
@@ -201,7 +201,7 @@ size_t max_serialized_size_tutorial_interfaces__msg__Posestamped(
   full_bounded = true;
   is_plain = true;
 
-  // member: pos3d
+  // member: center
   {
     size_t array_size = 1;
 
@@ -212,7 +212,7 @@ size_t max_serialized_size_tutorial_interfaces__msg__Posestamped(
       bool inner_is_plain;
       size_t inner_size;
       inner_size =
-        max_serialized_size_geometry_msgs__msg__Quaternion(
+        max_serialized_size_geometry_msgs__msg__Point(
         inner_full_bounded, inner_is_plain, current_alignment);
       last_member_size += inner_size;
       current_alignment += inner_size;

@@ -16,6 +16,7 @@
 #include <functional>
 #include <memory>
 #include <string>
+#include <iostream>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
@@ -43,11 +44,11 @@ private:
   void timer_callback()
   {
     auto message = tutorial_interfaces::msg::Posestamped();
-    message.pos3d.orientation.x = 0.0;
-    message.pos3d.orientation.y = 2.2;
-    message.pos3d.orientation.z = 1.1;
-    message.pos3d.orientation.w = 4.4;
-    RCLCPP_INFO(this->get_logger(), "Orientation Sent - X: %f, Y: %f, Z: %f, W: %f, time: %fs", message.pos3d.orientation.x, message.pos3d.orientation.y, message.pos3d.orientation.z, message.pos3d.orientation.w, message.time.sec);
+    message.center.x = 0.0;
+    message.center.y = 2.2;
+    message.center.z = 1.1;
+    message.time.stamp.sec = time(NULL);
+    RCLCPP_INFO(this->get_logger(), "Orientation Sent - X: %f, Y: %f, Z: %f, time: %ds", message.center.x, message.center.y, message.center.z, message.time.stamp.sec);
     publisher_->publish(message);
   }
   rclcpp::TimerBase::SharedPtr timer_;

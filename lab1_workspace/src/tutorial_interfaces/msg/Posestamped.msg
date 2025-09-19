@@ -1,2 +1,2 @@
-geometry_msgs/Quaternion pos3d
+geometry_msgs/Point center
 std_msgs/Header time

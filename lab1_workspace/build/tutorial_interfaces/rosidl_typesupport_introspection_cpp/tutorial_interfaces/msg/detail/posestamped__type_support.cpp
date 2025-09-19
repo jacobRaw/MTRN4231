@@ -39,14 +39,14 @@ void Posestamped_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember Posestamped_message_member_array[2] = {
   {
-    "pos3d",  // name
+    "center",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<geometry_msgs::msg::Quaternion>(),  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<geometry_msgs::msg::Point>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(tutorial_interfaces::msg::Posestamped, pos3d),  // bytes offset in struct
+    offsetof(tutorial_interfaces::msg::Posestamped, center),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

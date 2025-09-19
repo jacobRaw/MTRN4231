@@ -13,10 +13,10 @@
 
 
 // Include directives for member types
-// Member `pos3d`
-#include "geometry_msgs/msg/quaternion.h"
-// Member `pos3d`
-#include "geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h"
+// Member `center`
+#include "geometry_msgs/msg/point.h"
+// Member `center`
+#include "geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h"
 // Member `time`
 #include "std_msgs/msg/header.h"
 // Member `time`
@@ -43,14 +43,14 @@ void tutorial_interfaces__msg__Posestamped__rosidl_typesupport_introspection_c__
 
 static rosidl_typesupport_introspection_c__MessageMember tutorial_interfaces__msg__Posestamped__rosidl_typesupport_introspection_c__Posestamped_message_member_array[2] = {
   {
-    "pos3d",  // name
+    "center",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(tutorial_interfaces__msg__Posestamped, pos3d),  // bytes offset in struct
+    offsetof(tutorial_interfaces__msg__Posestamped, center),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -100,7 +100,7 @@ ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_tutorial_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tutorial_interfaces, msg, Posestamped)() {
   tutorial_interfaces__msg__Posestamped__rosidl_typesupport_introspection_c__Posestamped_message_member_array[0].members_ =
-    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Quaternion)();
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Point)();
   tutorial_interfaces__msg__Posestamped__rosidl_typesupport_introspection_c__Posestamped_message_member_array[1].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Header)();
   if (!tutorial_interfaces__msg__Posestamped__rosidl_typesupport_introspection_c__Posestamped_message_type_support_handle.typesupport_identifier) {

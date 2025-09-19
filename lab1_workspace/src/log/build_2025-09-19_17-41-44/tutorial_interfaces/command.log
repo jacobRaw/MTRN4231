@@ -1,0 +1,1 @@
+Invoking command in '/home/jacob/MTRN4231/lab1_workspace/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab1_workspace/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab1_workspace/src/install/tutorial_interfaces

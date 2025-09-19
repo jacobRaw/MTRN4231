@@ -42,9 +42,9 @@ class Metaclass_Posestamped(type):
             cls._TYPE_SUPPORT = module.type_support_msg__msg__posestamped
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__posestamped
 
-            from geometry_msgs.msg import Quaternion
-            if Quaternion.__class__._TYPE_SUPPORT is None:
-                Quaternion.__class__.__import_type_support__()
+            from geometry_msgs.msg import Point
+            if Point.__class__._TYPE_SUPPORT is None:
+                Point.__class__.__import_type_support__()
 
             from std_msgs.msg import Header
             if Header.__class__._TYPE_SUPPORT is None:
@@ -63,17 +63,17 @@ class Posestamped(metaclass=Metaclass_Posestamped):
     """Message class 'Posestamped'."""
 
     __slots__ = [
-        '_pos3d',
+        '_center',
         '_time',
     ]
 
     _fields_and_field_types = {
-        'pos3d': 'geometry_msgs/Quaternion',
+        'center': 'geometry_msgs/Point',
         'time': 'std_msgs/Header',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Quaternion'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Point'),  # noqa: E501
         rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
     )
 
@@ -81,8 +81,8 @@ class Posestamped(metaclass=Metaclass_Posestamped):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        from geometry_msgs.msg import Quaternion
-        self.pos3d = kwargs.get('pos3d', Quaternion())
+        from geometry_msgs.msg import Point
+        self.center = kwargs.get('center', Point())
         from std_msgs.msg import Header
         self.time = kwargs.get('time', Header())
 
@@ -115,7 +115,7 @@ class Posestamped(metaclass=Metaclass_Posestamped):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.pos3d != other.pos3d:
+        if self.center != other.center:
             return False
         if self.time != other.time:
             return False
@@ -127,18 +127,18 @@ class Posestamped(metaclass=Metaclass_Posestamped):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def pos3d(self):
-        """Message field 'pos3d'."""
-        return self._pos3d
+    def center(self):
+        """Message field 'center'."""
+        return self._center
 
-    @pos3d.setter
-    def pos3d(self, value):
+    @center.setter
+    def center(self, value):
         if __debug__:
-            from geometry_msgs.msg import Quaternion
+            from geometry_msgs.msg import Point
             assert \
-                isinstance(value, Quaternion), \
-                "The 'pos3d' field must be a sub message of type 'Quaternion'"
-        self._pos3d = value
+                isinstance(value, Point), \
+                "The 'center' field must be a sub message of type 'Point'"
+        self._center = value
 
     @builtins.property
     def time(self):

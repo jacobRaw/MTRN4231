@@ -15,8 +15,8 @@
 #include "rosidl_runtime_cpp/traits.hpp"
 
 // Include directives for member types
-// Member 'pos3d'
-#include "geometry_msgs/msg/detail/quaternion__traits.hpp"
+// Member 'center'
+#include "geometry_msgs/msg/detail/point__traits.hpp"
 // Member 'time'
 #include "std_msgs/msg/detail/header__traits.hpp"
 
@@ -31,10 +31,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: pos3d
+  // member: center
   {
-    out << "pos3d: ";
-    to_flow_style_yaml(msg.pos3d, out);
+    out << "center: ";
+    to_flow_style_yaml(msg.center, out);
     out << ", ";
   }
 
@@ -50,13 +50,13 @@ inline void to_block_style_yaml(
   const Posestamped & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: pos3d
+  // member: center
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "pos3d:\n";
-    to_block_style_yaml(msg.pos3d, out, indentation + 2);
+    out << "center:\n";
+    to_block_style_yaml(msg.center, out, indentation + 2);
   }
 
   // member: time
@@ -115,11 +115,11 @@ inline const char * name<tutorial_interfaces::msg::Posestamped>()
 
 template<>
 struct has_fixed_size<tutorial_interfaces::msg::Posestamped>
-  : std::integral_constant<bool, has_fixed_size<geometry_msgs::msg::Quaternion>::value && has_fixed_size<std_msgs::msg::Header>::value> {};
+  : std::integral_constant<bool, has_fixed_size<geometry_msgs::msg::Point>::value && has_fixed_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct has_bounded_size<tutorial_interfaces::msg::Posestamped>
-  : std::integral_constant<bool, has_bounded_size<geometry_msgs::msg::Quaternion>::value && has_bounded_size<std_msgs::msg::Header>::value> {};
+  : std::integral_constant<bool, has_bounded_size<geometry_msgs::msg::Point>::value && has_bounded_size<std_msgs::msg::Header>::value> {};
 
 template<>
 struct is_message<tutorial_interfaces::msg::Posestamped>

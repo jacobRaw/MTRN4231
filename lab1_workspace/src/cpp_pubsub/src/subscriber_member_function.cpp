@@ -19,6 +19,7 @@
 #include "std_msgs/msg/string.hpp"
 #include "std_msgs/msg/int64.hpp"
 #include "geometry_msgs/msg/pose.hpp"
+#include "tutorial_interfaces/msg/posestamped.hpp"
 
 using std::placeholders::_1;
 
@@ -28,16 +29,16 @@ public:
   MinimalSubscriber()
   : Node("minimal_subscriber")
   {
-    subscription_ = this->create_subscription<geometry_msgs::msg::Pose>(
+    subscription_ = this->create_subscription<tutorial_interfaces::msg::Posestamped>(
       "lab1_topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
   }
 
 private:
-  void topic_callback(const geometry_msgs::msg::Pose & msg) const
+  void topic_callback(const tutorial_interfaces::msg::Posestamped & msg) const
   {
-    RCLCPP_INFO(this->get_logger(), "Orientation recieved - X: %f, Y: %f, Z: %f, W: %f", msg.orientation.x, msg.orientation.y, msg.orientation.z, msg.orientation.w);
+    RCLCPP_INFO(this->get_logger(), "Position recieved - X: %f, Y: %f, Z: %f, time: %ds", msg.center.x, msg.center.y, msg.center.z, msg.time.stamp.sec);
   }
-  rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr subscription_;
+  rclcpp::Subscription<tutorial_interfaces::msg::Posestamped>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])

@@ -1,0 +1,27 @@
+[01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:49:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _center_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+   49 |     message.center.[01;31m[Kw[m[K = 4.4;
+      |                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:50:166:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _center_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+   50 |  "Orientation Sent - X: %f, Y: %f, Z: %f, W: %f, time: %fs", message.center.x, message.center.y, message.center.z, message.center.[01;31m[Kw[m[K, message.time.sec);
+      |                                                                                                                                   [01;31m[K^[m[K
+
+[01m[K/home/jacob/MTRN4231/lab1_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:50:182:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _time_type = struct std_msgs::msg::Header_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksec[m[K’
+   50 | ion Sent - X: %f, Y: %f, Z: %f, W: %f, time: %fs", message.center.x, message.center.y, message.center.z, message.center.w, message.time.[01;31m[Ksec[m[K);
+      |                                                                                                                                         [01;31m[K^~~[m[K
+
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
