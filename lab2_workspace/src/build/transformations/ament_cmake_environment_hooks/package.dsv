@@ -1,0 +1,4 @@
+source;share/transformations/local_setup.bash
+source;share/transformations/local_setup.dsv
+source;share/transformations/local_setup.sh
+source;share/transformations/local_setup.zsh

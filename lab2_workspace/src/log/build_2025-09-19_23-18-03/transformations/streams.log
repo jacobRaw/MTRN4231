@@ -1,0 +1,14 @@
+[0.036s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target tf_listener[0m
+[0.193s] [ 33%] Built target static_broadcaster
+[0.206s] [ 66%] Built target dynamic_broadcaster
+[0.219s] [ 83%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/listener_transformation.cpp.o[0m
+[5.074s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:[m[K In member function ‘[01m[Kvoid TF2Listener::tfCallback()[m[K’:
+[5.075s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:32:68:[m[K [01;31m[Kerror: [m[K‘[01m[KtimePointZero[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KTimePointZero[m[K’?
+[5.075s]    32 |     t = tf_buffer_->lookupTransform(fromFrameRel, toFrameRel, tf2::[01;31m[KtimePointZero[m[K);
+[5.075s]       |                                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[5.075s]       |                                                                    [32m[KTimePointZero[m[K
+[6.002s] gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:76: CMakeFiles/tf_listener.dir/src/listener_transformation.cpp.o] Error 1
+[6.002s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tf_listener.dir/all] Error 2
+[6.003s] gmake: *** [Makefile:146: all] Error 2
+[6.006s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8

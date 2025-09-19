@@ -1,0 +1,192 @@
+[0.250s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb7cdd6d720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb7cdd6cc70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb7cdd6cc70>>, mixin_verb=('build',))
+[0.631s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.631s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.632s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jacob/MTRN4231/lab2_workspace/src'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(Transformations) by extension 'ros'
+[0.650s] DEBUG:colcon.colcon_core.package_identification:Package 'Transformations' with type 'ros.ament_cmake' and name 'Transformations'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(lab2_client_service) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'lab2_client_service' with type 'ros.ament_cmake' and name 'lab2_client_service'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.746s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.748s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'cmake_target' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'cmake_clean_first' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'cmake_force_configure' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'ament_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'Transformations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.796s] DEBUG:colcon.colcon_core.verb:Building package 'Transformations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations', 'merge_install': False, 'path': '/home/jacob/MTRN4231/lab2_workspace/src/Transformations', 'symlink_install': False, 'test_result_base': None}
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'cmake_target' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'lab2_client_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.797s] DEBUG:colcon.colcon_core.verb:Building package 'lab2_client_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service', 'merge_install': False, 'path': '/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service', 'symlink_install': False, 'test_result_base': None}
+[0.797s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.798s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jacob/MTRN4231/lab2_workspace/src/Transformations' with build type 'ament_cmake'
+[0.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jacob/MTRN4231/lab2_workspace/src/Transformations'
+[0.804s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.809s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service' with build type 'ament_cmake'
+[0.809s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service'
+[0.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab2_workspace/src/Transformations -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service
+[3.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service
+[3.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8
+[3.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab2_workspace/src/Transformations -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations
+[3.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/Transformations -- -j8 -l8
+[3.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/Transformations -- -j8 -l8
+[3.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/Transformations
+[3.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Transformations)
+[3.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/Transformations
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations' for CMake module files
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations' for CMake config files
+[3.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('Transformations', 'cmake_prefix_path')
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/hook/cmake_prefix_path.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/hook/cmake_prefix_path.dsv'
+[3.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/hook/cmake_prefix_path.sh'
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/bin'
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/lib/pkgconfig/Transformations.pc'
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/lib/python3.10/site-packages'
+[3.920s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/bin'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.ps1'
+[3.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.dsv'
+[3.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.sh'
+[3.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.bash'
+[3.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.zsh'
+[3.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/colcon-core/packages/Transformations)
+[3.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Transformations)
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations' for CMake module files
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations' for CMake config files
+[3.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('Transformations', 'cmake_prefix_path')
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/hook/cmake_prefix_path.ps1'
+[3.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/hook/cmake_prefix_path.dsv'
+[3.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/hook/cmake_prefix_path.sh'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/bin'
+[3.947s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/lib/pkgconfig/Transformations.pc'
+[3.947s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/lib/python3.10/site-packages'
+[3.948s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/bin'
+[3.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.ps1'
+[3.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.dsv'
+[3.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.sh'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.bash'
+[3.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/Transformations/package.zsh'
+[3.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/lab2_workspace/src/install/Transformations/share/colcon-core/packages/Transformations)
+[11.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8
+[11.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service
+[11.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_client_service)
+[11.099s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service' for CMake module files
+[11.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service
+[11.101s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service' for CMake config files
+[11.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_client_service', 'cmake_prefix_path')
+[11.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/hook/cmake_prefix_path.ps1'
+[11.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/hook/cmake_prefix_path.dsv'
+[11.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/hook/cmake_prefix_path.sh'
+[11.117s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib'
+[11.119s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/bin'
+[11.120s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/pkgconfig/lab2_client_service.pc'
+[11.122s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/python3.10/site-packages'
+[11.124s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/bin'
+[11.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.ps1'
+[11.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.dsv'
+[11.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.sh'
+[11.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.bash'
+[11.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.zsh'
+[11.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/colcon-core/packages/lab2_client_service)
+[11.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_client_service)
+[11.133s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service' for CMake module files
+[11.134s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service' for CMake config files
+[11.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_client_service', 'cmake_prefix_path')
+[11.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/hook/cmake_prefix_path.ps1'
+[11.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/hook/cmake_prefix_path.dsv'
+[11.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/hook/cmake_prefix_path.sh'
+[11.138s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib'
+[11.139s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/bin'
+[11.139s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/pkgconfig/lab2_client_service.pc'
+[11.139s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/python3.10/site-packages'
+[11.140s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/bin'
+[11.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.ps1'
+[11.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.dsv'
+[11.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.sh'
+[11.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.bash'
+[11.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.zsh'
+[11.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/colcon-core/packages/lab2_client_service)
+[11.145s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.146s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.157s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.186s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/lab2_workspace/src/install/local_setup.ps1'
+[11.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/MTRN4231/lab2_workspace/src/install/_local_setup_util_ps1.py'
+[11.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/lab2_workspace/src/install/setup.ps1'
+[11.201s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/lab2_workspace/src/install/local_setup.sh'
+[11.205s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/MTRN4231/lab2_workspace/src/install/_local_setup_util_sh.py'
+[11.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/lab2_workspace/src/install/setup.sh'
+[11.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/lab2_workspace/src/install/local_setup.bash'
+[11.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/lab2_workspace/src/install/setup.bash'
+[11.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/lab2_workspace/src/install/local_setup.zsh'
+[11.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/lab2_workspace/src/install/setup.zsh'

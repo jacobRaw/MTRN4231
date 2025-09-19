@@ -1,0 +1,4 @@
+source;share/lab2_client_service/local_setup.bash
+source;share/lab2_client_service/local_setup.dsv
+source;share/lab2_client_service/local_setup.sh
+source;share/lab2_client_service/local_setup.zsh

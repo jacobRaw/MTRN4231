@@ -1,0 +1,51 @@
+[0.021s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8
+[0.066s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.368s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.372s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.379s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.559s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.560s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.759s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.833s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.881s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.030s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.152s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.152s] -- Configured cppcheck include dirs: 
+[1.152s] -- Configured cppcheck exclude dirs and/or files: 
+[1.153s] -- Added test 'lint_cmake' to check CMake code style
+[1.154s] -- Added test 'uncrustify' to check C / C++ code style
+[1.154s] -- Configured uncrustify additional arguments: 
+[1.155s] -- Added test 'xmllint' to check XML markup files
+[1.156s] -- Configuring done
+[1.170s] -- Generating done
+[1.175s] -- Build files have been written to: /home/jacob/MTRN4231/lab2_workspace/src/build/transformations
+[1.251s] [ 50%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_camera_transformation.cpp.o[0m
+[5.446s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:[m[K In constructor ‘[01m[KStaticTFBroadcaster::StaticTFBroadcaster()[m[K’:
+[5.446s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KVector3[m[K’
+[5.446s]    18 |     transformStamped_.transform.[01;31m[KVector3[m[K.x = 1.2;
+[5.446s]       |                                 [01;31m[K^~~~~~~[m[K
+[5.446s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KVector3[m[K’
+[5.446s]    19 |     transformStamped_.transform.[01;31m[KVector3[m[K.y = 0;
+[5.446s]       |                                 [01;31m[K^~~~~~~[m[K
+[5.447s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:20:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KVector3[m[K’
+[5.447s]    20 |     transformStamped_.transform.[01;31m[KVector3[m[K.z = 1.0;
+[5.447s]       |                                 [01;31m[K^~~~~~~[m[K
+[5.447s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:21:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+[5.447s]    21 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.w = 0.924;
+[5.447s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[5.447s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:22:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+[5.447s]    22 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.x = 0;
+[5.447s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[5.447s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:23:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+[5.447s]    23 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.y = 0;
+[5.447s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[5.447s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:24:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+[5.447s]    24 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.z = -0.383;
+[5.447s]       |                                 [01;31m[K^~~~~~~~~~[m[K
+[6.710s] gmake[2]: *** [CMakeFiles/static_broadcaster.dir/build.make:76: CMakeFiles/static_broadcaster.dir/src/static_camera_transformation.cpp.o] Error 1
+[6.710s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/static_broadcaster.dir/all] Error 2
+[6.710s] gmake: *** [Makefile:146: all] Error 2
+[6.713s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8

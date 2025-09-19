@@ -1,0 +1,33 @@
+[0.062s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target tf_listener[0m
+[0.233s] [ 50%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_camera_transformation.cpp.o[0m
+[0.234s] [ 50%] Built target dynamic_broadcaster
+[0.254s] [ 66%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/listener_transformation.cpp.o[0m
+[7.630s] [ 83%] [32m[1mLinking CXX executable tf_listener[0m
+[7.956s] [ 83%] Built target tf_listener
+[8.993s] [100%] [32m[1mLinking CXX executable static_broadcaster[0m
+[9.400s] [100%] Built target static_broadcaster
+[9.423s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8
+[9.426s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/transformations
+[9.440s] -- Install configuration: ""
+[9.441s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/static_broadcaster
+[9.444s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/static_broadcaster" to ""
+[9.446s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/dynamic_broadcaster
+[9.446s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/tf_listener
+[9.449s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/tf_listener" to ""
+[9.449s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/ament_index/resource_index/package_run_dependencies/transformations
+[9.450s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/ament_index/resource_index/parent_prefix_path/transformations
+[9.450s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/ament_prefix_path.sh
+[9.450s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/ament_prefix_path.dsv
+[9.450s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/path.sh
+[9.451s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/path.dsv
+[9.451s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.bash
+[9.451s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.sh
+[9.451s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.zsh
+[9.451s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.dsv
+[9.452s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/package.dsv
+[9.452s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/ament_index/resource_index/packages/transformations
+[9.452s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/cmake/transformationsConfig.cmake
+[9.452s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/cmake/transformationsConfig-version.cmake
+[9.452s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/package.xml
+[9.459s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/transformations

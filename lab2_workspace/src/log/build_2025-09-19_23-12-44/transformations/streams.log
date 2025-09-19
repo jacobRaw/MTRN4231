@@ -1,0 +1,46 @@
+[0.035s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target tf_listener[0m
+[0.201s] [ 33%] Built target static_broadcaster
+[0.208s] [ 66%] Built target dynamic_broadcaster
+[0.231s] [ 83%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/listener_transformation.cpp.o[0m
+[5.114s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:[m[K In member function ‘[01m[Kvoid TF2Listener::tfCallback()[m[K’:
+[5.114s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:32:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::lookupTransform(std::string&, std::string&, double)[m[K’
+[5.114s]    32 |     t = [01;31m[Ktf_buffer_->lookupTransform(fromFrameRel, toFrameRel, rclcpp::Clock().now().seconds())[m[K;
+[5.115s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.115s] In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[5.115s]                  from [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:9[m[K:
+[5.116s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:90:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const string&, const TimePoint&, tf2::Duration) const[m[K’
+[5.116s]    90 |   [01;36m[KlookupTransform[m[K(
+[5.116s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.122s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:90:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[5.122s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:100:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const string&, const rclcpp::Time&, rclcpp::Duration) const[m[K’
+[5.122s]   100 |   [01;36m[KlookupTransform[m[K(
+[5.123s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.123s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:102:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst rclcpp::Time&[m[K’
+[5.123s]   102 |     [01;36m[Kconst rclcpp::Time & time[m[K,
+[5.123s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.123s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:122:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const TimePoint&, const string&, const TimePoint&, const string&, tf2::Duration) const[m[K’
+[5.124s]   122 |   [01;36m[KlookupTransform[m[K(
+[5.124s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.124s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:122:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 3 provided
+[5.124s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::TransformStamped tf2_ros::Buffer::lookupTransform(const string&, const rclcpp::Time&, const string&, const rclcpp::Time&, const string&, rclcpp::Duration) const[m[K’
+[5.125s]   134 |   [01;36m[KlookupTransform[m[K(
+[5.125s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.125s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 3 provided
+[5.125s] In file included from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.hpp:40[m[K,
+[5.126s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:35[m[K,
+[5.126s]                  from [01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:8[m[K:
+[5.126s] [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:156:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const TimePoint&, const string&, const TimePoint&, const string&) const[m[K’
+[5.126s]   156 |   [01;36m[KlookupTransform[m[K(
+[5.126s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.127s] [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:156:3:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 3 provided
+[5.127s] [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:138:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const string&, const TimePoint&) const[m[K’
+[5.127s]   138 |   [01;36m[KlookupTransform[m[K(
+[5.127s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.127s] [01m[K/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:140:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst TimePoint&[m[K’ {aka ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&[m[K’}
+[5.127s]   140 |     [01;36m[Kconst TimePoint & time[m[K) const override;
+[5.128s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.071s] gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:76: CMakeFiles/tf_listener.dir/src/listener_transformation.cpp.o] Error 1
+[6.072s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tf_listener.dir/all] Error 2
+[6.072s] gmake: *** [Makefile:146: all] Error 2
+[6.076s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8

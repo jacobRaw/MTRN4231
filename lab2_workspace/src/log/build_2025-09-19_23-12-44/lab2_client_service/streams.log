@@ -1,0 +1,24 @@
+[0.034s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8
+[0.197s] [ 50%] Built target int_addition_client
+[0.207s] [100%] Built target int_addition_server
+[0.238s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8
+[0.259s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service
+[0.275s] -- Install configuration: ""
+[0.277s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/lab2_client_service/int_addition_server
+[0.281s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/lab2_client_service/int_addition_client
+[0.282s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/ament_index/resource_index/package_run_dependencies/lab2_client_service
+[0.282s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/ament_index/resource_index/parent_prefix_path/lab2_client_service
+[0.282s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/environment/ament_prefix_path.sh
+[0.283s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/environment/ament_prefix_path.dsv
+[0.283s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/environment/path.sh
+[0.283s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/environment/path.dsv
+[0.283s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/local_setup.bash
+[0.284s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/local_setup.sh
+[0.284s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/local_setup.zsh
+[0.284s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/local_setup.dsv
+[0.285s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.dsv
+[0.286s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/ament_index/resource_index/packages/lab2_client_service
+[0.286s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/cmake/lab2_client_serviceConfig.cmake
+[0.288s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/cmake/lab2_client_serviceConfig-version.cmake
+[0.288s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/package.xml
+[0.288s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service

@@ -1,0 +1,11 @@
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/uninstall.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/lab2_client_service_uninstall.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/int_addition_server.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/int_addition_client.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/test.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/edit_cache.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/rebuild_cache.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/list_install_components.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/install.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/install/local.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/install/strip.dir

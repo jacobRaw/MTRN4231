@@ -1,0 +1,5 @@
+[0.018s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/Transformations -- -j8 -l8
+[0.056s] [0mCMake Error: The source directory "/home/jacob/MTRN4231/lab2_workspace/src/Transformations" does not exist.
+[0.057s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.058s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.065s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/Transformations -- -j8 -l8

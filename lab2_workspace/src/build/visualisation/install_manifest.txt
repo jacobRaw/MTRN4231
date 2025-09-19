@@ -1,0 +1,15 @@
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/package_run_dependencies/visualisation
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/parent_prefix_path/visualisation
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/ament_prefix_path.sh
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/ament_prefix_path.dsv
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/path.sh
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/path.dsv
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.bash
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.sh
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.zsh
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.dsv
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/package.dsv
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/packages/visualisation
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/cmake/visualisationConfig.cmake
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/cmake/visualisationConfig-version.cmake
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/package.xml

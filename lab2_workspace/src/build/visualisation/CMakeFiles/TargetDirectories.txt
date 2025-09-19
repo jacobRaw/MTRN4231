@@ -1,0 +1,9 @@
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/uninstall.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/visualisation_uninstall.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/test.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/edit_cache.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/rebuild_cache.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/list_install_components.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/install.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/install/local.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles/install/strip.dir

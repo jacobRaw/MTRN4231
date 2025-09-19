@@ -1,0 +1,25 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:[m[K In constructor ‘[01m[KStaticTFBroadcaster::StaticTFBroadcaster()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KVector3[m[K’
+   18 |     transformStamped_.transform.[01;31m[KVector3[m[K.x = 1.2;
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KVector3[m[K’
+   19 |     transformStamped_.transform.[01;31m[KVector3[m[K.y = 0;
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:20:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KVector3[m[K’
+   20 |     transformStamped_.transform.[01;31m[KVector3[m[K.z = 1.0;
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:21:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+   21 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.w = 0.924;
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:22:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+   22 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.x = 0;
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:23:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+   23 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.y = 0;
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/static_camera_transformation.cpp:24:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _transform_type = struct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} has no member named ‘[01m[KQuaternion[m[K’
+   24 |     transformStamped_.transform.[01;31m[KQuaternion[m[K.z = -0.383;
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/static_broadcaster.dir/build.make:76: CMakeFiles/static_broadcaster.dir/src/static_camera_transformation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/static_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

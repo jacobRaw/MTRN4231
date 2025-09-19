@@ -1,0 +1,8 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:[m[K In member function ‘[01m[Kvoid TF2Listener::tfCallback()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/transformations/src/listener_transformation.cpp:32:68:[m[K [01;31m[Kerror: [m[K‘[01m[KtimePointZero[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KTimePointZero[m[K’?
+   32 |     t = tf_buffer_->lookupTransform(fromFrameRel, toFrameRel, tf2::[01;31m[KtimePointZero[m[K);
+      |                                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                    [32m[KTimePointZero[m[K
+gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:76: CMakeFiles/tf_listener.dir/src/listener_transformation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tf_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

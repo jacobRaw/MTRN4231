@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target int_addition_client[0m
+[35m[1mConsolidate compiler generated dependencies of target int_addition_server[0m
+[ 50%] Built target int_addition_server
+[100%] Built target int_addition_client

@@ -1,0 +1,9 @@
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/uninstall.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/Transformations_uninstall.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/test.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/edit_cache.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/rebuild_cache.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/list_install_components.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/install.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/install/local.dir
+/home/jacob/MTRN4231/lab2_workspace/src/build/Transformations/CMakeFiles/install/strip.dir
