@@ -1,0 +1,55 @@
+[0.014s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': AMENT_PREFIX_PATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8
+[0.074s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.392s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.404s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.482s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.484s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.733s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.786s] -- Found interface: 0.0.0 (/home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake)
+[0.940s] Error parsing '/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/package.xml':
+[1.009s] Traceback (most recent call last):
+[1.009s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.013s]     root = dom.parseString(data)
+[1.014s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.018s]     return expatbuilder.parseString(string)
+[1.019s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.021s]     return builder.parseString(string)
+[1.023s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.024s]     parser.Parse(string, True)
+[1.025s] xml.parsers.expat.ExpatError: mismatched tag: line 17, column 4
+[1.026s] 
+[1.027s] During handling of the above exception, another exception occurred:
+[1.028s] 
+[1.030s] Traceback (most recent call last):
+[1.031s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.032s]     main()
+[1.033s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.034s]     raise e
+[1.035s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.036s]     package = parse_package_string(
+[1.037s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.038s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.039s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/package.xml':
+[1.040s] The manifest contains invalid XML:
+[1.041s] mismatched tag: line 17, column 4
+[1.070s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.071s]   execute_process(/usr/bin/python3
+[1.071s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.071s]   /home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/package.xml
+[1.071s]   /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/ament_cmake_core/package.cmake)
+[1.071s]   returned error code 1
+[1.071s] Call Stack (most recent call first):
+[1.071s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.071s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.072s]   CMakeLists.txt:23 (ament_package)
+[1.072s] 
+[1.072s] [0m
+[1.072s] -- Configuring incomplete, errors occurred!
+[1.072s] See also "/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles/CMakeOutput.log".
+[1.084s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[1.088s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '2': AMENT_PREFIX_PATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8

@@ -1,0 +1,26 @@
+[0.038s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8
+[0.182s] [ 33%] Built target dynamic_broadcaster
+[0.188s] [ 66%] Built target static_broadcaster
+[0.217s] [100%] Built target tf_listener
+[0.263s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/transformations -- -j8 -l8
+[0.266s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/transformations
+[0.289s] -- Install configuration: ""
+[0.289s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/static_broadcaster
+[0.289s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/dynamic_broadcaster
+[0.289s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/lib/transformations/tf_listener
+[0.290s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/ament_index/resource_index/package_run_dependencies/transformations
+[0.290s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/ament_index/resource_index/parent_prefix_path/transformations
+[0.290s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/ament_prefix_path.sh
+[0.291s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/path.sh
+[0.291s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/environment/path.dsv
+[0.291s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.bash
+[0.291s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.sh
+[0.292s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.zsh
+[0.292s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/local_setup.dsv
+[0.292s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/package.dsv
+[0.292s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/ament_index/resource_index/packages/transformations
+[0.292s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/cmake/transformationsConfig.cmake
+[0.293s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/cmake/transformationsConfig-version.cmake
+[0.293s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/transformations/share/transformations/package.xml
+[0.327s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/transformations' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/transformations

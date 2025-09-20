@@ -1,0 +1,2 @@
+Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab2_workspace/src/interface -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab2_workspace/src/install/interface
+Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/lab2_workspace/src/interface -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/lab2_workspace/src/install/interface

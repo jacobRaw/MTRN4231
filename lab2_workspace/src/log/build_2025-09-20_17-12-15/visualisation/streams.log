@@ -1,0 +1,53 @@
+[0.052s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8
+[0.205s] [35m[1mConsolidate compiler generated dependencies of target OOI[0m
+[0.313s] [ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[6.028s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry[m[K’ does not name a type
+[6.028s]    55 |   [01;31m[Kgeometry[m[K::msgs::Pose call_servce(string fromFrame, string toFrame) {
+[6.029s]       |   [01;31m[K^~~~~~~~[m[K
+[6.217s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[6.217s]   137 |    rclcpp::Client<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr client_;
+[6.217s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.217s]       |                   [32m[Krcl_interfaces[m[K
+[6.217s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.218s]   137 |    rclcpp::Client<example_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr client_;
+[6.218s]       |                                                      [01;31m[K^[m[K
+[6.218s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.218s]   137 |    rclcpp::Client<example_interfaces::srv::AddTwoInts>::[01;31m[KSharedPtr[m[K client_;
+[6.218s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[6.218s]       |                                                                  [32m[K;[m[K
+[6.220s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+[6.220s]   137 |    rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kclient_[m[K;
+[6.220s]       |                                                                   [01;31m[K^~~~~~~[m[K
+[6.284s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In constructor ‘[01m[KSpherePublisher::SpherePublisher()[m[K’:
+[6.284s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[6.284s]    46 |     [01;31m[Kclient_[m[K = create_client<my_interface::srv::Lookup>("lookup_server");
+[6.284s]       |     [01;31m[K^~~~~~~[m[K
+[6.296s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In member function ‘[01m[Kvoid SpherePublisher::spherepub_callback()[m[K’:
+[6.296s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:98:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_servce[m[K’ is not a member of ‘[01m[KSpherePublisher[m[K’
+[6.296s]    98 |     t = SpherePublisher::[01;31m[Kcall_servce[m[K("map", "OOI");
+[6.296s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[6.296s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:111:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+[6.297s]   111 |     marker.pose.position.x = t.[01;31m[Ktranslation[m[K.x;
+[6.297s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[6.297s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:112:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+[6.297s]   112 |     marker.pose.position.y = t.[01;31m[Ktranslation[m[K.y;
+[6.297s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[6.297s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:113:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+[6.297s]   113 |     marker.pose.position.z = t.[01;31m[Ktranslation[m[K.z;
+[6.298s]       |                                [01;31m[K^~~~~~~~~~~[m[K
+[6.298s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:114:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.298s]   114 |     marker.pose.orientation.x = t.[01;31m[Krotation[m[K.x;
+[6.298s]       |                                   [01;31m[K^~~~~~~~[m[K
+[6.298s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:115:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.299s]   115 |     marker.pose.orientation.y = t.[01;31m[Krotation[m[K.y;
+[6.299s]       |                                   [01;31m[K^~~~~~~~[m[K
+[6.299s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:116:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.299s]   116 |     marker.pose.orientation.z = t.[01;31m[Krotation[m[K.z;
+[6.299s]       |                                   [01;31m[K^~~~~~~~[m[K
+[6.299s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:117:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.300s]   117 |     marker.pose.orientation.w = t.[01;31m[Krotation[m[K.w;
+[6.300s]       |                                   [01;31m[K^~~~~~~~[m[K
+[8.619s] gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+[8.619s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+[8.619s] gmake: *** [Makefile:146: all] Error 2
+[8.623s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8

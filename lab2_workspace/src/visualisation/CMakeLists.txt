@@ -15,9 +15,10 @@ find_package(visualization_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(my_interface REQUIRED)
 
 add_executable(OOI src/OOI.cpp)
-ament_target_dependencies(OOI rclcpp visualization_msgs tf2 tf2_ros geometry_msgs)
+ament_target_dependencies(OOI rclcpp visualization_msgs tf2 tf2_ros geometry_msgs my_interface)
 
 install(TARGETS
   OOI

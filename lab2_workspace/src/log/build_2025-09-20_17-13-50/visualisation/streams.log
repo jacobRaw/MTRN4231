@@ -1,0 +1,14 @@
+[0.061s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target OOI[0m
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[6.236s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry[m[K’ does not name a type
+[6.237s]    55 |   [01;31m[Kgeometry[m[K::msgs::Pose call_servce(string fromFrame, string toFrame) {
+[6.237s]       |   [01;31m[K^~~~~~~~[m[K
+[6.439s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In member function ‘[01m[Kvoid SpherePublisher::spherepub_callback()[m[K’:
+[6.439s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:98:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_servce[m[K’ is not a member of ‘[01m[KSpherePublisher[m[K’
+[6.439s]    98 |     t = SpherePublisher::[01;31m[Kcall_servce[m[K("map", "OOI");
+[6.439s]       |                          [01;31m[K^~~~~~~~~~~[m[K
+[8.613s] gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+[8.613s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+[8.613s] gmake: *** [Makefile:146: all] Error 2
+[8.616s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8

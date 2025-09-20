@@ -1,0 +1,5 @@
+[ 33%] Built target static_broadcaster
+[ 66%] Built target dynamic_broadcaster
+[ 83%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/listener_transformation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tf_listener[0m
+[100%] Built target tf_listener

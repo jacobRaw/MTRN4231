@@ -35,7 +35,6 @@ private:
     } else {
         RCLCPP_ERROR(get_logger(), "Service call failed");
     }
-    
 
   }
 

@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_ser
 # The main recursive "all" target.
 all: CMakeFiles/int_addition_server.dir/all
 all: CMakeFiles/int_addition_client.dir/all
+all: CMakeFiles/lookup_server.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/lab2_client_service_uninstall.dir/clean
 clean: CMakeFiles/int_addition_server.dir/clean
 clean: CMakeFiles/int_addition_client.dir/clean
+clean: CMakeFiles/lookup_server.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -181,6 +183,32 @@ int_addition_client: CMakeFiles/int_addition_client.dir/rule
 CMakeFiles/int_addition_client.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_addition_client.dir/build.make CMakeFiles/int_addition_client.dir/clean
 .PHONY : CMakeFiles/int_addition_client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lookup_server.dir
+
+# All Build rule for target.
+CMakeFiles/lookup_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lookup_server.dir/build.make CMakeFiles/lookup_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lookup_server.dir/build.make CMakeFiles/lookup_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles --progress-num=5,6 "Built target lookup_server"
+.PHONY : CMakeFiles/lookup_server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lookup_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lookup_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service/CMakeFiles 0
+.PHONY : CMakeFiles/lookup_server.dir/rule
+
+# Convenience name for target.
+lookup_server: CMakeFiles/lookup_server.dir/rule
+.PHONY : lookup_server
+
+# clean rule for target.
+CMakeFiles/lookup_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lookup_server.dir/build.make CMakeFiles/lookup_server.dir/clean
+.PHONY : CMakeFiles/lookup_server.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

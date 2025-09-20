@@ -1,0 +1,72 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:44:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   44 |   rclcpp::Service<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr srv_;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Krcl_interfaces[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:44:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |   rclcpp::Service<example_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr srv_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:44:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |   rclcpp::Service<example_interfaces::srv::AddTwoInts>::[01;31m[KSharedPtr[m[K srv_;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:44:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv_[m[K’ does not name a type
+   44 |   rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Ksrv_[m[K;
+      |                                                                   [01;31m[K^~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:[m[K In constructor ‘[01m[KLookupServer::LookupServer()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv_[m[K’ was not declared in this scope
+   14 |     [01;31m[Ksrv_[m[K = create_service<interface::srv::Lookup>("lookup_server",
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:[m[K In member function ‘[01m[Kvoid LookupServer::getTF(std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >, std::shared_ptr<interface::srv::Lookup_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[KfromFrameRel[m[K’ was not declared in this scope
+   26 |     [01;31m[KfromFrameRel[m[K = "map";
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[KtoFrameRel[m[K’ was not declared in this scope
+   27 |     [01;31m[KtoFrameRel[m[K = "OOI";
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:29:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kfromfram[m[K’
+   29 |       t = tf_buffer_->lookupTransform(request.[01;31m[Kfromfram[m[K, request.toframe, tf2::TimePointZero);
+      |                                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:29:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktoframe[m[K’
+   29 |       t = tf_buffer_->lookupTransform(request.fromfram, request.[01;31m[Ktoframe[m[K, tf2::TimePointZero);
+      |                                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:35:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+   35 |     response->pose.[01;31m[Ktranslation[m[K.x = t.transform.translation.x;
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:36:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+   36 |     response->pose.[01;31m[Ktranslation[m[K.y = t.transform.translation.y;
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:37:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+   37 |     response->pose.[01;31m[Ktranslation[m[K.z = t.transform.translation.z;
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:38:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+   38 |     response->pose.[01;31m[Krotation[m[K.x = t.transform.rotation.x;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:39:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+   39 |     response->pose.[01;31m[Krotation[m[K.y = t.transform.rotation.y;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:40:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+   40 |     response->pose.[01;31m[Krotation[m[K.z = t.transform.rotation.z;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:41:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+   41 |     response->pose.[01;31m[Krotation[m[K.w = t.transform.rotation.w;
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:52:34:[m[K [01;31m[Kerror: [m[K‘[01m[KIntAdditionServer[m[K’ was not declared in this scope
+   52 |   auto server = std::make_shared<[01;31m[KIntAdditionServer[m[K>();
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:52:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   52 |   auto server = [01;31m[Kstd::make_shared<IntAdditionServer>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:52:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |   auto server = [01;31m[Kstd::make_shared<IntAdditionServer>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/lookup_server.dir/build.make:76: CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lookup_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

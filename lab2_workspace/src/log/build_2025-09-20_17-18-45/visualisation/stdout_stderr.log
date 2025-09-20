@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target OOI[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:99:38:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+   99 |     t = SpherePublisher::call_servce([01;35m[K'map'[m[K, 'OOI');
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:99:45:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+   99 |     t = SpherePublisher::call_servce('map', [01;35m[K'OOI'[m[K);
+      |                                             [01;35m[K^~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:56:40:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ has not been declared
+   56 |   geometry_msgs::msg::Pose call_servce([01;31m[KString[m[K fromFrame, String toFrame) {
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:56:58:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ has not been declared
+   56 |   geometry_msgs::msg::Pose call_servce(String fromFrame, [01;31m[KString[m[K toFrame) {
+      |                                                          [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

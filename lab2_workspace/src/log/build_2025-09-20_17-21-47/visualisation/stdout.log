@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target OOI[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[100%] [32m[1mLinking CXX executable OOI[0m
+[100%] Built target OOI
+-- Install configuration: ""
+-- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/lib/visualisation/OOI
+-- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/lib/visualisation/OOI" to ""
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/package_run_dependencies/visualisation
+-- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/parent_prefix_path/visualisation
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/ament_prefix_path.sh
+-- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/path.sh
+-- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/path.dsv
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.bash
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.sh
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.zsh
+-- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.dsv
+-- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/package.dsv
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/packages/visualisation
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/cmake/visualisationConfig.cmake
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/cmake/visualisationConfig-version.cmake
+-- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/package.xml

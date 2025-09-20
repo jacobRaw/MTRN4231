@@ -1,0 +1,26 @@
+[0.058s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target OOI[0m
+[0.306s] [ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[12.745s] [100%] [32m[1mLinking CXX executable OOI[0m
+[13.528s] [100%] Built target OOI
+[13.570s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8
+[13.572s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation
+[13.588s] -- Install configuration: ""
+[13.588s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/lib/visualisation/OOI
+[13.591s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/lib/visualisation/OOI" to ""
+[13.591s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/package_run_dependencies/visualisation
+[13.591s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/parent_prefix_path/visualisation
+[13.592s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/ament_prefix_path.sh
+[13.592s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/ament_prefix_path.dsv
+[13.592s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/path.sh
+[13.592s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/path.dsv
+[13.593s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.bash
+[13.593s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.sh
+[13.593s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.zsh
+[13.593s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/local_setup.dsv
+[13.593s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/package.dsv
+[13.593s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/packages/visualisation
+[13.594s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/cmake/visualisationConfig.cmake
+[13.594s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/cmake/visualisationConfig-version.cmake
+[13.594s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/package.xml
+[13.598s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation

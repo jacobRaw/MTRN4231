@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target lookup_server[0m
+[ 33%] Built target int_addition_server
+[ 50%] [32mBuilding CXX object CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o[0m
+[ 83%] Built target int_addition_client

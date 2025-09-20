@@ -1,0 +1,10 @@
+[0.048s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8
+[0.281s] [ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[0.972s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:28:10:[m[K [01;31m[Kfatal error: [m[Kmy_interface/srv/lookup.hpp: No such file or directory
+[0.972s]    28 | #include [01;31m[K"my_interface/srv/lookup.hpp"[m[K
+[0.972s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.972s] compilation terminated.
+[0.994s] gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+[0.994s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+[0.995s] gmake: *** [Makefile:146: all] Error 2
+[1.001s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8

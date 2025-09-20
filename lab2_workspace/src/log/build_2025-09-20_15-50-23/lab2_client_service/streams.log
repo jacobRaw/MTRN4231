@@ -1,0 +1,31 @@
+[0.046s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8
+[0.083s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.587s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.592s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.605s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.712s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.923s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.027s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.171s] -- Found interface: 0.0.0 (/home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake)
+[1.246s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.588s] -- Configuring done
+[1.624s] -- Generating done
+[1.640s] -- Build files have been written to: /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service
+[1.685s] [35m[1mConsolidate compiler generated dependencies of target int_addition_server[0m
+[1.685s] [35m[1mConsolidate compiler generated dependencies of target lookup_server[0m
+[1.685s] [35m[1mConsolidate compiler generated dependencies of target int_addition_client[0m
+[1.712s] [ 16%] [32mBuilding CXX object CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o[0m
+[1.712s] [ 50%] Built target int_addition_server
+[1.715s] [ 83%] Built target int_addition_client
+[2.148s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2/exceptions.h: No such file or directory
+[2.149s]     4 | #include [01;31m[K"tf2/exceptions.h"[m[K
+[2.149s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.149s] compilation terminated.
+[2.159s] gmake[2]: *** [CMakeFiles/lookup_server.dir/build.make:76: CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o] Error 1
+[2.159s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lookup_server.dir/all] Error 2
+[2.160s] gmake: *** [Makefile:146: all] Error 2
+[2.164s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8

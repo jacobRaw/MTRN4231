@@ -1,0 +1,4 @@
+[ 50%] Built target int_addition_client
+[ 75%] [32mBuilding CXX object CMakeFiles/int_addition_server.dir/src/int_addition_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable int_addition_server[0m
+[100%] Built target int_addition_server

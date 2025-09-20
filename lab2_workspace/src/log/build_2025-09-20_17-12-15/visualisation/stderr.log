@@ -1,0 +1,49 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry[m[K’ does not name a type
+   55 |   [01;31m[Kgeometry[m[K::msgs::Pose call_servce(string fromFrame, string toFrame) {
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+  137 |    rclcpp::Client<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr client_;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Krcl_interfaces[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  137 |    rclcpp::Client<example_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr client_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  137 |    rclcpp::Client<example_interfaces::srv::AddTwoInts>::[01;31m[KSharedPtr[m[K client_;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:137:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+  137 |    rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kclient_[m[K;
+      |                                                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In constructor ‘[01m[KSpherePublisher::SpherePublisher()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   46 |     [01;31m[Kclient_[m[K = create_client<my_interface::srv::Lookup>("lookup_server");
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In member function ‘[01m[Kvoid SpherePublisher::spherepub_callback()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:98:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_servce[m[K’ is not a member of ‘[01m[KSpherePublisher[m[K’
+   98 |     t = SpherePublisher::[01;31m[Kcall_servce[m[K("map", "OOI");
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:111:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+  111 |     marker.pose.position.x = t.[01;31m[Ktranslation[m[K.x;
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:112:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+  112 |     marker.pose.position.y = t.[01;31m[Ktranslation[m[K.y;
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:113:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+  113 |     marker.pose.position.z = t.[01;31m[Ktranslation[m[K.z;
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:114:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+  114 |     marker.pose.orientation.x = t.[01;31m[Krotation[m[K.x;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:115:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+  115 |     marker.pose.orientation.y = t.[01;31m[Krotation[m[K.y;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:116:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+  116 |     marker.pose.orientation.z = t.[01;31m[Krotation[m[K.z;
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:117:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+  117 |     marker.pose.orientation.w = t.[01;31m[Krotation[m[K.w;
+      |                                   [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

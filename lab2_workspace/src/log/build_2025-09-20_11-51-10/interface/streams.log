@@ -1,0 +1,228 @@
+[0.042s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/interface -- -j8 -l8
+[0.114s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.429s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.478s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.484s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.499s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.706s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.374s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.513s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.549s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.550s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.550s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.651s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.664s] -- Added test 'lint_cmake' to check CMake code style
+[2.666s] -- Added test 'xmllint' to check XML markup files
+[2.669s] -- Configuring done
+[2.716s] -- Generating done
+[2.743s] -- Build files have been written to: /home/jacob/MTRN4231/lab2_workspace/src/build/interface
+[2.860s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.910s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.926s] [  6%] Built target ament_cmake_python_copy_interface
+[3.377s] running egg_info
+[3.378s] writing interface.egg-info/PKG-INFO
+[3.378s] writing dependency_links to interface.egg-info/dependency_links.txt
+[3.378s] writing top-level names to interface.egg-info/top_level.txt
+[3.382s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[3.382s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[3.492s] [  6%] Built target ament_cmake_python_build_interface_egg
+[3.509s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_generator_c[0m
+[3.522s] [  6%] Built target interface__cpp
+[3.530s] [  9%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/lookup__functions.c.o[0m
+[3.548s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.549s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.551s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.657s] [ 22%] [32m[1mLinking C shared library libinterface__rosidl_generator_c.so[0m
+[3.717s] [ 22%] Built target interface__rosidl_generator_c
+[3.750s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.758s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.758s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.043s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_cpp[0m
+[4.071s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_introspection_cpp[0m
+[4.083s] [ 35%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/lookup__type_support.cpp.o[0m
+[4.096s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_fastrtps_cpp[0m
+[4.098s] [ 38%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/lookup__type_support.cpp.o[0m
+[4.131s] [ 41%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/lookup__type_support.cpp.o[0m
+[4.316s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_c[0m
+[4.342s] [ 45%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/lookup__type_support.cpp.o[0m
+[4.411s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_fastrtps_c[0m
+[4.437s] [ 48%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/lookup__type_support_c.cpp.o[0m
+[4.456s] [ 51%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so[0m
+[4.471s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_introspection_c[0m
+[4.500s] [ 54%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/lookup__type_support.c.o[0m
+[4.598s] [ 54%] Built target interface__rosidl_typesupport_c
+[4.604s] [ 58%] [32m[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so[0m
+[4.687s] [ 58%] Built target interface__rosidl_typesupport_introspection_c
+[4.790s] [ 61%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so[0m
+[4.864s] [ 61%] Built target interface__rosidl_typesupport_cpp
+[4.958s] [ 64%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so[0m
+[5.091s] [ 67%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.105s] [ 67%] Built target interface__rosidl_typesupport_introspection_cpp
+[5.203s] [ 70%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so[0m
+[5.246s] [ 70%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[5.403s] [ 70%] Built target interface__rosidl_typesupport_fastrtps_c
+[5.436s] [ 70%] Built target interface
+[5.470s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.147s] [ 74%] Built target interface__py
+[6.163s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_generator_py[0m
+[6.214s] [ 77%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_lookup_s.c.o[0m
+[6.412s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so[0m
+[6.514s] [ 80%] Built target interface__rosidl_generator_py
+[6.529s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_c__pyext[0m
+[6.529s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_introspection_c__pyext[0m
+[6.529s] [35m[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.555s] [ 83%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.557s] [ 87%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.562s] [ 90%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[6.748s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.777s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.781s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.820s] [100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[6.844s] [100%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[6.851s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[6.870s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/interface -- -j8 -l8
+[6.871s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/interface
+[6.884s] -- Install configuration: ""
+[6.884s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[6.884s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface
+[6.884s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg
+[6.885s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h
+[6.885s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv
+[6.885s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/lookup.h
+[6.885s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail
+[6.885s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__functions.c
+[6.885s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__struct.h
+[6.885s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__functions.h
+[6.885s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__type_support.h
+[6.886s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/library_path.sh
+[6.886s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/library_path.dsv
+[6.886s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_generator_c.so
+[6.887s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_generator_c.so" to ""
+[6.887s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface
+[6.888s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg
+[6.888s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.888s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv
+[6.888s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail
+[6.888s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__rosidl_typesupport_fastrtps_c.h
+[6.888s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[6.889s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""
+[6.889s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface
+[6.889s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg
+[6.889s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.890s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv
+[6.890s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/lookup.hpp
+[6.890s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail
+[6.890s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__type_support.hpp
+[6.890s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__traits.hpp
+[6.890s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__builder.hpp
+[6.891s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__struct.hpp
+[6.891s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface
+[6.891s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg
+[6.891s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.891s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv
+[6.892s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail
+[6.892s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/dds_fastrtps
+[6.892s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__rosidl_typesupport_fastrtps_cpp.hpp
+[6.892s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[6.893s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.893s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface
+[6.894s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg
+[6.894s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.894s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv
+[6.894s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail
+[6.894s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__type_support.c
+[6.894s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__rosidl_typesupport_introspection_c.h
+[6.895s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[6.896s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""
+[6.896s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[6.897s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""
+[6.898s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface
+[6.898s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv
+[6.898s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail
+[6.898s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__type_support.cpp
+[6.898s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/include/interface/interface/srv/detail/lookup__rosidl_typesupport_introspection_cpp.hpp
+[6.899s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[6.899s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""
+[6.899s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[6.900s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""
+[6.901s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/pythonpath.sh
+[6.901s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/pythonpath.dsv
+[6.901s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info
+[6.901s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.901s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.902s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt
+[6.902s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO
+[6.902s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface
+[6.902s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so
+[6.903s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c
+[6.903s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.903s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py
+[6.904s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.904s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.904s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.905s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/srv
+[6.905s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py
+[6.905s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/srv/_lookup_s.c
+[6.905s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/srv/_lookup.py
+[6.906s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
+[6.958s] Listing '/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface'...
+[6.958s] Compiling '/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py'...
+[6.958s] Listing '/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/srv'...
+[6.959s] Compiling '/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py'...
+[6.959s] Compiling '/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/srv/_lookup.py'...
+[6.967s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.968s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.968s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.969s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.969s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.970s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.970s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_generator_py.so
+[6.971s] -- Set runtime path of "/home/jacob/MTRN4231/lab2_workspace/src/install/interface/lib/libinterface__rosidl_generator_py.so" to ""
+[6.971s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/srv/Lookup.idl
+[6.971s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/srv/Lookup.srv
+[6.972s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/srv/Lookup_Request.msg
+[6.972s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/srv/Lookup_Response.msg
+[6.972s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[6.973s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[6.973s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/ament_prefix_path.sh
+[6.973s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/ament_prefix_path.dsv
+[6.973s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/path.sh
+[6.973s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/environment/path.dsv
+[6.974s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/local_setup.bash
+[6.974s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/local_setup.sh
+[6.974s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/local_setup.zsh
+[6.974s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/local_setup.dsv
+[6.974s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/package.dsv
+[6.975s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/ament_index/resource_index/packages/interface
+[6.975s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake
+[6.976s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake
+[6.976s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[6.976s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.976s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake
+[6.977s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.977s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.977s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[6.977s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.977s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[6.977s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[6.978s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[6.978s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.978s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[6.978s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[6.978s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake
+[6.978s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake
+[6.978s] -- Installing: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interfaceConfig.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[6.979s] -- Up-to-date: /home/jacob/MTRN4231/lab2_workspace/src/install/interface/share/interface/package.xml
+[6.982s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/lab2_workspace/src/build/interface

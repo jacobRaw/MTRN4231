@@ -1,0 +1,72 @@
+[0.040s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target lookup_server[0m
+[0.200s] [ 33%] Built target int_addition_client
+[0.228s] [ 66%] Built target int_addition_server
+[0.279s] [ 83%] [32mBuilding CXX object CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o[0m
+[6.111s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:[m[K In member function ‘[01m[Kvoid LookupServer::getTF(std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >, std::shared_ptr<interface::srv::Lookup_Response_<std::allocator<void> > >)[m[K’:
+[6.112s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:27:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kfromfram[m[K’
+[6.112s]    27 |       t = tf_buffer_->lookupTransform(request.[01;31m[Kfromfram[m[K, request.toframe, tf2::TimePointZero);
+[6.112s]       |                                               [01;31m[K^~~~~~~~[m[K
+[6.113s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:27:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktoframe[m[K’
+[6.113s]    27 |       t = tf_buffer_->lookupTransform(request.fromfram, request.[01;31m[Ktoframe[m[K, tf2::TimePointZero);
+[6.113s]       |                                                                 [01;31m[K^~~~~~~[m[K
+[6.113s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.113s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.115s]                  from [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:2[m[K:
+[6.115s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:29:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kfromframe[m[K’
+[6.115s]    29 |       RCLCPP_INFO(this->get_logger(), "Could not transform %s to %s: %s", request.[01;31m[Kfromframe[m[K.c_str(), request.toframe.c_str(), ex.what());
+[6.115s]       |                                                                                   [01;31m[K^~~~~~~~~[m[K
+[6.115s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:29:110:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<interface::srv::Lookup_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktoframe[m[K’
+[6.115s]    29 |       RCLCPP_INFO(this->get_logger(), "Could not transform %s to %s: %s", request.fromframe.c_str(), request.[01;31m[Ktoframe[m[K.c_str(), ex.what());
+[6.115s]       |                                                                                                              [01;31m[K^~~~~~~[m[K
+[6.115s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:33:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _position_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+[6.115s]    33 |     response->pose.position.[01;31m[Ktranslation[m[K.x = t.transform.translation.x;
+[6.115s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[6.116s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:34:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _position_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+[6.116s]    34 |     response->pose.position.[01;31m[Ktranslation[m[K.y = t.transform.translation.y;
+[6.116s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[6.116s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:35:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _position_type = struct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+[6.116s]    35 |     response->pose.position.[01;31m[Ktranslation[m[K.z = t.transform.translation.z;
+[6.116s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[6.116s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:36:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _orientation_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.116s]    36 |     response->pose.orientation.[01;31m[Krotation[m[K.x = t.transform.rotation.x;
+[6.116s]       |                                [01;31m[K^~~~~~~~[m[K
+[6.116s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:37:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _orientation_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.116s]    37 |     response->pose.orientation.[01;31m[Krotation[m[K.y = t.transform.rotation.y;
+[6.116s]       |                                [01;31m[K^~~~~~~~[m[K
+[6.117s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:38:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _orientation_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.117s]    38 |     response->pose.orientation.[01;31m[Krotation[m[K.z = t.transform.rotation.z;
+[6.117s]       |                                [01;31m[K^~~~~~~~[m[K
+[6.117s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:39:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _orientation_type = struct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[6.117s]    39 |     response->pose.orientation.[01;31m[Krotation[m[K.w = t.transform.rotation.w;
+[6.117s]       |                                [01;31m[K^~~~~~~~[m[K
+[6.122s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.123s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:50:34:[m[K [01;31m[Kerror: [m[K‘[01m[KIntAdditionServer[m[K’ was not declared in this scope
+[6.123s]    50 |   auto server = std::make_shared<[01;31m[KIntAdditionServer[m[K>();
+[6.123s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[6.123s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:50:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[6.123s]    50 |   auto server = [01;31m[Kstd::make_shared<IntAdditionServer>()[m[K;
+[6.123s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.123s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[6.123s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.123s]                  from [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:2[m[K:
+[6.123s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[6.123s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[6.123s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.123s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.123s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:50:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.123s]    50 |   auto server = [01;31m[Kstd::make_shared<IntAdditionServer>()[m[K;
+[6.124s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.504s] gmake[2]: *** [CMakeFiles/lookup_server.dir/build.make:76: CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o] Error 1
+[7.504s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lookup_server.dir/all] Error 2
+[7.504s] gmake: *** [Makefile:146: all] Error 2
+[7.507s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/lab2_client_service -- -j8 -l8

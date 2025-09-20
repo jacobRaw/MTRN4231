@@ -17,6 +17,7 @@
 #include <chrono>
 #include <functional>
 #include <memory>
+#include <string>
 
 #include "rclcpp/rclcpp.hpp"
 #include "visualization_msgs/msg/marker.hpp"
@@ -24,6 +25,8 @@
 #include "tf2_ros/transform_listener.h"
 #include "tf2_ros/buffer.h"
 #include "geometry_msgs/msg/transform_stamped.hpp"
+#include "geometry_msgs/msg/pose.hpp"
+#include "my_interface/srv/lookup.hpp"
 
 using namespace std::chrono_literals;
 
@@ -41,25 +44,63 @@ public:
       100ms, std::bind(&SpherePublisher::spherepub_callback, this)); 
     tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock());
     tf_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
-    //listener_timer = this->create_wall_timer( std::chrono::milliseconds(100), std::bind(&TF2Listener::ListenerCallback, this));
+    client_ = create_client<my_interface::srv::Lookup>("lookup_server");
+    while (!client_->wait_for_service(std::chrono::seconds(1)))
+    {
+      RCLCPP_INFO(get_logger(), "Service not available, waiting...");
+    }
   }
 
 private:
+
+  // CRUCIAL - CANNOT DO ANYTHING AFTER THE ASYNC SEND REQUEST BECAUSE IT HANGS
+  // IF YOU NEED TO STORE ANY INFORMATION FROM THE SERVICE CALL THEN IT SHOULD BE STORED IN THE HANDLE RESPOSNE
+  void call_service(const std::string fromFrame, const std::string toFrame) {
+    auto request = std::make_shared<my_interface::srv::Lookup::Request>();
+    request->fromframe = fromFrame;
+    request->toframe = toFrame;
+
+    auto future_result = client_->async_send_request(
+      request,
+      std::bind(&SpherePublisher::handle_response, this, std::placeholders::_1)
+    );
+  }
+
+  void handle_response(rclcpp::Client<my_interface::srv::Lookup>::SharedFuture future)
+  {
+    auto result = future.get();
+    if (!result) {
+        RCLCPP_ERROR(get_logger(), "Service call failed");
+        return;
+    }
+
+    t = future.get()->pose;
+  }
+
   void spherepub_callback()
   {
-    std::string fromFrameRel = "";
-    std::string toFrameRel = "";
-    geometry_msgs::msg::TransformStamped t;
+    //This manually looksup the transform between map and OOI frames
+    // std::string fromFrameRel = "";
+    // std::string toFrameRel = "";
+    // geometry_msgs::msg::TransformStamped t;
 
-    fromFrameRel = "map";
-    toFrameRel = "OOI";
-    try {
-      t = tf_buffer_->lookupTransform(fromFrameRel, toFrameRel, tf2::TimePointZero);
-    } catch (const tf2::TransformException & ex) {
-      RCLCPP_INFO(this->get_logger(), "Could not transform %s to %s: %s", fromFrameRel.c_str(), toFrameRel.c_str(), ex.what());
-      return;
-    }
-   
+    // fromFrameRel = "map";
+    // toFrameRel = "OOI";
+    // try {
+    //   t = tf_buffer_->lookupTransform(fromFrameRel, toFrameRel, tf2::TimePointZero);
+    // } catch (const tf2::TransformException & ex) {
+    //   RCLCPP_INFO(this->get_logger(), "Could not transform %s to %s: %s", fromFrameRel.c_str(), toFrameRel.c_str(), ex.what());
+    //   return;
+    // }
+    
+    //This calls the service to lookup the transform between map and OOI frames 
+    // this can be better so that we don't repeat the lookup code 
+    // However, since this data is constantly changing a publisher would probably be better than a 
+    // service but for the sake of learning a service is used here instead.
+    
+    std::string fromFrameRel = "map";
+    std::string toFrameRel = "OOI";
+    SpherePublisher::call_service(fromFrameRel, toFrameRel);
 
     visualization_msgs::msg::Marker marker;
 
@@ -72,21 +113,13 @@ private:
     marker.type = visualization_msgs::msg::Marker::SPHERE;
     marker.action = visualization_msgs::msg::Marker::ADD;
 
-    marker.pose.position.x = t.transform.translation.x;
-    marker.pose.position.y = t.transform.translation.y;
-    marker.pose.position.z = t.transform.translation.z;
-    marker.pose.orientation.x = t.transform.rotation.x;
-    marker.pose.orientation.y = t.transform.rotation.y;
-    marker.pose.orientation.z = t.transform.rotation.z;
-    marker.pose.orientation.w = t.transform.rotation.w;
-
-    // marker.pose.position.x = 0;
-    // marker.pose.position.y = 0;
-    // marker.pose.position.z = 0;
-    // marker.pose.orientation.x = 0.0;
-    // marker.pose.orientation.y = 0.0;
-    // marker.pose.orientation.z = 0.0;
-    // marker.pose.orientation.w = 1.0;
+    marker.pose.position.x = t.position.x;
+    marker.pose.position.y = t.position.y;
+    marker.pose.position.z = t.position.z;
+    marker.pose.orientation.x = t.orientation.x;
+    marker.pose.orientation.y = t.orientation.y;
+    marker.pose.orientation.z = t.orientation.z;
+    marker.pose.orientation.w = t.orientation.w;
 
     marker.scale.x = 0.1;
     marker.scale.y = 0.1;
@@ -96,38 +129,18 @@ private:
     marker.color.g = 0.0f;
     marker.color.b = 0.0f;
     marker.color.a = 1.0; // sets the colour alpha
-    // setting 0 means marker never auto-deletes
+
     marker.lifetime = rclcpp::Duration::from_nanoseconds(0); 
 
     marker_pub->publish(marker);
   }
 
-//   void listener_callback()
-//   {
-//     std::string fromFrameRel = "";
-//     std::string toFrameRel = "";
-//     geometry_msgs::msg::TransformStamped t;
-   
-
-//     fromFrameRel = "map";
-//     toFrameRel = "OOI";
-//     t = tf_buffer_->lookupTransform(fromFrameRel, toFrameRel, tf2::TimePointZero);
-
-//     marker.pose.position.x = t.transform.translation.x;
-//     marker.pose.position.y = t.transform.translation.y;
-//     marker.pose.position.z = t.transform.translation.z;
-//     marker.pose.orientation.x = t.transform.rotation.x;
-//     marker.pose.orientation.y = t.transform.rotation.y;
-//     marker.pose.orientation.z = t.transform.rotation.z;
-//     marker.pose.orientation.w = t.transform.rotation.w;
-//   }
-
    rclcpp::TimerBase::SharedPtr sphere_timer;
-  // rclcpp::TimerBase::SharedPtr listener_timer;
    std::shared_ptr<tf2_ros::TransformListener> tf_listener_{nullptr};
    std::unique_ptr<tf2_ros::Buffer> tf_buffer_;
    rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub;
-   //visualization_msgs::msg::Marker marker;
+   rclcpp::Client<my_interface::srv::Lookup>::SharedPtr client_;
+   geometry_msgs::msg::Pose t;
 };
 
 int main(int argc, char * argv[])

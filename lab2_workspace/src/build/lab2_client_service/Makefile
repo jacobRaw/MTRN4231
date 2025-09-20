@@ -223,6 +223,19 @@ int_addition_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_addition_client.dir/build.make CMakeFiles/int_addition_client.dir/build
 .PHONY : int_addition_client/fast
 
+#=============================================================================
+# Target rules for targets named lookup_server
+
+# Build rule for target.
+lookup_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lookup_server
+.PHONY : lookup_server
+
+# fast build rule for target.
+lookup_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lookup_server.dir/build.make CMakeFiles/lookup_server.dir/build
+.PHONY : lookup_server/fast
+
 src/int_addition_client.o: src/int_addition_client.cpp.o
 .PHONY : src/int_addition_client.o
 
@@ -271,6 +284,30 @@ src/int_addition_server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/int_addition_server.dir/build.make CMakeFiles/int_addition_server.dir/src/int_addition_server.cpp.s
 .PHONY : src/int_addition_server.cpp.s
 
+src/lookup_server.o: src/lookup_server.cpp.o
+.PHONY : src/lookup_server.o
+
+# target to build an object file
+src/lookup_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lookup_server.dir/build.make CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o
+.PHONY : src/lookup_server.cpp.o
+
+src/lookup_server.i: src/lookup_server.cpp.i
+.PHONY : src/lookup_server.i
+
+# target to preprocess a source file
+src/lookup_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lookup_server.dir/build.make CMakeFiles/lookup_server.dir/src/lookup_server.cpp.i
+.PHONY : src/lookup_server.cpp.i
+
+src/lookup_server.s: src/lookup_server.cpp.s
+.PHONY : src/lookup_server.s
+
+# target to generate assembly for a file
+src/lookup_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lookup_server.dir/build.make CMakeFiles/lookup_server.dir/src/lookup_server.cpp.s
+.PHONY : src/lookup_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... int_addition_client"
 	@echo "... int_addition_server"
+	@echo "... lookup_server"
 	@echo "... src/int_addition_client.o"
 	@echo "... src/int_addition_client.i"
 	@echo "... src/int_addition_client.s"
 	@echo "... src/int_addition_server.o"
 	@echo "... src/int_addition_server.i"
 	@echo "... src/int_addition_server.s"
+	@echo "... src/lookup_server.o"
+	@echo "... src/lookup_server.i"
+	@echo "... src/lookup_server.s"
 .PHONY : help
 
 

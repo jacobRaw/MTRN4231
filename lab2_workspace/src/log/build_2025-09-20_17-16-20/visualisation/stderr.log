@@ -1,0 +1,26 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:55:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ has not been declared
+   55 |   geometry_msgs::msg::Pose call_servce([01;31m[Kstring[m[K fromFrame, string toFrame) {
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:55:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ has not been declared
+   55 |   geometry_msgs::msg::Pose call_servce(string fromFrame, [01;31m[Kstring[m[K toFrame) {
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In member function ‘[01m[Kvoid SpherePublisher::spherepub_callback()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:98:38:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   98 |     t = SpherePublisher::call_servce([01;31m[K"map"[m[K, "OOI");
+      |                                      [01;31m[K^~~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kconst char*[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:55:47:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kgeometry_msgs::msg::Pose SpherePublisher::call_servce(int, int)[m[K’
+   55 |   geometry_msgs::msg::Pose call_servce([01;36m[Kstring fromFrame[m[K, string toFrame) {
+      |                                        [01;36m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:98:45:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   98 |     t = SpherePublisher::call_servce("map", [01;31m[K"OOI"[m[K);
+      |                                             [01;31m[K^~~~~[m[K
+      |                                             [01;31m[K|[m[K
+      |                                             [01;31m[Kconst char*[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:55:65:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kgeometry_msgs::msg::Pose SpherePublisher::call_servce(int, int)[m[K’
+   55 |   geometry_msgs::msg::Pose call_servce(string fromFrame, [01;36m[Kstring toFrame[m[K) {
+      |                                                          [01;36m[K~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

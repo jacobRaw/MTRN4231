@@ -1,0 +1,6 @@
+{
+  "package_name": "my_interface",
+  "non_idl_tuples": [
+    "/home/jacob/MTRN4231/lab2_workspace/src/my_interface:srv/Lookup.srv"
+  ]
+}

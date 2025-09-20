@@ -1,0 +1,128 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   21 |   void getTF(const std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Request> request,
+      |                                    [01;31m[K^~~~~~~~~[m[K
+      |                                    [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   void getTF(const std::shared_ptr<interface::srv::Lookup::Request[01;31m[K>[m[K request,
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   21 |   void getTF(const std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Request> request,
+      |                                    [01;31m[K^~~~~~~~~[m[K
+      |                                    [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   void getTF(const std::shared_ptr<interface::srv::Lookup::Request[01;31m[K>[m[K request,
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   21 |   void getTF(const std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Request> request,
+      |                                    [01;31m[K^~~~~~~~~[m[K
+      |                                    [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   void getTF(const std::shared_ptr<interface::srv::Lookup::Request[01;31m[K>[m[K request,
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:20:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   21 |   void getTF(const [01;31m[Kstd[m[K::shared_ptr<interface::srv::Lookup::Request> request,
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ has not been declared
+   21 |   void getTF(const std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Request> request,
+      |                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:21:14:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   21 |   void getTF([01;31m[Kconst[m[K std::shared_ptr<interface::srv::Lookup::Request> request,
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   22 |            std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Response> response)
+      |                            [01;31m[K^~~~~~~~~[m[K
+      |                            [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |            std::shared_ptr<interface::srv::Lookup::Response[01;31m[K>[m[K response)
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   22 |            std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Response> response)
+      |                            [01;31m[K^~~~~~~~~[m[K
+      |                            [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |            std::shared_ptr<interface::srv::Lookup::Response[01;31m[K>[m[K response)
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   22 |            std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Response> response)
+      |                            [01;31m[K^~~~~~~~~[m[K
+      |                            [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |            std::shared_ptr<interface::srv::Lookup::Response[01;31m[K>[m[K response)
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:12:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   22 |            [01;31m[Kstd[m[K::shared_ptr<interface::srv::Lookup::Response> response)
+      |            [01;31m[K^~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ has not been declared
+   22 |            std::shared_ptr<[01;31m[Kinterface[m[K::srv::Lookup::Response> response)
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:22:12:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   22 |            [01;31m[Kstd[m[K::shared_ptr<interface::srv::Lookup::Response> response)
+      |            [01;31m[K^~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:42:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   42 |   rclcpp::Service<[01;31m[Kinterface[m[K::srv::Lookup>::SharedPtr srv_;
+      |                   [01;31m[K^~~~~~~~~[m[K
+      |                   [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:42:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |   rclcpp::Service<interface::srv::Lookup[01;31m[K>[m[K::SharedPtr srv_;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:42:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   42 |   rclcpp::Service<interface::srv::Lookup>::[01;31m[KSharedPtr[m[K srv_;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                     [32m[K;[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:42:54:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv_[m[K’ does not name a type
+   42 |   rclcpp::Service<interface::srv::Lookup>::SharedPtr [01;31m[Ksrv_[m[K;
+      |                                                      [01;31m[K^~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:[m[K In constructor ‘[01m[KLookupServer::LookupServer()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv_[m[K’ was not declared in this scope
+   14 |     [01;31m[Ksrv_[m[K = create_service<interface::srv::Lookup>("lookup_server",
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:14:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmy_interface[m[K’?
+   14 |     srv_ = create_service<[01;31m[Kinterface[m[K::srv::Lookup>("lookup_server",
+      |                           [01;31m[K^~~~~~~~~[m[K
+      |                           [32m[Kmy_interface[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:14:12:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   14 |     srv_ = [01;31m[Kcreate_service<interface::srv::Lookup>[m[K("lookup_server",
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:14:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLookupServer::create_service<<expression error> >(const char [14], std::_Bind_helper<false, void (LookupServer::*)(...), LookupServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type)[m[K’
+   14 |     srv_ = [01;31m[Kcreate_service<interface::srv::Lookup>("lookup_server",[m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+   15 | [01;31m[K                                                    std::bind(&LookupServer::getTF, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |                                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:14:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |     srv_ = [01;31m[Kcreate_service<interface::srv::Lookup>("lookup_server",[m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+   15 | [01;31m[K                                                    std::bind(&LookupServer::getTF, this, std::placeholders::_1, std::placeholders::_2))[m[K;
+      |                                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:[m[K In member function ‘[01m[Kvoid LookupServer::getTF(...)[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:27:39:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+   27 |       t = tf_buffer_->lookupTransform([01;31m[Krequest[m[K->fromframe, request->toframe, tf2::TimePointZero);
+      |                                       [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:2[m[K:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:29:75:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+   29 |       RCLCPP_INFO(this->get_logger(), "Could not transform %s to %s: %s", [01;31m[Krequest[m[K->fromframe.c_str(), request->toframe.c_str(), ex.what());
+      |                                                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/lab2_client_service/src/lookup_server.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   33 |     [01;31m[Kresponse[m[K->pose.position.x = t.transform.translation.x;
+      |     [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lookup_server.dir/build.make:76: CMakeFiles/lookup_server.dir/src/lookup_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lookup_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

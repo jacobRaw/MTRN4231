@@ -1,5 +1,6 @@
 /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/lab2_client_service/int_addition_server
 /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/lab2_client_service/int_addition_client
+/home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/lib/lab2_client_service/lookup_server
 /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/ament_index/resource_index/package_run_dependencies/lab2_client_service
 /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/ament_index/resource_index/parent_prefix_path/lab2_client_service
 /home/jacob/MTRN4231/lab2_workspace/src/install/lab2_client_service/share/lab2_client_service/environment/ament_prefix_path.sh
