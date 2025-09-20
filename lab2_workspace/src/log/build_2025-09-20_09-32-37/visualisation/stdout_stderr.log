@@ -1,0 +1,53 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation
+[ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In constructor ‘[01m[KSpherePublisher::SpherePublisher()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   33 |     auto marker_pub = [01;31m[Knode[m[K->create_publisher<visualization_msgs::msg::Marker>("visualization_marker", 1);
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[KNode[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   33 | e->create_publisher<visualization_msgs::msg::Marker[01;31m[K>[m[K("visualization_marker", 1);
+      |                                                    [01;31m[K^[m[K
+
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:79:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   33 | >create_publisher<visualization_msgs::msg::Marker>([01;35m[K"visualization_marker"[m[K, 1);
+      |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In member function ‘[01m[Kvoid SpherePublisher::timer_callback()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kmarker[m[K’?
+   69 |     [01;31m[Kmarker_pub[m[K->publish(marker);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Kmarker[m[K
+gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

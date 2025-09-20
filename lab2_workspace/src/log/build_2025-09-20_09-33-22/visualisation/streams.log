@@ -1,0 +1,18 @@
+[0.029s] Invoking command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target OOI[0m
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/OOI.dir/src/OOI.cpp.o[0m
+[4.990s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In constructor ‘[01m[KSpherePublisher::SpherePublisher()[m[K’:
+[4.990s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[4.990s]    33 |     auto marker_pub = [01;31m[Knode[m[K->create_publisher<visualization_msgs::msg::Marker>("visualization_marker", 1);
+[4.990s]       |                       [01;31m[K^~~~[m[K
+[4.990s]       |                       [32m[KNode[m[K
+[4.991s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.991s]    33 |     auto marker_pub = node->create_publisher<visualization_msgs::msg::Marker[01;31m[K>[m[K("visualization_marker", 1);
+[4.991s]       |                                                                             [01;31m[K^[m[K
+[4.991s] [01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:79:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.991s]    33 |     auto marker_pub = node->create_publisher<visualization_msgs::msg::Marker>([01;35m[K"visualization_marker"[m[K, 1);
+[4.991s]       |                                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.064s] gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+[6.064s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+[6.065s] gmake: *** [Makefile:146: all] Error 2
+[6.068s] Invoked command in '/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation -- -j8 -l8

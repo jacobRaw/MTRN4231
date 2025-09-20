@@ -29,7 +29,16 @@ private:
     //TODO: PLACE LISTENER CODE HERE
     fromFrameRel = "map";
     toFrameRel = "OOI";
-    t = tf_buffer_->lookupTransform(fromFrameRel, toFrameRel, tf2::TimePointZero);
+
+    // necessary to catch the exception from loopupTransform since a frame may not be available for the first few seconds
+    // exceptions should stop throwing, but if they continue a bug may be present
+    try {
+      t = tf_buffer_->lookupTransform(fromFrameRel, toFrameRel, tf2::TimePointZero);
+    } catch (const tf2::TransformException & ex) {
+      RCLCPP_INFO(this->get_logger(), "Could not transform %s to %s: %s", fromFrameRel.c_str(), toFrameRel.c_str(), ex.what());
+      return;
+    }
+   
 
     std::cout << "transformation found" <<std::endl;
     std::cout << " [ " << t.transform.translation.x << " , " << t.transform.translation.y << " , " << t.transform.translation.z <<  " ]" << std::endl;

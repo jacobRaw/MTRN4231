@@ -197,6 +197,43 @@ visualisation_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualisation_uninstall.dir/build.make CMakeFiles/visualisation_uninstall.dir/build
 .PHONY : visualisation_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named OOI
+
+# Build rule for target.
+OOI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OOI
+.PHONY : OOI
+
+# fast build rule for target.
+OOI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOI.dir/build.make CMakeFiles/OOI.dir/build
+.PHONY : OOI/fast
+
+src/OOI.o: src/OOI.cpp.o
+.PHONY : src/OOI.o
+
+# target to build an object file
+src/OOI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOI.dir/build.make CMakeFiles/OOI.dir/src/OOI.cpp.o
+.PHONY : src/OOI.cpp.o
+
+src/OOI.i: src/OOI.cpp.i
+.PHONY : src/OOI.i
+
+# target to preprocess a source file
+src/OOI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOI.dir/build.make CMakeFiles/OOI.dir/src/OOI.cpp.i
+.PHONY : src/OOI.cpp.i
+
+src/OOI.s: src/OOI.cpp.s
+.PHONY : src/OOI.s
+
+# target to generate assembly for a file
+src/OOI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOI.dir/build.make CMakeFiles/OOI.dir/src/OOI.cpp.s
+.PHONY : src/OOI.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... visualisation_uninstall"
+	@echo "... OOI"
+	@echo "... src/OOI.o"
+	@echo "... src/OOI.i"
+	@echo "... src/OOI.s"
 .PHONY : help
 
 

@@ -1,3 +1,4 @@
+/home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/lib/visualisation/OOI
 /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/package_run_dependencies/visualisation
 /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/ament_index/resource_index/parent_prefix_path/visualisation
 /home/jacob/MTRN4231/lab2_workspace/src/install/visualisation/share/visualisation/environment/ament_prefix_path.sh

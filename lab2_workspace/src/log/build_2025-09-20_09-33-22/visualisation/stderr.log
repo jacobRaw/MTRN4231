@@ -1,0 +1,14 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In constructor ‘[01m[KSpherePublisher::SpherePublisher()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   33 |     auto marker_pub = [01;31m[Knode[m[K->create_publisher<visualization_msgs::msg::Marker>("visualization_marker", 1);
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[KNode[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   33 |     auto marker_pub = node->create_publisher<visualization_msgs::msg::Marker[01;31m[K>[m[K("visualization_marker", 1);
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:33:79:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   33 |     auto marker_pub = node->create_publisher<visualization_msgs::msg::Marker>([01;35m[K"visualization_marker"[m[K, 1);
+      |                                                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

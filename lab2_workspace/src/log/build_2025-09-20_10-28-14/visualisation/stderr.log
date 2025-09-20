@@ -1,0 +1,11 @@
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:[m[K In constructor ‘[01m[KSpherePublisher::SpherePublisher()[m[K’:
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksphere_time[m[K’ was not declared in this scope; did you mean ‘[01m[Ksphere_timer[m[K’?
+   40 |     [01;31m[Ksphere_time[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Ksphere_timer[m[K
+[01m[K/home/jacob/MTRN4231/lab2_workspace/src/visualisation/src/OOI.cpp:44:90:[m[K [01;31m[Kerror: [m[K‘[01m[KTF2Listener[m[K’ has not been declared
+   44 |     listener_timer = this->create_wall_timer( std::chrono::milliseconds(100), std::bind(&[01;31m[KTF2Listener[m[K::ListenerCallback, this));
+      |                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/OOI.dir/build.make:76: CMakeFiles/OOI.dir/src/OOI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/OOI.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

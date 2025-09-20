@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/OOI.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/visualisation_uninstall.dir/clean
+clean: CMakeFiles/OOI.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ visualisation_uninstall: CMakeFiles/visualisation_uninstall.dir/rule
 CMakeFiles/visualisation_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualisation_uninstall.dir/build.make CMakeFiles/visualisation_uninstall.dir/clean
 .PHONY : CMakeFiles/visualisation_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/OOI.dir
+
+# All Build rule for target.
+CMakeFiles/OOI.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOI.dir/build.make CMakeFiles/OOI.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOI.dir/build.make CMakeFiles/OOI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles --progress-num=1,2 "Built target OOI"
+.PHONY : CMakeFiles/OOI.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OOI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OOI.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/MTRN4231/lab2_workspace/src/build/visualisation/CMakeFiles 0
+.PHONY : CMakeFiles/OOI.dir/rule
+
+# Convenience name for target.
+OOI: CMakeFiles/OOI.dir/rule
+.PHONY : OOI
+
+# clean rule for target.
+CMakeFiles/OOI.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OOI.dir/build.make CMakeFiles/OOI.dir/clean
+.PHONY : CMakeFiles/OOI.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
