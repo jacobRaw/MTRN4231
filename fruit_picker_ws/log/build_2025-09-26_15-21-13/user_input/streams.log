@@ -1,0 +1,33 @@
+[0.036s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.199s] [ 25%] Built target start_node
+[0.203s] [ 50%] Built target user_interface_node
+[0.227s] [ 62%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/user_interface.cpp.o[0m
+[0.279s] [ 87%] Built target action_client
+[9.365s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[9.875s] [100%] Built target action_server
+[9.903s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[9.906s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input
+[9.922s] -- Install configuration: ""
+[9.922s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/user_input/start_node
+[9.922s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/libaction_client.so
+[9.923s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/user_input/user_interface_node
+[9.924s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/libaction_server.so
+[9.937s] -- Set runtime path of "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/libaction_server.so" to ""
+[9.937s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/package_run_dependencies/user_input
+[9.938s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/parent_prefix_path/user_input
+[9.938s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/ament_prefix_path.sh
+[9.939s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/ament_prefix_path.dsv
+[9.939s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/path.sh
+[9.939s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/path.dsv
+[9.939s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.bash
+[9.939s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.sh
+[9.939s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.zsh
+[9.939s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.dsv
+[9.940s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/package.dsv
+[9.940s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/packages/user_input
+[9.940s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/rclcpp_components/user_input
+[9.940s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/cmake/user_inputConfig.cmake
+[9.940s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/cmake/user_inputConfig-version.cmake
+[9.940s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/package.xml
+[9.942s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input

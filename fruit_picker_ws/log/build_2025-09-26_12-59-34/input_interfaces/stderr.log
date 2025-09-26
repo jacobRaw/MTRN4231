@@ -1,0 +1,32 @@
+In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.h:19[m[K,
+                 from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c:4[m[K:
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__struct.h:23:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.h: No such file or directory
+   23 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_generator_c.dir/build.make:112: CMakeFiles/input_interfaces__rosidl_generator_c.dir/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/input_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp:7[m[K:
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/build.make:93: CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp:12[m[K:
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:98: CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/user_input__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp:4[m[K:
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:98: CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

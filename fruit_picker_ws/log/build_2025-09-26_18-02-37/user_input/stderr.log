@@ -1,0 +1,10 @@
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:114:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class StartActionClient[m[K’ {aka ‘[01m[Kclass StartActionClient[m[K’} has no member named ‘[01m[Kis_goal_done[m[K’
+  114 |   while (!action_client_node->[01;31m[Kis_goal_done[m[K()) {
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:115:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+  115 |     [01;35m[Krclcpp[m[K:spin_some(action_client_node);
+      |     [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/start_node.dir/build.make:76: CMakeFiles/start_node.dir/src/start.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/start_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

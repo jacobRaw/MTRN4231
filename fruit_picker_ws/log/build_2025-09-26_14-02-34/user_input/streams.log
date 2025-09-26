@@ -1,0 +1,60 @@
+[0.036s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.183s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/user_interface.cpp.o[0m
+[0.206s] [ 75%] Built target user_interface_node
+[5.890s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:19:3:[m[K [01;31m[Kerror: [m[K‘[01m[KUSER_INPUT_PUBLIC[m[K’ does not name a type
+[5.890s]    19 |   [01;31m[KUSER_INPUT_PUBLIC[m[K
+[5.890s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.925s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.926s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.926s]                  from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:6[m[K:
+[5.926s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse user_input::UserInterfaceActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const input_interfaces::action::UserInput_Goal_<std::allocator<void> > >)[m[K’:
+[5.926s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:40:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct input_interfaces::action::UserInput_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct input_interfaces::action::UserInput_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korder[m[K’
+[5.926s]    40 | er(), "Received goal request with order %d", goal->[01;31m[Korder[m[K);
+[5.927s]       |                                                    [01;31m[K^~~~~[m[K
+[5.927s] 
+[5.968s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:[m[K In member function ‘[01m[Kvoid user_input::UserInterfaceActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<input_interfaces::action::UserInput> >)[m[K’:
+[5.968s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:108:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct input_interfaces::action::UserInput_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct input_interfaces::action::UserInput_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[5.968s]   108 |       result->[01;31m[Ksequence[m[K = sequence;
+[5.969s]       |               [01;31m[K^~~~~~~~[m[K
+[5.986s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:108:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence[m[K’ was not declared in this scope
+[5.987s]   108 |       result->sequence = [01;31m[Ksequence[m[K;
+[5.987s]       |                          [01;31m[K^~~~~~~~[m[K
+[7.529s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[7.529s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[7.529s]                  from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+[7.529s]                  from [01m[K/usr/include/c++/11/functional:61[m[K,
+[7.529s]                  from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:1[m[K:
+[7.529s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = user_input::UserInterfaceActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = user_input::UserInterfaceActionServer][m[K’:
+[7.529s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = user_input::UserInterfaceActionServer; _Args = {const rclcpp::NodeOptions&}; _Tp = user_input::UserInterfaceActionServer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<user_input::UserInterfaceActionServer>][m[K’
+[7.529s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const rclcpp::NodeOptions&}; _Tp = user_input::UserInterfaceActionServer; _Alloc = std::allocator<user_input::UserInterfaceActionServer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.529s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = user_input::UserInterfaceActionServer; _Alloc = std::allocator<user_input::UserInterfaceActionServer>; _Args = {const rclcpp::NodeOptions&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.529s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<user_input::UserInterfaceActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = user_input::UserInterfaceActionServer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.529s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<user_input::UserInterfaceActionServer>; _Args = {const rclcpp::NodeOptions&}; _Tp = user_input::UserInterfaceActionServer][m[K’
+[7.529s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = user_input::UserInterfaceActionServer; _Alloc = std::allocator<user_input::UserInterfaceActionServer>; _Args = {const rclcpp::NodeOptions&}][m[K’
+[7.530s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = user_input::UserInterfaceActionServer; _Args = {const rclcpp::NodeOptions&}][m[K’
+[7.530s] [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:45:40:[m[K   required from ‘[01m[Krclcpp_components::NodeInstanceWrapper rclcpp_components::NodeFactoryTemplate<NodeT>::create_node_instance(const rclcpp::NodeOptions&) [with NodeT = user_input::UserInterfaceActionServer][m[K’
+[7.530s] [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:43:3:[m[K   required from here
+[7.530s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kuser_input::UserInterfaceActionServer::UserInterfaceActionServer(const rclcpp::NodeOptions&)[m[K’
+[7.530s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[7.530s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.530s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kuser_input::UserInterfaceActionServer::UserInterfaceActionServer()[m[K’ (deleted)
+[7.530s]    13 | class [01;36m[KUserInterfaceActionServer[m[K : public rclcpp::Node
+[7.530s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.531s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:13:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[7.531s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kuser_input::UserInterfaceActionServer::UserInterfaceActionServer(const user_input::UserInterfaceActionServer&)[m[K’ (deleted)
+[7.531s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:13:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kconst user_input::UserInterfaceActionServer&[m[K’
+[7.532s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:13:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kuser_input::UserInterfaceActionServer::UserInterfaceActionServer(user_input::UserInterfaceActionServer&&)[m[K’ (deleted)
+[7.532s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:13:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst rclcpp::NodeOptions[m[K’ to ‘[01m[Kuser_input::UserInterfaceActionServer&&[m[K’
+[7.667s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/user_interface.cpp.o] Error 1
+[7.668s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+[7.669s] gmake: *** [Makefile:146: all] Error 2
+[7.674s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8

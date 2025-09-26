@@ -1,0 +1,7 @@
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:109:32:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  109 | RCLCPP_COMPONENTS_REGISTER_NODE[01;31m[K([m[Kuser_input::StartActionClient)
+      |                                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/start_node.dir/build.make:76: CMakeFiles/start_node.dir/src/start.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/start_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

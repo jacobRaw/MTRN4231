@@ -1,0 +1,68 @@
+[0.040s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.105s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.460s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.896s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.908s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.927s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.096s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.252s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.398s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[13.484s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[13.540s] -- Found input_interfaces: 0.0.0 (/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake)
+[13.573s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.692s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.693s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/include>
+[13.693s] -- Configured cppcheck exclude dirs and/or files: 
+[13.694s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.696s] -- Added test 'lint_cmake' to check CMake code style
+[13.697s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.701s] -- Added test 'uncrustify' to check C / C++ code style
+[13.701s] -- Configured uncrustify additional arguments: 
+[13.702s] -- Added test 'xmllint' to check XML markup files
+[13.707s] -- Configuring done
+[13.764s] -- Generating done
+[13.783s] -- Build files have been written to: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input
+[13.827s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[13.828s] [35m[1mConsolidate compiler generated dependencies of target user_interface_node[0m
+[13.845s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/start.cpp.o[0m
+[13.845s] [ 25%] [32mBuilding CXX object CMakeFiles/start_node.dir/rclcpp_components/node_main_start_node.cpp.o[0m
+[13.867s] [ 75%] Built target action_server
+[13.867s] [ 75%] Built target user_interface_node
+[14.516s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:46:24:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[14.516s]    46 |     goal_msg.command = [01;35m[K'start'[m[K;
+[14.517s]       |                        [01;35m[K^~~~~~~[m[K
+[19.276s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In member function ‘[01m[Kvoid user_input::StartActionClient::send_goal()[m[K’:
+[19.277s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:46:24:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K1952543348[m[K’ to ‘[01m[K't'[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[20.484s] [ 87%] [32m[1mLinking CXX executable start_node[0m
+[20.944s] [ 87%] Built target start_node
+[22.068s] [100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[22.560s] [100%] Built target action_client
+[22.578s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[22.583s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input
+[22.592s] -- Install configuration: ""
+[22.592s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/user_input/start_node
+[22.594s] -- Set runtime path of "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/user_input/start_node" to ""
+[22.594s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/libaction_client.so
+[22.597s] -- Set runtime path of "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/libaction_client.so" to ""
+[22.599s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/user_input/user_interface_node
+[22.601s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/lib/libaction_server.so
+[22.602s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/package_run_dependencies/user_input
+[22.602s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/parent_prefix_path/user_input
+[22.603s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/ament_prefix_path.sh
+[22.603s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/ament_prefix_path.dsv
+[22.603s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/path.sh
+[22.603s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/environment/path.dsv
+[22.604s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.bash
+[22.604s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.sh
+[22.604s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.zsh
+[22.604s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/local_setup.dsv
+[22.605s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/package.dsv
+[22.605s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/packages/user_input
+[22.605s] -- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/ament_index/resource_index/rclcpp_components/user_input
+[22.606s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/cmake/user_inputConfig.cmake
+[22.606s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/cmake/user_inputConfig-version.cmake
+[22.606s] -- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/user_input/share/user_input/package.xml
+[22.610s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input

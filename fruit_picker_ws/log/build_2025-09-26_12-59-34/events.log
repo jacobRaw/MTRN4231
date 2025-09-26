@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (input_interfaces) JobQueued: {'identifier': 'input_interfaces', 'dependencies': OrderedDict()}
+[0.001023] (input_interfaces) JobStarted: {'identifier': 'input_interfaces'}
+[0.011809] (input_interfaces) JobProgress: {'identifier': 'input_interfaces', 'progress': 'cmake'}
+[0.017230] (input_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/input_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces'], 'cwd': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-395ade10-7682-446b-96c6-f5930104c916.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/node'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/5'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/home/jacob/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-de81646a0a.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '03feb5df-dcf1-4483-b22c-ab5a3b626983'), ('PWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/5'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098917] (-) TimerEvent: {}
+[0.199521] (-) TimerEvent: {}
+[0.272567] (input_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299760] (-) TimerEvent: {}
+[0.400333] (-) TimerEvent: {}
+[0.500839] (-) TimerEvent: {}
+[0.601306] (-) TimerEvent: {}
+[0.701812] (-) TimerEvent: {}
+[0.802406] (-) TimerEvent: {}
+[0.902979] (-) TimerEvent: {}
+[1.003645] (-) TimerEvent: {}
+[1.104191] (-) TimerEvent: {}
+[1.204713] (-) TimerEvent: {}
+[1.305266] (-) TimerEvent: {}
+[1.401063] (input_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.405438] (-) TimerEvent: {}
+[1.505992] (-) TimerEvent: {}
+[1.606547] (-) TimerEvent: {}
+[1.707178] (-) TimerEvent: {}
+[1.807750] (-) TimerEvent: {}
+[1.908312] (-) TimerEvent: {}
+[2.008897] (-) TimerEvent: {}
+[2.109537] (-) TimerEvent: {}
+[2.157098] (input_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.209780] (-) TimerEvent: {}
+[2.310357] (-) TimerEvent: {}
+[2.411037] (-) TimerEvent: {}
+[2.428021] (input_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.439975] (input_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.440761] (input_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.441042] (input_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.445988] (input_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.511256] (-) TimerEvent: {}
+[2.611919] (-) TimerEvent: {}
+[2.712466] (-) TimerEvent: {}
+[2.781386] (input_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.793752] (input_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.794433] (input_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.794958] (input_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.798475] (input_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.812645] (-) TimerEvent: {}
+[2.913139] (-) TimerEvent: {}
+[3.009313] (input_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.013325] (-) TimerEvent: {}
+[3.113829] (-) TimerEvent: {}
+[3.129434] (input_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.134857] (input_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.142594] (input_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.214010] (-) TimerEvent: {}
+[3.314577] (-) TimerEvent: {}
+[3.415129] (-) TimerEvent: {}
+[3.429759] (input_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.515276] (-) TimerEvent: {}
+[3.616060] (-) TimerEvent: {}
+[3.716723] (-) TimerEvent: {}
+[3.817213] (-) TimerEvent: {}
+[3.868950] (input_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.917439] (-) TimerEvent: {}
+[4.018013] (-) TimerEvent: {}
+[4.118539] (-) TimerEvent: {}
+[4.124523] (input_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.218751] (-) TimerEvent: {}
+[4.319354] (-) TimerEvent: {}
+[4.419833] (-) TimerEvent: {}
+[4.477300] (input_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.520022] (-) TimerEvent: {}
+[4.620520] (-) TimerEvent: {}
+[4.721133] (-) TimerEvent: {}
+[4.742331] (input_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.744077] (input_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.821388] (-) TimerEvent: {}
+[4.921964] (-) TimerEvent: {}
+[5.022499] (-) TimerEvent: {}
+[5.122960] (-) TimerEvent: {}
+[5.223636] (-) TimerEvent: {}
+[5.324173] (-) TimerEvent: {}
+[5.424810] (-) TimerEvent: {}
+[5.525401] (-) TimerEvent: {}
+[5.600454] (input_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.600823] (input_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.600931] (input_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.601024] (input_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.625663] (-) TimerEvent: {}
+[5.627918] (input_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.725864] (-) TimerEvent: {}
+[5.746841] (input_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.771954] (input_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.773651] (input_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.777997] (input_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.826035] (-) TimerEvent: {}
+[5.871592] (input_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.889867] (input_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces\n'}
+[5.899773] (input_interfaces) CommandEnded: {'returncode': 0}
+[5.900893] (input_interfaces) JobProgress: {'identifier': 'input_interfaces', 'progress': 'build'}
+[5.903561] (input_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-395ade10-7682-446b-96c6-f5930104c916.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/node'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/5'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/home/jacob/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-de81646a0a.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '03feb5df-dcf1-4483-b22c-ab5a3b626983'), ('PWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/5'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.926267] (-) TimerEvent: {}
+[5.963861] (input_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.979145] (input_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.993013] (input_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_input_interfaces\n'}
+[6.026464] (-) TimerEvent: {}
+[6.127018] (-) TimerEvent: {}
+[6.227685] (-) TimerEvent: {}
+[6.328195] (-) TimerEvent: {}
+[6.428757] (-) TimerEvent: {}
+[6.484092] (input_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.484974] (input_interfaces) StdoutLine: {'line': b'creating input_interfaces.egg-info\n'}
+[6.485830] (input_interfaces) StdoutLine: {'line': b'writing input_interfaces.egg-info/PKG-INFO\n'}
+[6.486256] (input_interfaces) StdoutLine: {'line': b'writing dependency_links to input_interfaces.egg-info/dependency_links.txt\n'}
+[6.486602] (input_interfaces) StdoutLine: {'line': b'writing top-level names to input_interfaces.egg-info/top_level.txt\n'}
+[6.487179] (input_interfaces) StdoutLine: {'line': b"writing manifest file 'input_interfaces.egg-info/SOURCES.txt'\n"}
+[6.490268] (input_interfaces) StdoutLine: {'line': b"reading manifest file 'input_interfaces.egg-info/SOURCES.txt'\n"}
+[6.491037] (input_interfaces) StdoutLine: {'line': b"writing manifest file 'input_interfaces.egg-info/SOURCES.txt'\n"}
+[6.528958] (-) TimerEvent: {}
+[6.534541] (input_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_input_interfaces_egg\n'}
+[6.629168] (-) TimerEvent: {}
+[6.670497] (input_interfaces) StdoutLine: {'line': b'[  6%] Built target input_interfaces__cpp\n'}
+[6.679214] (input_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/input_interfaces__rosidl_generator_c.dir/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c.o\x1b[0m\n'}
+[6.690039] (input_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.690656] (input_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.692557] (input_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.714899] (input_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.h:19\x1b[m\x1b[K,\n'}
+[6.715347] (input_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c:4\x1b[m\x1b[K:\n'}
+[6.715540] (input_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__struct.h:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kinput_interfaces/msg/detail/string__struct.h: No such file or directory\n'}
+[6.715712] (input_interfaces) StderrLine: {'line': b'   23 | #include \x1b[01;31m\x1b[K"input_interfaces/msg/detail/string__struct.h"\x1b[m\x1b[K\n'}
+[6.715861] (input_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.716031] (input_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[6.717753] (input_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_generator_c.dir/build.make:112: CMakeFiles/input_interfaces__rosidl_generator_c.dir/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c.o] Error 1\n'}
+[6.718252] (input_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/input_interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[6.718449] (input_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.729299] (-) TimerEvent: {}
+[6.829821] (-) TimerEvent: {}
+[6.930402] (-) TimerEvent: {}
+[7.030984] (-) TimerEvent: {}
+[7.131522] (-) TimerEvent: {}
+[7.232059] (-) TimerEvent: {}
+[7.233895] (input_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp.o\x1b[0m\n'}
+[7.325781] (input_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp.o\x1b[0m\n'}
+[7.332244] (-) TimerEvent: {}
+[7.354071] (input_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[7.354444] (input_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[7.354627] (input_interfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"input_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[7.354787] (input_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.354951] (input_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[7.357310] (input_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/build.make:93: CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp.o] Error 1\n'}
+[7.357965] (input_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[7.426863] (input_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp.o\x1b[0m\n'}
+[7.432393] (-) TimerEvent: {}
+[7.442759] (input_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[7.443259] (input_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[7.443499] (input_interfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"input_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[7.443665] (input_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.443835] (input_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[7.448190] (input_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:98: CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp.o] Error 1\n'}
+[7.448965] (input_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[7.528847] (input_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/user_input__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[7.529165] (input_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[7.529253] (input_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[7.529332] (input_interfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"input_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[7.529413] (input_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.529589] (input_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[7.532573] (-) TimerEvent: {}
+[7.534603] (input_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:98: CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp.o] Error 1\n'}
+[7.535013] (input_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[7.535475] (input_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.539328] (input_interfaces) CommandEnded: {'returncode': 2}
+[7.561803] (input_interfaces) JobEnded: {'identifier': 'input_interfaces', 'rc': 2}
+[7.564347] (-) EventReactorShutdown: {}

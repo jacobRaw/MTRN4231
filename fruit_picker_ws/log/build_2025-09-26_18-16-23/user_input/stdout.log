@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target start_node[0m
+[ 50%] Built target user_interface_node
+[ 75%] [32mBuilding CXX object CMakeFiles/start_node.dir/src/start.cpp.o[0m

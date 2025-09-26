@@ -1,0 +1,17 @@
+[0.046s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target start_node[0m
+[0.344s] [ 25%] [32mBuilding CXX object CMakeFiles/start_node.dir/src/start.cpp.o[0m
+[0.353s] [ 75%] Built target user_interface_node
+[6.018s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In member function ‘[01m[Kvoid StartActionClient::send_goal()[m[K’:
+[6.018s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:49:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[6.018s]    49 |     [01;31m[K}[m[K
+[6.018s]       |     [01;31m[K^[m[K
+[6.018s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:49:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[6.079s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.079s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:124:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[6.079s]   124 |     [01;35m[Krclcpp[m[K:spin_some(action_client_node);
+[6.079s]       |     [01;35m[K^~~~~~[m[K
+[7.301s] gmake[2]: *** [CMakeFiles/start_node.dir/build.make:76: CMakeFiles/start_node.dir/src/start.cpp.o] Error 1
+[7.302s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/start_node.dir/all] Error 2
+[7.302s] gmake: *** [Makefile:146: all] Error 2
+[7.306s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8

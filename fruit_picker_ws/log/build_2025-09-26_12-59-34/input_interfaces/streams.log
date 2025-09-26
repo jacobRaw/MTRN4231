@@ -1,0 +1,90 @@
+[0.022s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/input_interfaces -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces
+[0.272s] -- The C compiler identification is GNU 11.4.0
+[1.400s] -- The CXX compiler identification is GNU 11.4.0
+[2.156s] -- Detecting C compiler ABI info
+[2.427s] -- Detecting C compiler ABI info - done
+[2.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.440s] -- Detecting C compile features
+[2.440s] -- Detecting C compile features - done
+[2.445s] -- Detecting CXX compiler ABI info
+[2.780s] -- Detecting CXX compiler ABI info - done
+[2.793s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.793s] -- Detecting CXX compile features
+[2.794s] -- Detecting CXX compile features - done
+[2.798s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.008s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.129s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.142s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.868s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.741s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.743s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.600s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.600s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.600s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.600s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.627s] -- Found PythonExtra: .so  
+[5.746s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.771s] -- Added test 'lint_cmake' to check CMake code style
+[5.773s] -- Added test 'xmllint' to check XML markup files
+[5.777s] -- Configuring done
+[5.871s] -- Generating done
+[5.889s] -- Build files have been written to: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces
+[5.899s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/input_interfaces -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces
+[5.904s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces -- -j8 -l8
+[5.963s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.978s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.992s] [  6%] Built target ament_cmake_python_copy_input_interfaces
+[6.483s] running egg_info
+[6.484s] creating input_interfaces.egg-info
+[6.485s] writing input_interfaces.egg-info/PKG-INFO
+[6.485s] writing dependency_links to input_interfaces.egg-info/dependency_links.txt
+[6.486s] writing top-level names to input_interfaces.egg-info/top_level.txt
+[6.486s] writing manifest file 'input_interfaces.egg-info/SOURCES.txt'
+[6.489s] reading manifest file 'input_interfaces.egg-info/SOURCES.txt'
+[6.490s] writing manifest file 'input_interfaces.egg-info/SOURCES.txt'
+[6.534s] [  6%] Built target ament_cmake_python_build_input_interfaces_egg
+[6.670s] [  6%] Built target input_interfaces__cpp
+[6.678s] [  9%] [32mBuilding C object CMakeFiles/input_interfaces__rosidl_generator_c.dir/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c.o[0m
+[6.689s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.690s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.692s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.714s] In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.h:19[m[K,
+[6.714s]                  from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c:4[m[K:
+[6.715s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_c/input_interfaces/action/detail/user_input__struct.h:23:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.h: No such file or directory
+[6.715s]    23 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.h"[m[K
+[6.715s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.715s] compilation terminated.
+[6.717s] gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_generator_c.dir/build.make:112: CMakeFiles/input_interfaces__rosidl_generator_c.dir/rosidl_generator_c/input_interfaces/action/detail/user_input__functions.c.o] Error 1
+[6.717s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/input_interfaces__rosidl_generator_c.dir/all] Error 2
+[6.717s] gmake[1]: *** Waiting for unfinished jobs....
+[7.233s] [ 22%] [32mBuilding CXX object CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp.o[0m
+[7.325s] [ 25%] [32mBuilding CXX object CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp.o[0m
+[7.353s] In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp:7[m[K:
+[7.353s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[7.354s]    21 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.hpp"[m[K
+[7.354s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.354s] compilation terminated.
+[7.357s] gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/build.make:93: CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/input_interfaces/action/user_input__type_support.cpp.o] Error 1
+[7.357s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/input_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[7.426s] [ 29%] [32mBuilding CXX object CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp.o[0m
+[7.442s] In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp:12[m[K:
+[7.442s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[7.443s]    21 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.hpp"[m[K
+[7.443s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.443s] compilation terminated.
+[7.448s] gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:98: CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/input_interfaces/action/detail/user_input__type_support.cpp.o] Error 1
+[7.448s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/input_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[7.528s] In file included from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/user_input__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[7.528s]                  from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp:4[m[K:
+[7.528s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_generator_cpp/input_interfaces/action/detail/user_input__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[7.528s]    21 | #include [01;31m[K"input_interfaces/msg/detail/string__struct.hpp"[m[K
+[7.528s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.529s] compilation terminated.
+[7.534s] gmake[2]: *** [CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:98: CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/input_interfaces/action/detail/dds_fastrtps/user_input__type_support.cpp.o] Error 1
+[7.534s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/input_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[7.535s] gmake: *** [Makefile:146: all] Error 2
+[7.539s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces -- -j8 -l8

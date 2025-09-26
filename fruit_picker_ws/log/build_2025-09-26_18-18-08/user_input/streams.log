@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target start_node[0m
+[0.223s] [ 25%] [32mBuilding CXX object CMakeFiles/start_node.dir/src/start.cpp.o[0m
+[0.230s] [ 75%] Built target user_interface_node
+[7.524s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In constructor ‘[01m[KStartActionClient::StartActionClient(const rclcpp::NodeOptions&)[m[K’:
+[7.524s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:20:43:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KStartActionClient[m[K’ does not have any field named ‘[01m[Kgoal_done_[m[K’
+[7.525s]    20 |   : Node("start_action_client", options), [01;31m[Kgoal_done_[m[K(false)
+[7.525s]       |                                           [01;31m[K^~~~~~~~~~[m[K
+[7.540s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In member function ‘[01m[Kbool StartActionClient::is_goal_done() const[m[K’:
+[7.540s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:35:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class StartActionClient[m[K’ has no member named ‘[01m[Kgoal_done_[m[K’; did you mean ‘[01m[Kis_goal_done[m[K’?
+[7.540s]    35 |     return this->[01;31m[Kgoal_done_[m[K;
+[7.540s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[7.541s]       |                  [32m[Kis_goal_done[m[K
+[7.541s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In member function ‘[01m[Kvoid StartActionClient::send_goal()[m[K’:
+[7.541s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:43:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass StartActionClient[m[K’ has no member named ‘[01m[Kgoal_done_[m[K’; did you mean ‘[01m[Kis_goal_done[m[K’?
+[7.541s]    43 |     this->[01;31m[Kgoal_done_[m[K = false;
+[7.541s]       |           [01;31m[K^~~~~~~~~~[m[K
+[7.542s]       |           [32m[Kis_goal_done[m[K
+[7.598s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.598s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/start.cpp:121:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[7.598s]   121 |     [01;35m[Krclcpp[m[K:spin_some(action_client_node);
+[7.598s]       |     [01;35m[K^~~~~~[m[K
+[8.806s] gmake[2]: *** [CMakeFiles/start_node.dir/build.make:76: CMakeFiles/start_node.dir/src/start.cpp.o] Error 1
+[8.807s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/start_node.dir/all] Error 2
+[8.808s] gmake: *** [Makefile:146: all] Error 2
+[8.812s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8

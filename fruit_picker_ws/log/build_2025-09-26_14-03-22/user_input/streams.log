@@ -1,0 +1,31 @@
+[0.038s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.211s] [ 50%] Built target user_interface_node
+[0.212s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/user_interface.cpp.o[0m
+[5.927s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.930s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.930s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.930s]                  from [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:6[m[K:
+[5.930s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse user_input::UserInterfaceActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const input_interfaces::action::UserInput_Goal_<std::allocator<void> > >)[m[K’:
+[5.930s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:40:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct input_interfaces::action::UserInput_Goal_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct input_interfaces::action::UserInput_Goal_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korder[m[K’
+[5.930s]    40 |     RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", goal->[01;31m[Korder[m[K);
+[5.930s]       |                                                                                  [01;31m[K^~~~~[m[K
+[5.969s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:[m[K In member function ‘[01m[Kvoid user_input::UserInterfaceActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<input_interfaces::action::UserInput> >)[m[K’:
+[5.969s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:108:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct input_interfaces::action::UserInput_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct input_interfaces::action::UserInput_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksequence[m[K’
+[5.969s]   108 |       result->[01;31m[Ksequence[m[K = sequence;
+[5.969s]       |               [01;31m[K^~~~~~~~[m[K
+[5.981s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:108:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksequence[m[K’ was not declared in this scope
+[5.981s]   108 |       result->sequence = [01;31m[Ksequence[m[K;
+[5.981s]       |                          [01;31m[K^~~~~~~~[m[K
+[7.324s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/user_interface.cpp.o] Error 1
+[7.324s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+[7.325s] gmake: *** [Makefile:146: all] Error 2
+[7.334s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8

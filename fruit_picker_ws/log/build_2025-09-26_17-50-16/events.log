@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000479] (input_interfaces) JobQueued: {'identifier': 'input_interfaces', 'dependencies': OrderedDict()}
+[0.000657] (user_input) JobQueued: {'identifier': 'user_input', 'dependencies': OrderedDict()}
+[0.000793] (input_interfaces) JobStarted: {'identifier': 'input_interfaces'}
+[0.011555] (user_input) JobStarted: {'identifier': 'user_input'}
+[0.019139] (input_interfaces) JobProgress: {'identifier': 'input_interfaces', 'progress': 'cmake'}
+[0.023140] (input_interfaces) JobProgress: {'identifier': 'input_interfaces', 'progress': 'build'}
+[0.025494] (input_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-39592dae-c98e-4b2d-95e5-aedb64fac4d5.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '17f3ddea-a21b-4eab-813e-8c8d52bd4c2b'), ('PWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037531] (user_input) JobProgress: {'identifier': 'user_input', 'progress': 'cmake'}
+[0.042499] (user_input) JobProgress: {'identifier': 'user_input', 'progress': 'build'}
+[0.046187] (user_input) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-39592dae-c98e-4b2d-95e5-aedb64fac4d5.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '17f3ddea-a21b-4eab-813e-8c8d52bd4c2b'), ('PWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098476] (-) TimerEvent: {}
+[0.106290] (user_input) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.165773] (input_interfaces) StdoutLine: {'line': b'[  3%] Built target input_interfaces__cpp\n'}
+[0.172306] (input_interfaces) StdoutLine: {'line': b'[ 12%] Built target input_interfaces__rosidl_generator_c\n'}
+[0.198858] (-) TimerEvent: {}
+[0.215019] (input_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_input_interfaces\n'}
+[0.247293] (input_interfaces) StdoutLine: {'line': b'[ 22%] Built target input_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.250907] (input_interfaces) StdoutLine: {'line': b'[ 32%] Built target input_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.253355] (input_interfaces) StdoutLine: {'line': b'[ 41%] Built target input_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.253865] (input_interfaces) StdoutLine: {'line': b'[ 51%] Built target input_interfaces__rosidl_typesupport_cpp\n'}
+[0.254723] (input_interfaces) StdoutLine: {'line': b'[ 61%] Built target input_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.259246] (input_interfaces) StdoutLine: {'line': b'[ 70%] Built target input_interfaces__rosidl_typesupport_c\n'}
+[0.299096] (-) TimerEvent: {}
+[0.317284] (input_interfaces) StdoutLine: {'line': b'[ 70%] Built target input_interfaces\n'}
+[0.385533] (input_interfaces) StdoutLine: {'line': b'[ 74%] Built target input_interfaces__py\n'}
+[0.399298] (-) TimerEvent: {}
+[0.447778] (input_interfaces) StdoutLine: {'line': b'[ 80%] Built target input_interfaces__rosidl_generator_py\n'}
+[0.485767] (user_input) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499632] (-) TimerEvent: {}
+[0.517878] (input_interfaces) StdoutLine: {'line': b'[ 87%] Built target input_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.531362] (input_interfaces) StdoutLine: {'line': b'[100%] Built target input_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.532152] (input_interfaces) StdoutLine: {'line': b'[100%] Built target input_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.599811] (-) TimerEvent: {}
+[0.700383] (-) TimerEvent: {}
+[0.800876] (-) TimerEvent: {}
+[0.834092] (user_input) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.845309] (user_input) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.865334] (user_input) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.889837] (user_input) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901067] (-) TimerEvent: {}
+[0.928020] (user_input) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.934363] (input_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.937220] (input_interfaces) StdoutLine: {'line': b'writing input_interfaces.egg-info/PKG-INFO\n'}
+[0.938069] (input_interfaces) StdoutLine: {'line': b'writing dependency_links to input_interfaces.egg-info/dependency_links.txt\n'}
+[0.938411] (input_interfaces) StdoutLine: {'line': b'writing top-level names to input_interfaces.egg-info/top_level.txt\n'}
+[0.946183] (input_interfaces) StdoutLine: {'line': b"reading manifest file 'input_interfaces.egg-info/SOURCES.txt'\n"}
+[0.948278] (input_interfaces) StdoutLine: {'line': b"writing manifest file 'input_interfaces.egg-info/SOURCES.txt'\n"}
+[1.001172] (user_input) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.001624] (-) TimerEvent: {}
+[1.003630] (user_input) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.010917] (input_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_input_interfaces_egg\n'}
+[1.040744] (input_interfaces) CommandEnded: {'returncode': 0}
+[1.044312] (input_interfaces) JobProgress: {'identifier': 'input_interfaces', 'progress': 'install'}
+[1.062467] (input_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces'], 'cwd': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-39592dae-c98e-4b2d-95e5-aedb64fac4d5.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-97674d4e04.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '17f3ddea-a21b-4eab-813e-8c8d52bd4c2b'), ('PWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/4'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.082233] (input_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.083160] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/ament_index/resource_index/rosidl_interfaces/input_interfaces\n'}
+[1.083611] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces\n'}
+[1.084055] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg\n'}
+[1.084799] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.084985] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action\n'}
+[1.085355] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/user_input.h\n'}
+[1.085632] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail\n'}
+[1.085902] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__struct.h\n'}
+[1.086151] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__functions.c\n'}
+[1.086415] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__type_support.h\n'}
+[1.086853] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__functions.h\n'}
+[1.086968] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/library_path.sh\n'}
+[1.087077] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/library_path.dsv\n'}
+[1.087526] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_generator_c.so\n'}
+[1.088359] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces\n'}
+[1.089024] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg\n'}
+[1.089363] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.089573] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action\n'}
+[1.089764] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail\n'}
+[1.089986] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__rosidl_typesupport_fastrtps_c.h\n'}
+[1.091242] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.091888] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces\n'}
+[1.092994] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg\n'}
+[1.093688] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.094538] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action\n'}
+[1.094984] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail\n'}
+[1.095305] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__rosidl_typesupport_introspection_c.h\n'}
+[1.095756] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__type_support.c\n'}
+[1.096241] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.098626] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_typesupport_c.so\n'}
+[1.099388] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces\n'}
+[1.100122] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg\n'}
+[1.100554] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.100946] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action\n'}
+[1.101370] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/user_input.hpp\n'}
+[1.101849] (-) TimerEvent: {}
+[1.102503] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail\n'}
+[1.102734] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__traits.hpp\n'}
+[1.102846] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__struct.hpp\n'}
+[1.102987] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__builder.hpp\n'}
+[1.103078] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__type_support.hpp\n'}
+[1.103161] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces\n'}
+[1.103339] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg\n'}
+[1.103494] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.103749] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action\n'}
+[1.103943] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail\n'}
+[1.104180] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.104673] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/dds_fastrtps\n'}
+[1.104871] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.105546] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces\n'}
+[1.105964] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action\n'}
+[1.106174] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail\n'}
+[1.106319] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.106436] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/include/input_interfaces/input_interfaces/action/detail/user_input__type_support.cpp\n'}
+[1.108033] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.112710] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.113301] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/pythonpath.sh\n'}
+[1.113836] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/pythonpath.dsv\n'}
+[1.113983] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.114072] (input_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.114376] (input_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.114770] (input_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.115194] (input_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.115748] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces\n'}
+[1.116225] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/libinput_interfaces__rosidl_generator_py.so\n'}
+[1.116368] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/__init__.py\n'}
+[1.116616] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/_input_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.116876] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/input_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.117640] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/_input_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.117880] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/input_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.118022] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/action\n'}
+[1.118278] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/action/__init__.py\n'}
+[1.118428] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/action/_user_input.py\n'}
+[1.118614] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/action/_user_input_s.c\n'}
+[1.118780] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/input_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.118997] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/_input_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.193341] (input_interfaces) StdoutLine: {'line': b"Listing '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces'...\n"}
+[1.193703] (input_interfaces) StdoutLine: {'line': b"Listing '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/action'...\n"}
+[1.202062] (-) TimerEvent: {}
+[1.207190] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/input_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.210222] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/input_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.212941] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/local/lib/python3.10/dist-packages/input_interfaces/input_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.215232] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/lib/libinput_interfaces__rosidl_generator_py.so\n'}
+[1.215924] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/action/UserInput.idl\n'}
+[1.216745] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/action/UserInput.action\n'}
+[1.217309] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/ament_index/resource_index/package_run_dependencies/input_interfaces\n'}
+[1.218028] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/ament_index/resource_index/parent_prefix_path/input_interfaces\n'}
+[1.218641] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/ament_prefix_path.sh\n'}
+[1.219067] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.219720] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/path.sh\n'}
+[1.219992] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/environment/path.dsv\n'}
+[1.220277] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/local_setup.bash\n'}
+[1.220547] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/local_setup.sh\n'}
+[1.220705] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/local_setup.zsh\n'}
+[1.221112] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/local_setup.dsv\n'}
+[1.221552] (input_interfaces) StdoutLine: {'line': b'-- Installing: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/package.dsv\n'}
+[1.222056] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/ament_index/resource_index/packages/input_interfaces\n'}
+[1.222410] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.222588] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.223260] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.223822] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.225079] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.225666] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.227159] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.227505] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.228690] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.230350] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.231105] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.232212] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.232613] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.233748] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.234107] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.235249] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.236320] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/export_input_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.237738] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.238280] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.239106] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.239409] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.239713] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.239944] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.240211] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.240418] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfacesConfig.cmake\n'}
+[1.240634] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake/input_interfacesConfig-version.cmake\n'}
+[1.240923] (input_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/package.xml\n'}
+[1.246214] (input_interfaces) CommandEnded: {'returncode': 0}
+[1.302660] (-) TimerEvent: {}
+[1.307163] (input_interfaces) JobEnded: {'identifier': 'input_interfaces', 'rc': 0}
+[1.402916] (-) TimerEvent: {}
+[1.503673] (-) TimerEvent: {}
+[1.604286] (-) TimerEvent: {}
+[1.705063] (-) TimerEvent: {}
+[1.805791] (-) TimerEvent: {}
+[1.906372] (-) TimerEvent: {}
+[2.007143] (-) TimerEvent: {}
+[2.107949] (-) TimerEvent: {}
+[2.208652] (-) TimerEvent: {}
+[2.309575] (-) TimerEvent: {}
+[2.410188] (-) TimerEvent: {}
+[2.510781] (-) TimerEvent: {}
+[2.611317] (-) TimerEvent: {}
+[2.711842] (-) TimerEvent: {}
+[2.812490] (-) TimerEvent: {}
+[2.913118] (-) TimerEvent: {}
+[3.018487] (-) TimerEvent: {}
+[3.119077] (-) TimerEvent: {}
+[3.219622] (-) TimerEvent: {}
+[3.320268] (-) TimerEvent: {}
+[3.420842] (-) TimerEvent: {}
+[3.521665] (-) TimerEvent: {}
+[3.622283] (-) TimerEvent: {}
+[3.722851] (-) TimerEvent: {}
+[3.823750] (-) TimerEvent: {}
+[3.924599] (-) TimerEvent: {}
+[4.025498] (-) TimerEvent: {}
+[4.126519] (-) TimerEvent: {}
+[4.227270] (-) TimerEvent: {}
+[4.327997] (-) TimerEvent: {}
+[4.428648] (-) TimerEvent: {}
+[4.529248] (-) TimerEvent: {}
+[4.629928] (-) TimerEvent: {}
+[4.730601] (-) TimerEvent: {}
+[4.831327] (-) TimerEvent: {}
+[4.932096] (-) TimerEvent: {}
+[5.032799] (-) TimerEvent: {}
+[5.133450] (-) TimerEvent: {}
+[5.234056] (-) TimerEvent: {}
+[5.334821] (-) TimerEvent: {}
+[5.435467] (-) TimerEvent: {}
+[5.536224] (-) TimerEvent: {}
+[5.636877] (-) TimerEvent: {}
+[5.737422] (-) TimerEvent: {}
+[5.837909] (-) TimerEvent: {}
+[5.938505] (-) TimerEvent: {}
+[6.039276] (-) TimerEvent: {}
+[6.140115] (-) TimerEvent: {}
+[6.240963] (-) TimerEvent: {}
+[6.341824] (-) TimerEvent: {}
+[6.442490] (-) TimerEvent: {}
+[6.543186] (-) TimerEvent: {}
+[6.643792] (-) TimerEvent: {}
+[6.744400] (-) TimerEvent: {}
+[6.845077] (-) TimerEvent: {}
+[6.945711] (-) TimerEvent: {}
+[7.046343] (-) TimerEvent: {}
+[7.146972] (-) TimerEvent: {}
+[7.247627] (-) TimerEvent: {}
+[7.348272] (-) TimerEvent: {}
+[7.448958] (-) TimerEvent: {}
+[7.549572] (-) TimerEvent: {}
+[7.650190] (-) TimerEvent: {}
+[7.750854] (-) TimerEvent: {}
+[7.851536] (-) TimerEvent: {}
+[7.952295] (-) TimerEvent: {}
+[8.052861] (-) TimerEvent: {}
+[8.153509] (-) TimerEvent: {}
+[8.254114] (-) TimerEvent: {}
+[8.354734] (-) TimerEvent: {}
+[8.455425] (-) TimerEvent: {}
+[8.556263] (-) TimerEvent: {}
+[8.657052] (-) TimerEvent: {}
+[8.757795] (-) TimerEvent: {}
+[8.858386] (-) TimerEvent: {}
+[8.958986] (-) TimerEvent: {}
+[9.059734] (-) TimerEvent: {}
+[9.160385] (-) TimerEvent: {}
+[9.261066] (-) TimerEvent: {}
+[9.361711] (-) TimerEvent: {}
+[9.462410] (-) TimerEvent: {}
+[9.563043] (-) TimerEvent: {}
+[9.663932] (-) TimerEvent: {}
+[9.764640] (-) TimerEvent: {}
+[9.865238] (-) TimerEvent: {}
+[9.965848] (-) TimerEvent: {}
+[10.066549] (-) TimerEvent: {}
+[10.167219] (-) TimerEvent: {}
+[10.268117] (-) TimerEvent: {}
+[10.368663] (-) TimerEvent: {}
+[10.469288] (-) TimerEvent: {}
+[10.569896] (-) TimerEvent: {}
+[10.670608] (-) TimerEvent: {}
+[10.771248] (-) TimerEvent: {}
+[10.871994] (-) TimerEvent: {}
+[10.972873] (-) TimerEvent: {}
+[11.073689] (-) TimerEvent: {}
+[11.174381] (-) TimerEvent: {}
+[11.275058] (-) TimerEvent: {}
+[11.375658] (-) TimerEvent: {}
+[11.476281] (-) TimerEvent: {}
+[11.576962] (-) TimerEvent: {}
+[11.677743] (-) TimerEvent: {}
+[11.778468] (-) TimerEvent: {}
+[11.879079] (-) TimerEvent: {}
+[11.979669] (-) TimerEvent: {}
+[12.080392] (-) TimerEvent: {}
+[12.181075] (-) TimerEvent: {}
+[12.281675] (-) TimerEvent: {}
+[12.382437] (-) TimerEvent: {}
+[12.483063] (-) TimerEvent: {}
+[12.583670] (-) TimerEvent: {}
+[12.684341] (-) TimerEvent: {}
+[12.784882] (-) TimerEvent: {}
+[12.885663] (-) TimerEvent: {}
+[12.986379] (-) TimerEvent: {}
+[13.086975] (-) TimerEvent: {}
+[13.187808] (-) TimerEvent: {}
+[13.288547] (-) TimerEvent: {}
+[13.389328] (-) TimerEvent: {}
+[13.490055] (-) TimerEvent: {}
+[13.590737] (-) TimerEvent: {}
+[13.691442] (-) TimerEvent: {}
+[13.792266] (-) TimerEvent: {}
+[13.893017] (-) TimerEvent: {}
+[13.993760] (-) TimerEvent: {}
+[14.094541] (-) TimerEvent: {}
+[14.195245] (-) TimerEvent: {}
+[14.295876] (-) TimerEvent: {}
+[14.396442] (-) TimerEvent: {}
+[14.497172] (-) TimerEvent: {}
+[14.597966] (-) TimerEvent: {}
+[14.698637] (-) TimerEvent: {}
+[14.799250] (-) TimerEvent: {}
+[14.899859] (-) TimerEvent: {}
+[15.000616] (-) TimerEvent: {}
+[15.101317] (-) TimerEvent: {}
+[15.202034] (-) TimerEvent: {}
+[15.302788] (-) TimerEvent: {}
+[15.403462] (-) TimerEvent: {}
+[15.504329] (-) TimerEvent: {}
+[15.605233] (-) TimerEvent: {}
+[15.706029] (-) TimerEvent: {}
+[15.806897] (-) TimerEvent: {}
+[15.907689] (-) TimerEvent: {}
+[16.008362] (-) TimerEvent: {}
+[16.109048] (-) TimerEvent: {}
+[16.209873] (-) TimerEvent: {}
+[16.310592] (-) TimerEvent: {}
+[16.411358] (-) TimerEvent: {}
+[16.443780] (user_input) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.508425] (user_input) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[16.511616] (-) TimerEvent: {}
+[16.555172] (user_input) StdoutLine: {'line': b'-- Found input_interfaces: 0.0.0 (/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake)\n'}
+[16.590946] (user_input) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[16.591429] (user_input) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'rclcpp_components' was\n"}
+[16.591924] (user_input) StderrLine: {'line': b'  not found before\n'}
+[16.592080] (user_input) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[16.592170] (user_input) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_target_dependencies)\n'}
+[16.592268] (user_input) StderrLine: {'line': b'\n'}
+[16.592342] (user_input) StderrLine: {'line': b'\x1b[0m\n'}
+[16.592418] (user_input) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[16.592506] (user_input) StdoutLine: {'line': b'See also "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input/CMakeFiles/CMakeOutput.log".\n'}
+[16.600755] (user_input) StderrLine: {'line': b'gmake: *** [Makefile:390: cmake_check_build_system] Error 1\n'}
+[16.604839] (user_input) CommandEnded: {'returncode': 2}
+[16.611946] (-) TimerEvent: {}
+[16.625386] (user_input) JobEnded: {'identifier': 'user_input', 'rc': 2}
+[16.638160] (-) EventReactorShutdown: {}

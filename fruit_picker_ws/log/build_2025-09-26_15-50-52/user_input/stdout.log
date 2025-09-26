@@ -1,0 +1,6 @@
+[ 25%] Built target start_node
+[ 37%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/start.cpp.o[0m
+[ 62%] Built target user_interface_node
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/user_interface.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[ 87%] Built target action_client

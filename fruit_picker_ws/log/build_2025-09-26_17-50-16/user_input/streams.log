@@ -1,0 +1,24 @@
+[0.039s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.095s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.474s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.823s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.834s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.854s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.990s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.992s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.497s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[16.544s] -- Found input_interfaces: 0.0.0 (/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/install/input_interfaces/share/input_interfaces/cmake)
+[16.580s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[16.580s]   ament_target_dependencies() the passed package name 'rclcpp_components' was
+[16.580s]   not found before
+[16.581s] Call Stack (most recent call first):
+[16.581s]   CMakeLists.txt:29 (ament_target_dependencies)
+[16.581s] 
+[16.581s] [0m
+[16.581s] -- Configuring incomplete, errors occurred!
+[16.581s] See also "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input/CMakeFiles/CMakeOutput.log".
+[16.589s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[16.594s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8

@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (input_interfaces) JobQueued: {'identifier': 'input_interfaces', 'dependencies': OrderedDict()}
+[0.000447] (input_interfaces) JobStarted: {'identifier': 'input_interfaces'}
+[0.012138] (input_interfaces) JobProgress: {'identifier': 'input_interfaces', 'progress': 'cmake'}
+[0.013396] (input_interfaces) JobProgress: {'identifier': 'input_interfaces', 'progress': 'build'}
+[0.015245] (input_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces', 'env': OrderedDict([('USER', 'jacob'), ('GIT_ASKPASS', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jacob'), ('OLDPWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src'), ('LESS', '-R'), ('NVM_BIN', '/home/jacob/.nvm/versions/node/v22.12.0/bin'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-395ade10-7682-446b-96c6-f5930104c916.sock'), ('ZSH', '/home/jacob/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/jacob/.nvm/versions/node/v22.12.0/include/node'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/node'), ('P9K_TTY', 'old'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/jacob/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacob'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/13_interop'), ('NAME', 'DESKTOP-56599R6'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/5'), ('USER_ZDOTDIR', '/home/jacob'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jacob/.vscode-server/bin/0f0d87fa9e96c856c5212fc86db137ac0d783365/bin/remote-cli:/home/jacob/.nvm/versions/node/v22.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/jacob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacob/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jacob/.dotnet/tools:/mnt/c/Users/jacob/AppData/Local/GitHubDesktop/bin:/mnt/c/opencv/build/x64/vc16/bin:/mnt/c/Program Files/mongosh/:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/:/home/jacob/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/opt/gradle/gradle-7.2/bin:/usr/local/bin/chromedriver-linux64/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-de81646a0a.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '03feb5df-dcf1-4483-b22c-ab5a3b626983'), ('PWD', '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces'), ('NVM_CD_FLAGS', '-q'), ('ZDOTDIR', '/home/jacob'), ('_P9K_TTY', '/dev/pts/5'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058974] (input_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098135] (-) TimerEvent: {}
+[0.198597] (-) TimerEvent: {}
+[0.255373] (input_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.258055] (input_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.262771] (input_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.298836] (-) TimerEvent: {}
+[0.399522] (-) TimerEvent: {}
+[0.500101] (-) TimerEvent: {}
+[0.582302] (input_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600300] (-) TimerEvent: {}
+[0.700834] (-) TimerEvent: {}
+[0.801330] (-) TimerEvent: {}
+[0.872906] (input_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.873279] (input_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.873665] (input_interfaces) StderrLine: {'line': b'  input_interfaces --arguments-file\n'}
+[0.873797] (input_interfaces) StderrLine: {'line': b'  /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_adapter__arguments__input_interfaces.json\n'}
+[0.873889] (input_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.873971] (input_interfaces) StderrLine: {'line': b'  /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_adapter/input_interfaces\n'}
+[0.874052] (input_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.874130] (input_interfaces) StderrLine: {'line': b'  /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_adapter/input_interfaces.idls)\n'}
+[0.874250] (input_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.874326] (input_interfaces) StderrLine: {'line': b'\n'}
+[0.874435] (input_interfaces) StderrLine: {'line': b"  Error processing 'int32 numberA' of 'input_interfaces/UserInput_Goal':\n"}
+[0.874542] (input_interfaces) StderrLine: {'line': b"  ''numberA' is an invalid field name.  It should have the pattern\n"}
+[0.874684] (input_interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[0.874753] (input_interfaces) StderrLine: {'line': b'\n'}
+[0.874818] (input_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.874884] (input_interfaces) StderrLine: {'line': b'\n'}
+[0.874949] (input_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.875015] (input_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.875079] (input_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.875174] (input_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.875252] (input_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.875388] (input_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.875465] (input_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.875535] (input_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.875602] (input_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl\n'}
+[0.875671] (input_interfaces) StderrLine: {'line': b'      return convert_action_to_idl(\n'}
+[0.875738] (input_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl\n'}
+[0.875807] (input_interfaces) StderrLine: {'line': b'      action = parse_action_string(package_name, input_file.stem, content)\n'}
+[0.875874] (input_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 902, in parse_action_string\n'}
+[0.875941] (input_interfaces) StderrLine: {'line': b'      goal_message = parse_message_string(\n'}
+[0.876007] (input_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string\n'}
+[0.876073] (input_interfaces) StderrLine: {'line': b'      fields.append(Field(\n'}
+[0.876139] (input_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__\n'}
+[0.876205] (input_interfaces) StderrLine: {'line': b'      raise NameError(\n'}
+[0.876294] (input_interfaces) StderrLine: {'line': b'\n'}
+[0.876374] (input_interfaces) StderrLine: {'line': b"  NameError: 'numberA' is an invalid field name.  It should have the pattern\n"}
+[0.876446] (input_interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.876512] (input_interfaces) StderrLine: {'line': b'\n'}
+[0.876579] (input_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.876644] (input_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.876710] (input_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[0.876777] (input_interfaces) StderrLine: {'line': b'\n'}
+[0.876843] (input_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.876908] (input_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.876985] (input_interfaces) StdoutLine: {'line': b'See also "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.880789] (input_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] Error 1\n'}
+[0.884173] (input_interfaces) CommandEnded: {'returncode': 2}
+[0.896667] (input_interfaces) JobEnded: {'identifier': 'input_interfaces', 'rc': 2}
+[0.901957] (-) TimerEvent: {}
+[0.913824] (-) EventReactorShutdown: {}

@@ -1,0 +1,53 @@
+[0.025s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces -- -j8 -l8
+[0.059s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.255s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.873s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.873s]   input_interfaces --arguments-file
+[0.873s]   /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_adapter__arguments__input_interfaces.json
+[0.873s]   --output-dir
+[0.874s]   /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_adapter/input_interfaces
+[0.874s]   --output-file
+[0.874s]   /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/rosidl_adapter/input_interfaces.idls)
+[0.874s]   returned error code 1:
+[0.874s] 
+[0.874s]   Error processing 'int32 numberA' of 'input_interfaces/UserInput_Goal':
+[0.874s]   ''numberA' is an invalid field name.  It should have the pattern
+[0.874s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.874s] 
+[0.874s]   Traceback (most recent call last):
+[0.874s] 
+[0.875s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.875s]       return _run_code(code, main_globals, None,
+[0.875s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.875s]       exec(code, run_globals)
+[0.875s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.875s]       sys.exit(main())
+[0.875s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.875s]       abs_idl_file = convert_to_idl(
+[0.875s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.875s]       return convert_action_to_idl(
+[0.875s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[0.875s]       action = parse_action_string(package_name, input_file.stem, content)
+[0.875s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 902, in parse_action_string
+[0.876s]       goal_message = parse_message_string(
+[0.876s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.876s]       fields.append(Field(
+[0.876s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.876s]       raise NameError(
+[0.876s] 
+[0.876s]   NameError: 'numberA' is an invalid field name.  It should have the pattern
+[0.876s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.876s] 
+[0.876s] Call Stack (most recent call first):
+[0.876s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.876s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.876s] 
+[0.876s] [0m
+[0.876s] -- Configuring incomplete, errors occurred!
+[0.877s] See also "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces/CMakeFiles/CMakeOutput.log".
+[0.881s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.885s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/input_interfaces -- -j8 -l8

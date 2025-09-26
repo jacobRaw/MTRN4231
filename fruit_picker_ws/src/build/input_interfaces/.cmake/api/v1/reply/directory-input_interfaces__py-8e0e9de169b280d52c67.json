@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "input_interfaces__py",
+		"source" : "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces/input_interfaces__py"
+	}
+}

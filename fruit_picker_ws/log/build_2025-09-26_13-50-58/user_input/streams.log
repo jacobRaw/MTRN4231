@@ -1,0 +1,12 @@
+[0.044s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target user_interface_node[0m
+[0.197s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/user_interface.cpp.o[0m
+[0.202s] [ 75%] Built target user_interface_node
+[0.512s] [01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/action/userinput.hpp: No such file or directory
+[0.512s]     5 | #include [01;31m[K"input_interfaces/action/userinput.hpp"[m[K
+[0.512s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.512s] compilation terminated.
+[0.520s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/user_interface.cpp.o] Error 1
+[0.522s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+[0.522s] gmake: *** [Makefile:146: all] Error 2
+[0.527s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/build/user_input -- -j8 -l8

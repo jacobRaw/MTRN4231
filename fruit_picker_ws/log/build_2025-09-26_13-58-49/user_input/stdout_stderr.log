@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/user_interface.cpp.o[0m
+[ 75%] Built target user_interface_node
+[01m[K/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input/src/user_interface.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kinput_interfaces/action/userinput.hpp: No such file or directory
+    5 | #include [01;31m[K"input_interfaces/action/userinput.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/user_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

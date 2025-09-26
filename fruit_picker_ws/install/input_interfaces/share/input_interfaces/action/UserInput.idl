@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from input_interfaces/action/UserInput.action
+// generated code does not contain a copyright notice
+
+
+module input_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct UserInput_Goal {
+      string command;
+
+      string parameters;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct UserInput_Result {
+      int32 progress;
+
+      string state_msg;
+
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct UserInput_Feedback {
+      string state_msg;
+
+      int32 progress;
+    };
+  };
+};
