@@ -1,0 +1,37 @@
+[2.016s] Invoking command in '/home/jacob/MTRN4231/lab3_workspace/src/object_detect': PYTHONPATH=/home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detect build --build-base /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build install --record /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/install.log --single-version-externally-managed install_data
+[2.852s] running egg_info
+[2.854s] creating build/object_detect/object_detect.egg-info
+[2.854s] writing build/object_detect/object_detect.egg-info/PKG-INFO
+[2.855s] writing dependency_links to build/object_detect/object_detect.egg-info/dependency_links.txt
+[2.855s] writing entry points to build/object_detect/object_detect.egg-info/entry_points.txt
+[2.856s] writing requirements to build/object_detect/object_detect.egg-info/requires.txt
+[2.856s] writing top-level names to build/object_detect/object_detect.egg-info/top_level.txt
+[2.857s] writing manifest file 'build/object_detect/object_detect.egg-info/SOURCES.txt'
+[2.861s] reading manifest file 'build/object_detect/object_detect.egg-info/SOURCES.txt'
+[2.864s] writing manifest file 'build/object_detect/object_detect.egg-info/SOURCES.txt'
+[2.864s] running build
+[2.865s] running build_py
+[2.865s] creating /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build
+[2.865s] creating /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build/lib
+[2.866s] creating /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build/lib/object_detect
+[2.866s] copying object_detect/object_detect.py -> /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build/lib/object_detect
+[2.866s] copying object_detect/__init__.py -> /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build/lib/object_detect
+[2.867s] running install
+[2.867s] running install_lib
+[2.869s] creating /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages/object_detect
+[2.870s] copying /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build/lib/object_detect/object_detect.py -> /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages/object_detect
+[2.870s] copying /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build/lib/object_detect/__init__.py -> /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages/object_detect
+[2.871s] byte-compiling /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages/object_detect/object_detect.py to object_detect.cpython-310.pyc
+[2.874s] byte-compiling /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages/object_detect/__init__.py to __init__.cpython-310.pyc
+[2.874s] running install_data
+[2.875s] creating /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/share/ament_index
+[2.875s] creating /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/share/ament_index/resource_index
+[2.875s] creating /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/share/ament_index/resource_index/packages
+[2.876s] copying resource/object_detect -> /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/share/ament_index/resource_index/packages
+[2.876s] copying package.xml -> /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/share/object_detect
+[2.877s] running install_egg_info
+[2.883s] Copying build/object_detect/object_detect.egg-info to /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages/object_detect-0.0.0-py3.10.egg-info
+[2.886s] running install_scripts
+[2.953s] Installing object_detect script to /home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/object_detect
+[2.954s] writing list of installed files to '/home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/install.log'
+[3.028s] Invoked command in '/home/jacob/MTRN4231/lab3_workspace/src/object_detect' returned '0': PYTHONPATH=/home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/MTRN4231/lab3_workspace/src/object_detect/install/object_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/object_detect build --build-base /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/build install --record /home/jacob/MTRN4231/lab3_workspace/src/object_detect/build/object_detect/install.log --single-version-externally-managed install_data
