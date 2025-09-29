@@ -1,0 +1,1 @@
+ros2 run tf2_ros static_transform_publisher 1.29163 0.0146956 0.665489   -0.396568 -0.0131018 0.91791 -0.00187618 base_link camera_link
