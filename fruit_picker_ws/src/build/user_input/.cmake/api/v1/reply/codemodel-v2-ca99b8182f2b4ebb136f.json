@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-957e8d7d22af721d951b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "user_input",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "start_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-start_node-f6066dc6616c8c738314.json",
+					"name" : "start_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6d4abf52a9abe6323345.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_input_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_input_uninstall-f7d982dc40e19bd9a010.json",
+					"name" : "user_input_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_interface_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_interface_node-96b9c1b14f46c665df36.json",
+					"name" : "user_interface_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input",
+		"source" : "/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

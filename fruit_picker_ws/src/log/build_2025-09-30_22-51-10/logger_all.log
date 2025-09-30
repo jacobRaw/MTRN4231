@@ -1,0 +1,202 @@
+[0.569s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.569s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72dd86737610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72dd86736c50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72dd86736c50>>, mixin_verb=('build',))
+[1.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extension 'ignore'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extension 'ignore_ament_install'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extensions ['colcon_pkg']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extension 'colcon_pkg'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extensions ['colcon_meta']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extension 'colcon_meta'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extensions ['ros']
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(input_interfaces) by extension 'ros'
+[1.198s] DEBUG:colcon.colcon_core.package_identification:Package 'input_interfaces' with type 'ros.ament_cmake' and name 'input_interfaces'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extensions ['ignore', 'ignore_ament_install']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extension 'ignore_ament_install'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extensions ['colcon_pkg']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extension 'colcon_pkg'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extensions ['colcon_meta']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extension 'colcon_meta'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extensions ['ros']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(user_input) by extension 'ros'
+[1.201s] DEBUG:colcon.colcon_core.package_identification:Package 'user_input' with type 'ros.ament_cmake' and name 'user_input'
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install
+[1.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'input_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.341s] DEBUG:colcon.colcon_core.verb:Building package 'input_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces', 'merge_install': False, 'path': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/input_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'cmake_args' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'cmake_target' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'cmake_clean_cache' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'cmake_clean_first' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'cmake_force_configure' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'ament_cmake_args' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'catkin_cmake_args' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'user_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.342s] DEBUG:colcon.colcon_core.verb:Building package 'user_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input', 'merge_install': False, 'path': '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input', 'symlink_install': False, 'test_result_base': None}
+[1.342s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/input_interfaces' with build type 'ament_cmake'
+[1.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/input_interfaces'
+[1.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input' with build type 'ament_cmake'
+[1.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input'
+[1.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces -- -j8 -l8
+[1.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input
+[4.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces -- -j8 -l8
+[4.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces
+[4.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(input_interfaces)
+[4.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/input_interfaces
+[4.856s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces' for CMake module files
+[4.857s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces' for CMake config files
+[4.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('input_interfaces', 'cmake_prefix_path')
+[4.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/cmake_prefix_path.ps1'
+[4.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/cmake_prefix_path.dsv'
+[4.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/cmake_prefix_path.sh'
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/lib'
+[4.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('input_interfaces', 'ld_library_path_lib')
+[4.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/ld_library_path_lib.ps1'
+[4.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/ld_library_path_lib.dsv'
+[4.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/ld_library_path_lib.sh'
+[4.870s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/bin'
+[4.870s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/lib/pkgconfig/input_interfaces.pc'
+[4.871s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/lib/python3.10/site-packages'
+[4.872s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/bin'
+[4.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.ps1'
+[4.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.dsv'
+[4.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.sh'
+[4.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.bash'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.zsh'
+[4.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/colcon-core/packages/input_interfaces)
+[4.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(input_interfaces)
+[4.889s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces' for CMake module files
+[4.890s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces' for CMake config files
+[4.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('input_interfaces', 'cmake_prefix_path')
+[4.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/cmake_prefix_path.ps1'
+[4.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/cmake_prefix_path.dsv'
+[4.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/cmake_prefix_path.sh'
+[4.896s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/lib'
+[4.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('input_interfaces', 'ld_library_path_lib')
+[4.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/ld_library_path_lib.ps1'
+[4.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/ld_library_path_lib.dsv'
+[4.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/hook/ld_library_path_lib.sh'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/bin'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/lib/pkgconfig/input_interfaces.pc'
+[4.900s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/lib/python3.10/site-packages'
+[4.900s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/bin'
+[4.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.ps1'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.dsv'
+[4.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.sh'
+[4.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.bash'
+[4.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/input_interfaces/package.zsh'
+[4.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/input_interfaces/share/colcon-core/packages/input_interfaces)
+[14.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/user_input -DCMAKE_INSTALL_PREFIX=/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input
+[14.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input -- -j8 -l8
+[22.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input -- -j8 -l8
+[22.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input
+[22.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_input)
+[22.784s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input' for CMake module files
+[22.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/build/user_input
+[22.786s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input' for CMake config files
+[22.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_input', 'cmake_prefix_path')
+[22.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/hook/cmake_prefix_path.ps1'
+[22.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/hook/cmake_prefix_path.dsv'
+[22.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/hook/cmake_prefix_path.sh'
+[22.790s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/lib'
+[22.791s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/bin'
+[22.791s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/lib/pkgconfig/user_input.pc'
+[22.791s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/lib/python3.10/site-packages'
+[22.792s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/bin'
+[22.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.ps1'
+[22.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.dsv'
+[22.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.sh'
+[22.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.bash'
+[22.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.zsh'
+[22.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/colcon-core/packages/user_input)
+[22.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_input)
+[22.798s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input' for CMake module files
+[22.799s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input' for CMake config files
+[22.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_input', 'cmake_prefix_path')
+[22.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/hook/cmake_prefix_path.ps1'
+[22.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/hook/cmake_prefix_path.dsv'
+[22.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/hook/cmake_prefix_path.sh'
+[22.802s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/lib'
+[22.803s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/bin'
+[22.803s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/lib/pkgconfig/user_input.pc'
+[22.803s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/lib/python3.10/site-packages'
+[22.803s] Level 1:colcon.colcon_core.environment:checking '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/bin'
+[22.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.ps1'
+[22.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.dsv'
+[22.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.sh'
+[22.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.bash'
+[22.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/user_input/package.zsh'
+[22.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/user_input/share/colcon-core/packages/user_input)
+[22.810s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.812s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.812s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.812s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.836s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.837s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.837s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.927s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[22.927s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/local_setup.ps1'
+[22.931s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/_local_setup_util_ps1.py'
+[22.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/setup.ps1'
+[22.935s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/local_setup.sh'
+[22.937s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/_local_setup_util_sh.py'
+[22.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/setup.sh'
+[22.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/local_setup.bash'
+[22.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/setup.bash'
+[22.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/local_setup.zsh'
+[22.945s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jacob/MTRN4231/MTRN4231/fruit_picker_ws/src/install/setup.zsh'
