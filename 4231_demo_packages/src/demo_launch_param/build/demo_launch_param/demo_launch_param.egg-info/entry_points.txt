@@ -1,0 +1,3 @@
+[console_scripts]
+marker_node = demo_launch_param.marker_node:main
+

@@ -1,0 +1,33 @@
+running egg_info
+creating build/demo_launch_param/demo_launch_param.egg-info
+writing build/demo_launch_param/demo_launch_param.egg-info/PKG-INFO
+writing dependency_links to build/demo_launch_param/demo_launch_param.egg-info/dependency_links.txt
+writing entry points to build/demo_launch_param/demo_launch_param.egg-info/entry_points.txt
+writing requirements to build/demo_launch_param/demo_launch_param.egg-info/requires.txt
+writing top-level names to build/demo_launch_param/demo_launch_param.egg-info/top_level.txt
+writing manifest file 'build/demo_launch_param/demo_launch_param.egg-info/SOURCES.txt'
+reading manifest file 'build/demo_launch_param/demo_launch_param.egg-info/SOURCES.txt'
+writing manifest file 'build/demo_launch_param/demo_launch_param.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build
+creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib
+creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param
+copying ./demo_launch_param/__init__.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param
+copying ./demo_launch_param/marker_node.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param
+running install
+running install_lib
+creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param
+copying /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param/__init__.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param
+copying /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param/marker_node.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param
+byte-compiling /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param/marker_node.py to marker_node.cpython-310.pyc
+running install_data
+creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/share/demo_launch_param/launch
+copying launch/marker_launch.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/share/demo_launch_param/launch
+copying launch/rviz_launch.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/share/demo_launch_param/launch
+running install_egg_info
+Copying build/demo_launch_param/demo_launch_param.egg-info to /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param-0.0.1-py3.10.egg-info
+running install_scripts
+Installing marker_node script to /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/demo_launch_param
+writing list of installed files to '/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/install.log'

@@ -1,0 +1,35 @@
+[2.137s] Invoking command in '/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param': PYTHONPATH=/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/demo_launch_param build --build-base /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build install --record /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/install.log --single-version-externally-managed install_data
+[2.649s] running egg_info
+[2.650s] creating build/demo_launch_param/demo_launch_param.egg-info
+[2.652s] writing build/demo_launch_param/demo_launch_param.egg-info/PKG-INFO
+[2.652s] writing dependency_links to build/demo_launch_param/demo_launch_param.egg-info/dependency_links.txt
+[2.653s] writing entry points to build/demo_launch_param/demo_launch_param.egg-info/entry_points.txt
+[2.653s] writing requirements to build/demo_launch_param/demo_launch_param.egg-info/requires.txt
+[2.653s] writing top-level names to build/demo_launch_param/demo_launch_param.egg-info/top_level.txt
+[2.654s] writing manifest file 'build/demo_launch_param/demo_launch_param.egg-info/SOURCES.txt'
+[2.657s] reading manifest file 'build/demo_launch_param/demo_launch_param.egg-info/SOURCES.txt'
+[2.659s] writing manifest file 'build/demo_launch_param/demo_launch_param.egg-info/SOURCES.txt'
+[2.659s] running build
+[2.659s] running build_py
+[2.660s] creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build
+[2.661s] creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib
+[2.661s] creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param
+[2.662s] copying ./demo_launch_param/__init__.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param
+[2.663s] copying ./demo_launch_param/marker_node.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param
+[2.664s] running install
+[2.665s] running install_lib
+[2.667s] creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param
+[2.668s] copying /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param/__init__.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param
+[2.669s] copying /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build/lib/demo_launch_param/marker_node.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param
+[2.670s] byte-compiling /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param/__init__.py to __init__.cpython-310.pyc
+[2.671s] byte-compiling /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param/marker_node.py to marker_node.cpython-310.pyc
+[2.672s] running install_data
+[2.672s] creating /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/share/demo_launch_param/launch
+[2.673s] copying launch/marker_launch.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/share/demo_launch_param/launch
+[2.674s] copying launch/rviz_launch.py -> /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/share/demo_launch_param/launch
+[2.676s] running install_egg_info
+[2.679s] Copying build/demo_launch_param/demo_launch_param.egg-info to /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages/demo_launch_param-0.0.1-py3.10.egg-info
+[2.682s] running install_scripts
+[2.713s] Installing marker_node script to /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/demo_launch_param
+[2.715s] writing list of installed files to '/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/install.log'
+[2.766s] Invoked command in '/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param' returned '0': PYTHONPATH=/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/install/demo_launch_param/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/demo_launch_param build --build-base /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/build install --record /home/jacob/MTRN4231/MTRN4231/4231_demo_packages/src/demo_launch_param/build/demo_launch_param/install.log --single-version-externally-managed install_data
